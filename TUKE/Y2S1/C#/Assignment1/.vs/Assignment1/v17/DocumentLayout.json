@@ -1,0 +1,133 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\denys\\Desktop\\My-Pogramming-\\TUKE\\C#\\Assignment1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E3029AC2-D636-4F0C-B618-CC192EFC4A14}|Assignment1\\Assignment1.csproj|c:\\users\\denys\\desktop\\my-pogramming-\\tuke\\c#\\assignment1\\assignment1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3029AC2-D636-4F0C-B618-CC192EFC4A14}|Assignment1\\Assignment1.csproj|solutionrelative:assignment1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3029AC2-D636-4F0C-B618-CC192EFC4A14}|Assignment1\\Assignment1.csproj|c:\\users\\denys\\desktop\\my-pogramming-\\tuke\\c#\\assignment1\\assignment1\\composer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3029AC2-D636-4F0C-B618-CC192EFC4A14}|Assignment1\\Assignment1.csproj|solutionrelative:assignment1\\composer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3029AC2-D636-4F0C-B618-CC192EFC4A14}|Assignment1\\Assignment1.csproj|c:\\users\\denys\\desktop\\my-pogramming-\\tuke\\c#\\assignment1\\assignment1\\recording.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3029AC2-D636-4F0C-B618-CC192EFC4A14}|Assignment1\\Assignment1.csproj|solutionrelative:assignment1\\recording.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3029AC2-D636-4F0C-B618-CC192EFC4A14}|Assignment1\\Assignment1.csproj|c:\\users\\denys\\desktop\\my-pogramming-\\tuke\\c#\\assignment1\\assignment1\\samples\\recordings01.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{E3029AC2-D636-4F0C-B618-CC192EFC4A14}|Assignment1\\Assignment1.csproj|solutionrelative:assignment1\\samples\\recordings01.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3029AC2-D636-4F0C-B618-CC192EFC4A14}|Assignment1\\Assignment1.csproj|c:\\users\\denys\\desktop\\my-pogramming-\\tuke\\c#\\assignment1\\assignment1\\samples\\purchases01.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{E3029AC2-D636-4F0C-B618-CC192EFC4A14}|Assignment1\\Assignment1.csproj|solutionrelative:assignment1\\samples\\purchases01.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3029AC2-D636-4F0C-B618-CC192EFC4A14}|Assignment1\\Assignment1.csproj|c:\\users\\denys\\desktop\\my-pogramming-\\tuke\\c#\\assignment1\\assignment1\\purchase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3029AC2-D636-4F0C-B618-CC192EFC4A14}|Assignment1\\Assignment1.csproj|solutionrelative:assignment1\\purchase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3029AC2-D636-4F0C-B618-CC192EFC4A14}|Assignment1\\Assignment1.csproj|c:\\users\\denys\\desktop\\my-pogramming-\\tuke\\c#\\assignment1\\assignment1\\piece.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3029AC2-D636-4F0C-B618-CC192EFC4A14}|Assignment1\\Assignment1.csproj|solutionrelative:assignment1\\piece.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\denys\\Desktop\\My-Pogramming-\\TUKE\\C#\\Assignment1\\Assignment1\\Program.cs",
+              "RelativeDocumentMoniker": "Assignment1\\Program.cs",
+              "ToolTip": "C:\\Users\\denys\\Desktop\\My-Pogramming-\\TUKE\\C#\\Assignment1\\Assignment1\\Program.cs",
+              "RelativeToolTip": "Assignment1\\Program.cs",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAAAKYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T16:04:47.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "purchases01.csv",
+              "DocumentMoniker": "C:\\Users\\denys\\Desktop\\My-Pogramming-\\TUKE\\C#\\Assignment1\\Assignment1\\samples\\purchases01.csv",
+              "RelativeDocumentMoniker": "Assignment1\\samples\\purchases01.csv",
+              "ToolTip": "C:\\Users\\denys\\Desktop\\My-Pogramming-\\TUKE\\C#\\Assignment1\\Assignment1\\samples\\purchases01.csv",
+              "RelativeToolTip": "Assignment1\\samples\\purchases01.csv",
+              "ViewState": "AgIAAMYBAAAAAAAAAAAAAMkBAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
+              "WhenOpened": "2024-10-01T08:15:25.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "recordings01.csv",
+              "DocumentMoniker": "C:\\Users\\denys\\Desktop\\My-Pogramming-\\TUKE\\C#\\Assignment1\\Assignment1\\samples\\recordings01.csv",
+              "RelativeDocumentMoniker": "Assignment1\\samples\\recordings01.csv",
+              "ToolTip": "C:\\Users\\denys\\Desktop\\My-Pogramming-\\TUKE\\C#\\Assignment1\\Assignment1\\samples\\recordings01.csv",
+              "RelativeToolTip": "Assignment1\\samples\\recordings01.csv",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
+              "WhenOpened": "2024-10-01T08:27:37.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Purchase.cs",
+              "DocumentMoniker": "C:\\Users\\denys\\Desktop\\My-Pogramming-\\TUKE\\C#\\Assignment1\\Assignment1\\Purchase.cs",
+              "RelativeDocumentMoniker": "Assignment1\\Purchase.cs",
+              "ToolTip": "C:\\Users\\denys\\Desktop\\My-Pogramming-\\TUKE\\C#\\Assignment1\\Assignment1\\Purchase.cs",
+              "RelativeToolTip": "Assignment1\\Purchase.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABEAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T16:11:49.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Composer.cs",
+              "DocumentMoniker": "C:\\Users\\denys\\Desktop\\My-Pogramming-\\TUKE\\C#\\Assignment1\\Assignment1\\Composer.cs",
+              "RelativeDocumentMoniker": "Assignment1\\Composer.cs",
+              "ToolTip": "C:\\Users\\denys\\Desktop\\My-Pogramming-\\TUKE\\C#\\Assignment1\\Assignment1\\Composer.cs",
+              "RelativeToolTip": "Assignment1\\Composer.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T16:05:50.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Recording.cs",
+              "DocumentMoniker": "C:\\Users\\denys\\Desktop\\My-Pogramming-\\TUKE\\C#\\Assignment1\\Assignment1\\Recording.cs",
+              "RelativeDocumentMoniker": "Assignment1\\Recording.cs",
+              "ToolTip": "C:\\Users\\denys\\Desktop\\My-Pogramming-\\TUKE\\C#\\Assignment1\\Assignment1\\Recording.cs",
+              "RelativeToolTip": "Assignment1\\Recording.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T16:10:34.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Piece.cs",
+              "DocumentMoniker": "C:\\Users\\denys\\Desktop\\My-Pogramming-\\TUKE\\C#\\Assignment1\\Assignment1\\Piece.cs",
+              "RelativeDocumentMoniker": "Assignment1\\Piece.cs",
+              "ToolTip": "C:\\Users\\denys\\Desktop\\My-Pogramming-\\TUKE\\C#\\Assignment1\\Assignment1\\Piece.cs",
+              "RelativeToolTip": "Assignment1\\Piece.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T16:09:19.702Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

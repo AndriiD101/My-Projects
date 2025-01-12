@@ -1,0 +1,7 @@
+C:\Users\denys\Desktop\My-Pogramming-\TUKE\C#\TESTS\bin\Debug\TESTS.exe.config
+C:\Users\denys\Desktop\My-Pogramming-\TUKE\C#\TESTS\bin\Debug\TESTS.exe
+C:\Users\denys\Desktop\My-Pogramming-\TUKE\C#\TESTS\bin\Debug\TESTS.pdb
+C:\Users\denys\Desktop\My-Pogramming-\TUKE\C#\TESTS\obj\Debug\TESTS.csproj.AssemblyReference.cache
+C:\Users\denys\Desktop\My-Pogramming-\TUKE\C#\TESTS\obj\Debug\TESTS.csproj.CoreCompileInputs.cache
+C:\Users\denys\Desktop\My-Pogramming-\TUKE\C#\TESTS\obj\Debug\TESTS.exe
+C:\Users\denys\Desktop\My-Pogramming-\TUKE\C#\TESTS\obj\Debug\TESTS.pdb

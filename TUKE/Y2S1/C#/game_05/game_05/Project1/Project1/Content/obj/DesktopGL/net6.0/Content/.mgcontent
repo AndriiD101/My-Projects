@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Profile>Reach</Profile>
+  <Platform>DesktopGL</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/Users/jmagy/source/repos/Project1/Project1/Content/bomb.png</File>
+    <File>C:/Users/jmagy/source/repos/Project1/Project1/Content/bulb_off.png</File>
+    <File>C:/Users/jmagy/source/repos/Project1/Project1/Content/bulb_on.png</File>
+    <File>C:/Users/jmagy/source/repos/Project1/Project1/Content/star.png</File>
+    <File>C:/Users/jmagy/source/repos/Project1/Project1/Content/switch_off.png</File>
+    <File>C:/Users/jmagy/source/repos/Project1/Project1/Content/switch_on.png</File>
+  </SourceFiles>
+  <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>

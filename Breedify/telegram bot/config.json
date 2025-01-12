@@ -1,0 +1,6 @@
+{
+    "BOT_TOKEN": "7362412830:AAEmc5Y_Ie0dcfMjSJRMrP9C8_MP4EX6tTk",
+    "MODEL_PATH": "C:/Users/denys/Desktop/UI/telegram bot/best_model_unfreeze30_test.h5",
+    "FOLDER_PATH": "C:/Users/denys/Desktop/UI/telegram bot/images/image",
+    "LABEL_PATH": "C:/Users/denys/Desktop/UI/test_images"
+}

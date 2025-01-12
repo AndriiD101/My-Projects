@@ -1,0 +1,39 @@
+
+@media print {
+    body {
+        background: white; 
+        color: black; 
+        font-family: serif;
+        font-size: 14pt;
+        line-height: 1.6;
+    }
+
+    .nav-bar,
+    footer {
+        display: none;
+    }
+    section{
+        box-shadow: none;
+    }
+    img,
+    .video-frame,
+    .button,
+    .accordion {
+        display: none; 
+    }
+
+    table {
+        border-collapse: collapse; 
+        width: 100%;
+    }
+
+    th, td {
+        border: 1px solid black; 
+        padding: 10px; 
+        text-align: left; 
+    }
+
+    h1, h2, h3, p {
+        margin: 0.5em 0;
+    }
+}

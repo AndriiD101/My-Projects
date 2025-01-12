@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Názory návštevníkov</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Váš názor na našu stránku</h1>
+    <form id="feedbackForm">
+        <label for="name">Meno:</label>
+        <input type="text" id="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+
+        <label for="imageURL">URL obrázka:</label>
+        <input type="url" id="imageURL">
+
+        <label>Oceňujem obsah stránky:</label>
+        <input type="radio" id="radio1" name="rating" value="výborné" required>
+        <label for="radio1">Výborné</label>
+        <input type="radio" id="radio2" name="rating" value="dobré">
+        <label for="radio2">Dobré</label>
+        
+        <label for="willReturn">Vrátim sa znova:</label>
+        <input type="checkbox" id="willReturn">
+
+        <label for="opinion">Váš názor:</label>
+        <textarea id="opinion" required></textarea>
+
+        <label for="keywords">Kľúčové slová:</label>
+        <input type="text" id="keywords" list="keywordOptions">
+        <datalist id="keywordOptions">
+            <option value="Web Development">
+            <option value="JavaScript">
+            <option value="CSS">
+            <option value="HTML">
+        </datalist>
+
+        <button type="submit">Odoslať</button>
+        <button type="reset">Resetovať</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>

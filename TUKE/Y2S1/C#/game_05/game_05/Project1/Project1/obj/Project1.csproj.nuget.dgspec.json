@@ -1,0 +1,83 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\tuke\\pvjc#24-25\\labs\\game_05\\Project1\\Project1\\Project1.csproj": {}
+  },
+  "projects": {
+    "D:\\tuke\\pvjc#24-25\\labs\\game_05\\Project1\\Project1\\Project1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\tuke\\pvjc#24-25\\labs\\game_05\\Project1\\Project1\\Project1.csproj",
+        "projectName": "Project1",
+        "projectPath": "D:\\tuke\\pvjc#24-25\\labs\\game_05\\Project1\\Project1\\Project1.csproj",
+        "packagesPath": "C:\\Users\\kdani\\.nuget\\packages\\",
+        "outputPath": "D:\\tuke\\pvjc#24-25\\labs\\game_05\\Project1\\Project1\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\apps\\visual studio 2022\\tools\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kdani\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MonoGame.Content.Builder.Task": {
+              "target": "Package",
+              "version": "[3.8.1.303, )"
+            },
+            "MonoGame.Framework.DesktopGL": {
+              "target": "Package",
+              "version": "[3.8.1.303, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

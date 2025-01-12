@@ -1,0 +1,8 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"D:/tuke/pvjc#24-25/labs/game_05/Project1/Project1/Content/bomb.png","D:/tuke/pvjc#24-25/labs/game_05/Project1/Project1/Content/bin/DesktopGL/Content/bomb.xnb","TextureProcessor","Texture2DContent",552,23125,0.1295559
+"D:/tuke/pvjc#24-25/labs/game_05/Project1/Project1/Content/bulb_off.png","D:/tuke/pvjc#24-25/labs/game_05/Project1/Project1/Content/bin/DesktopGL/Content/bulb_off.xnb","TextureProcessor","Texture2DContent",450,5605,0.0018477
+"D:/tuke/pvjc#24-25/labs/game_05/Project1/Project1/Content/bulb_on.png","D:/tuke/pvjc#24-25/labs/game_05/Project1/Project1/Content/bin/DesktopGL/Content/bulb_on.xnb","TextureProcessor","Texture2DContent",459,5605,0.0029892
+"D:/tuke/pvjc#24-25/labs/game_05/Project1/Project1/Content/player.png","D:/tuke/pvjc#24-25/labs/game_05/Project1/Project1/Content/bin/DesktopGL/Content/player.xnb","TextureProcessor","Texture2DContent",7410,47461,0.1303991
+"D:/tuke/pvjc#24-25/labs/game_05/Project1/Project1/Content/star.png","D:/tuke/pvjc#24-25/labs/game_05/Project1/Project1/Content/bin/DesktopGL/Content/star.xnb","TextureProcessor","Texture2DContent",327,7829,0.0038283
+"D:/tuke/pvjc#24-25/labs/game_05/Project1/Project1/Content/switch_off.png","D:/tuke/pvjc#24-25/labs/game_05/Project1/Project1/Content/bin/DesktopGL/Content/switch_off.xnb","TextureProcessor","Texture2DContent",279,2821,0.0021318
+"D:/tuke/pvjc#24-25/labs/game_05/Project1/Project1/Content/switch_on.png","D:/tuke/pvjc#24-25/labs/game_05/Project1/Project1/Content/bin/DesktopGL/Content/switch_on.xnb","TextureProcessor","Texture2DContent",288,2821,0.0020021

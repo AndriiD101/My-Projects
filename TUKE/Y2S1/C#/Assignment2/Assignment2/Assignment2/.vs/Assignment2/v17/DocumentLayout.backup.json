@@ -1,0 +1,247 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\denys\\Desktop\\My-Pogramming-\\TUKE\\C#\\Assignment2\\Assignment2\\Assignment2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\denys\\Desktop\\My-Pogramming-\\TUKE\\C#\\Assignment2\\Assignment2\\Assignment2\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\denys\\Desktop\\My-Pogramming-\\TUKE\\C#\\Assignment2\\Assignment2\\Assignment2\\Assignment2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assignment2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\denys\\Desktop\\My-Pogramming-\\TUKE\\C#\\Assignment2\\Assignment2\\Assignment2\\Forms\\Form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Forms\\Form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\denys\\Desktop\\My-Pogramming-\\TUKE\\C#\\Assignment2\\Assignment2\\Assignment2\\Clerks\\RudeClerk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Clerks\\RudeClerk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\denys\\Desktop\\My-Pogramming-\\TUKE\\C#\\Assignment2\\Assignment2\\Assignment2\\Clerks\\KindClerk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Clerks\\KindClerk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\denys\\Desktop\\My-Pogramming-\\TUKE\\C#\\Assignment2\\Assignment2\\Assignment2\\Forms\\Agenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Forms\\Agenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\denys\\Desktop\\My-Pogramming-\\TUKE\\C#\\Assignment2\\Assignment2\\Assignment2\\Clients\\Client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Clients\\Client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\denys\\Desktop\\My-Pogramming-\\TUKE\\C#\\Assignment2\\Assignment2\\Assignment2\\Clerks\\AbstractClerk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Clerks\\AbstractClerk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\denys\\Desktop\\My-Pogramming-\\TUKE\\C#\\Assignment2\\Assignment2\\Assignment2\\StructureTest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:StructureTest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\denys\\Desktop\\My-Pogramming-\\TUKE\\C#\\Assignment2\\Assignment2\\Assignment2\\Clients\\CarefulClient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Clients\\CarefulClient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\denys\\Desktop\\My-Pogramming-\\TUKE\\C#\\Assignment2\\Assignment2\\Assignment2\\Forms\\AgendaType.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Forms\\AgendaType.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\denys\\Desktop\\My-Pogramming-\\TUKE\\C#\\Assignment2\\Assignment2\\Assignment2\\Clerks\\ImpatientClerk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Clerks\\ImpatientClerk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\denys\\Desktop\\My-Pogramming-\\TUKE\\C#\\Assignment2\\Assignment2\\Assignment2\\Clients\\OptimizingClient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Clients\\OptimizingClient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\denys\\Desktop\\My-Pogramming-\\TUKE\\C#\\Assignment2\\Assignment2\\Assignment2\\Clients\\EagerClient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Clients\\EagerClient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 96,
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Assignment2.csproj",
+              "DocumentMoniker": "C:\\Users\\denys\\Desktop\\My-Pogramming-\\TUKE\\C#\\Assignment2\\Assignment2\\Assignment2\\Assignment2.csproj",
+              "RelativeDocumentMoniker": "Assignment2.csproj",
+              "ToolTip": "C:\\Users\\denys\\Desktop\\My-Pogramming-\\TUKE\\C#\\Assignment2\\Assignment2\\Assignment2\\Assignment2.csproj",
+              "RelativeToolTip": "Assignment2.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-01T14:04:28.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form.cs",
+              "DocumentMoniker": "C:\\Users\\denys\\Desktop\\My-Pogramming-\\TUKE\\C#\\Assignment2\\Assignment2\\Assignment2\\Forms\\Form.cs",
+              "RelativeDocumentMoniker": "Forms\\Form.cs",
+              "ToolTip": "C:\\Users\\denys\\Desktop\\My-Pogramming-\\TUKE\\C#\\Assignment2\\Assignment2\\Assignment2\\Forms\\Form.cs",
+              "RelativeToolTip": "Forms\\Form.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAcwDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T13:37:48.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RudeClerk.cs",
+              "DocumentMoniker": "C:\\Users\\denys\\Desktop\\My-Pogramming-\\TUKE\\C#\\Assignment2\\Assignment2\\Assignment2\\Clerks\\RudeClerk.cs",
+              "RelativeDocumentMoniker": "Clerks\\RudeClerk.cs",
+              "ToolTip": "C:\\Users\\denys\\Desktop\\My-Pogramming-\\TUKE\\C#\\Assignment2\\Assignment2\\Assignment2\\Clerks\\RudeClerk.cs",
+              "RelativeToolTip": "Clerks\\RudeClerk.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T13:37:58.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Agenda.cs",
+              "DocumentMoniker": "C:\\Users\\denys\\Desktop\\My-Pogramming-\\TUKE\\C#\\Assignment2\\Assignment2\\Assignment2\\Forms\\Agenda.cs",
+              "RelativeDocumentMoniker": "Forms\\Agenda.cs",
+              "ToolTip": "C:\\Users\\denys\\Desktop\\My-Pogramming-\\TUKE\\C#\\Assignment2\\Assignment2\\Assignment2\\Forms\\Agenda.cs",
+              "RelativeToolTip": "Forms\\Agenda.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T13:37:47.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "KindClerk.cs",
+              "DocumentMoniker": "C:\\Users\\denys\\Desktop\\My-Pogramming-\\TUKE\\C#\\Assignment2\\Assignment2\\Assignment2\\Clerks\\KindClerk.cs",
+              "RelativeDocumentMoniker": "Clerks\\KindClerk.cs",
+              "ToolTip": "C:\\Users\\denys\\Desktop\\My-Pogramming-\\TUKE\\C#\\Assignment2\\Assignment2\\Assignment2\\Clerks\\KindClerk.cs",
+              "RelativeToolTip": "Clerks\\KindClerk.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T13:37:58.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ImpatientClerk.cs",
+              "DocumentMoniker": "C:\\Users\\denys\\Desktop\\My-Pogramming-\\TUKE\\C#\\Assignment2\\Assignment2\\Assignment2\\Clerks\\ImpatientClerk.cs",
+              "RelativeDocumentMoniker": "Clerks\\ImpatientClerk.cs",
+              "ToolTip": "C:\\Users\\denys\\Desktop\\My-Pogramming-\\TUKE\\C#\\Assignment2\\Assignment2\\Assignment2\\Clerks\\ImpatientClerk.cs",
+              "RelativeToolTip": "Clerks\\ImpatientClerk.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAcwCIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T13:37:57.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Users\\denys\\Desktop\\My-Pogramming-\\TUKE\\C#\\Assignment2\\Assignment2\\Assignment2\\Clients\\Client.cs",
+              "RelativeDocumentMoniker": "Clients\\Client.cs",
+              "ToolTip": "C:\\Users\\denys\\Desktop\\My-Pogramming-\\TUKE\\C#\\Assignment2\\Assignment2\\Assignment2\\Clients\\Client.cs",
+              "RelativeToolTip": "Clients\\Client.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAAwGAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T13:37:54.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "OptimizingClient.cs",
+              "DocumentMoniker": "C:\\Users\\denys\\Desktop\\My-Pogramming-\\TUKE\\C#\\Assignment2\\Assignment2\\Assignment2\\Clients\\OptimizingClient.cs",
+              "RelativeDocumentMoniker": "Clients\\OptimizingClient.cs",
+              "ToolTip": "C:\\Users\\denys\\Desktop\\My-Pogramming-\\TUKE\\C#\\Assignment2\\Assignment2\\Assignment2\\Clients\\OptimizingClient.cs",
+              "RelativeToolTip": "Clients\\OptimizingClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T13:37:54.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EagerClient.cs",
+              "DocumentMoniker": "C:\\Users\\denys\\Desktop\\My-Pogramming-\\TUKE\\C#\\Assignment2\\Assignment2\\Assignment2\\Clients\\EagerClient.cs",
+              "RelativeDocumentMoniker": "Clients\\EagerClient.cs",
+              "ToolTip": "C:\\Users\\denys\\Desktop\\My-Pogramming-\\TUKE\\C#\\Assignment2\\Assignment2\\Assignment2\\Clients\\EagerClient.cs",
+              "RelativeToolTip": "Clients\\EagerClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T13:37:54.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CarefulClient.cs",
+              "DocumentMoniker": "C:\\Users\\denys\\Desktop\\My-Pogramming-\\TUKE\\C#\\Assignment2\\Assignment2\\Assignment2\\Clients\\CarefulClient.cs",
+              "RelativeDocumentMoniker": "Clients\\CarefulClient.cs",
+              "ToolTip": "C:\\Users\\denys\\Desktop\\My-Pogramming-\\TUKE\\C#\\Assignment2\\Assignment2\\Assignment2\\Clients\\CarefulClient.cs",
+              "RelativeToolTip": "Clients\\CarefulClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T13:37:53.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AgendaType.cs",
+              "DocumentMoniker": "C:\\Users\\denys\\Desktop\\My-Pogramming-\\TUKE\\C#\\Assignment2\\Assignment2\\Assignment2\\Forms\\AgendaType.cs",
+              "RelativeDocumentMoniker": "Forms\\AgendaType.cs",
+              "ToolTip": "C:\\Users\\denys\\Desktop\\My-Pogramming-\\TUKE\\C#\\Assignment2\\Assignment2\\Assignment2\\Forms\\AgendaType.cs",
+              "RelativeToolTip": "Forms\\AgendaType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T13:37:47.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StructureTest.cs",
+              "DocumentMoniker": "C:\\Users\\denys\\Desktop\\My-Pogramming-\\TUKE\\C#\\Assignment2\\Assignment2\\Assignment2\\StructureTest.cs",
+              "RelativeDocumentMoniker": "StructureTest.cs",
+              "ToolTip": "C:\\Users\\denys\\Desktop\\My-Pogramming-\\TUKE\\C#\\Assignment2\\Assignment2\\Assignment2\\StructureTest.cs",
+              "RelativeToolTip": "StructureTest.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T13:37:40.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\denys\\Desktop\\My-Pogramming-\\TUKE\\C#\\Assignment2\\Assignment2\\Assignment2\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\denys\\Desktop\\My-Pogramming-\\TUKE\\C#\\Assignment2\\Assignment2\\Assignment2\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T13:37:30.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AbstractClerk.cs",
+              "DocumentMoniker": "C:\\Users\\denys\\Desktop\\My-Pogramming-\\TUKE\\C#\\Assignment2\\Assignment2\\Assignment2\\Clerks\\AbstractClerk.cs",
+              "RelativeDocumentMoniker": "Clerks\\AbstractClerk.cs",
+              "ToolTip": "C:\\Users\\denys\\Desktop\\My-Pogramming-\\TUKE\\C#\\Assignment2\\Assignment2\\Assignment2\\Clerks\\AbstractClerk.cs",
+              "RelativeToolTip": "Clerks\\AbstractClerk.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T13:37:56.924Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

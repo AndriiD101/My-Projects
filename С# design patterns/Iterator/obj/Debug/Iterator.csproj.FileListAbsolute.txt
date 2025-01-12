@@ -1,0 +1,7 @@
+C:\Users\denys\Desktop\С#\Iterator\bin\Debug\Iterator.exe.config
+C:\Users\denys\Desktop\С#\Iterator\bin\Debug\Iterator.exe
+C:\Users\denys\Desktop\С#\Iterator\bin\Debug\Iterator.pdb
+C:\Users\denys\Desktop\С#\Iterator\obj\Debug\Iterator.csproj.AssemblyReference.cache
+C:\Users\denys\Desktop\С#\Iterator\obj\Debug\Iterator.csproj.CoreCompileInputs.cache
+C:\Users\denys\Desktop\С#\Iterator\obj\Debug\Iterator.exe
+C:\Users\denys\Desktop\С#\Iterator\obj\Debug\Iterator.pdb

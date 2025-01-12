@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\denys\\Desktop\\\u0421#\\Factory Method\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CACF293D-5A0F-438E-89C6-27DAC2F2D1DC}|Factory Method.csproj|C:\\Users\\denys\\Desktop\\\u0421#\\Factory Method\\domain\\personaltrainingmembership.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CACF293D-5A0F-438E-89C6-27DAC2F2D1DC}|Factory Method.csproj|solutionrelative:domain\\personaltrainingmembership.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CACF293D-5A0F-438E-89C6-27DAC2F2D1DC}|Factory Method.csproj|C:\\Users\\denys\\Desktop\\\u0421#\\Factory Method\\domain\\gympoolmembership.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CACF293D-5A0F-438E-89C6-27DAC2F2D1DC}|Factory Method.csproj|solutionrelative:domain\\gympoolmembership.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CACF293D-5A0F-438E-89C6-27DAC2F2D1DC}|Factory Method.csproj|C:\\Users\\denys\\Desktop\\\u0421#\\Factory Method\\domain\\gymmembership.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CACF293D-5A0F-438E-89C6-27DAC2F2D1DC}|Factory Method.csproj|solutionrelative:domain\\gymmembership.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CACF293D-5A0F-438E-89C6-27DAC2F2D1DC}|Factory Method.csproj|C:\\Users\\denys\\Desktop\\\u0421#\\Factory Method\\domain\\imembership.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CACF293D-5A0F-438E-89C6-27DAC2F2D1DC}|Factory Method.csproj|solutionrelative:domain\\imembership.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CACF293D-5A0F-438E-89C6-27DAC2F2D1DC}|Factory Method.csproj|C:\\Users\\denys\\Desktop\\\u0421#\\Factory Method\\factories\\personaltrainingmembership.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CACF293D-5A0F-438E-89C6-27DAC2F2D1DC}|Factory Method.csproj|solutionrelative:factories\\personaltrainingmembership.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CACF293D-5A0F-438E-89C6-27DAC2F2D1DC}|Factory Method.csproj|c:\\users\\denys\\desktop\\\u0441#\\factory method\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CACF293D-5A0F-438E-89C6-27DAC2F2D1DC}|Factory Method.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CACF293D-5A0F-438E-89C6-27DAC2F2D1DC}|Factory Method.csproj|C:\\Users\\denys\\Desktop\\\u0421#\\Factory Method\\factories\\gymmembershipfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CACF293D-5A0F-438E-89C6-27DAC2F2D1DC}|Factory Method.csproj|solutionrelative:factories\\gymmembershipfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CACF293D-5A0F-438E-89C6-27DAC2F2D1DC}|Factory Method.csproj|C:\\Users\\denys\\Desktop\\\u0421#\\Factory Method\\factories\\personaltrainingmembershipfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CACF293D-5A0F-438E-89C6-27DAC2F2D1DC}|Factory Method.csproj|solutionrelative:factories\\personaltrainingmembershipfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CACF293D-5A0F-438E-89C6-27DAC2F2D1DC}|Factory Method.csproj|C:\\Users\\denys\\Desktop\\\u0421#\\Factory Method\\factories\\gympoolmembershipfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CACF293D-5A0F-438E-89C6-27DAC2F2D1DC}|Factory Method.csproj|solutionrelative:factories\\gympoolmembershipfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CACF293D-5A0F-438E-89C6-27DAC2F2D1DC}|Factory Method.csproj|C:\\Users\\denys\\Desktop\\\u0421#\\Factory Method\\factories\\membershipfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CACF293D-5A0F-438E-89C6-27DAC2F2D1DC}|Factory Method.csproj|solutionrelative:factories\\membershipfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PersonalTrainingMembershipFactory.cs",
+              "DocumentMoniker": "C:\\Users\\denys\\Desktop\\\u0421#\\Factory Method\\Factories\\PersonalTrainingMembershipFactory.cs",
+              "RelativeDocumentMoniker": "Factories\\PersonalTrainingMembershipFactory.cs",
+              "ToolTip": "C:\\Users\\denys\\Desktop\\\u0421#\\Factory Method\\Factories\\PersonalTrainingMembershipFactory.cs",
+              "RelativeToolTip": "Factories\\PersonalTrainingMembershipFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T15:21:47.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PersonalTrainingMembership.cs",
+              "DocumentMoniker": "C:\\Users\\denys\\Desktop\\\u0421#\\Factory Method\\Factories\\PersonalTrainingMembership.cs",
+              "RelativeDocumentMoniker": "Factories\\PersonalTrainingMembership.cs",
+              "ToolTip": "C:\\Users\\denys\\Desktop\\\u0421#\\Factory Method\\Factories\\PersonalTrainingMembership.cs",
+              "RelativeToolTip": "Factories\\PersonalTrainingMembership.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T15:15:14.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GymPoolMembershipFactory.cs",
+              "DocumentMoniker": "C:\\Users\\denys\\Desktop\\\u0421#\\Factory Method\\Factories\\GymPoolMembershipFactory.cs",
+              "RelativeDocumentMoniker": "Factories\\GymPoolMembershipFactory.cs",
+              "ToolTip": "C:\\Users\\denys\\Desktop\\\u0421#\\Factory Method\\Factories\\GymPoolMembershipFactory.cs",
+              "RelativeToolTip": "Factories\\GymPoolMembershipFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T15:12:40.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GymMembershipFactory.cs",
+              "DocumentMoniker": "C:\\Users\\denys\\Desktop\\\u0421#\\Factory Method\\Factories\\GymMembershipFactory.cs",
+              "RelativeDocumentMoniker": "Factories\\GymMembershipFactory.cs",
+              "ToolTip": "C:\\Users\\denys\\Desktop\\\u0421#\\Factory Method\\Factories\\GymMembershipFactory.cs",
+              "RelativeToolTip": "Factories\\GymMembershipFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T15:03:13.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MembershipFactory.cs",
+              "DocumentMoniker": "C:\\Users\\denys\\Desktop\\\u0421#\\Factory Method\\Factories\\MembershipFactory.cs",
+              "RelativeDocumentMoniker": "Factories\\MembershipFactory.cs",
+              "ToolTip": "C:\\Users\\denys\\Desktop\\\u0421#\\Factory Method\\Factories\\MembershipFactory.cs",
+              "RelativeToolTip": "Factories\\MembershipFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T15:01:46.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PersonalTrainingMembership.cs",
+              "DocumentMoniker": "C:\\Users\\denys\\Desktop\\\u0421#\\Factory Method\\Domain\\PersonalTrainingMembership.cs",
+              "RelativeDocumentMoniker": "Domain\\PersonalTrainingMembership.cs",
+              "ToolTip": "C:\\Users\\denys\\Desktop\\\u0421#\\Factory Method\\Domain\\PersonalTrainingMembership.cs",
+              "RelativeToolTip": "Domain\\PersonalTrainingMembership.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T14:59:02.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GymPoolMembership.cs",
+              "DocumentMoniker": "C:\\Users\\denys\\Desktop\\\u0421#\\Factory Method\\Domain\\GymPoolMembership.cs",
+              "RelativeDocumentMoniker": "Domain\\GymPoolMembership.cs",
+              "ToolTip": "C:\\Users\\denys\\Desktop\\\u0421#\\Factory Method\\Domain\\GymPoolMembership.cs",
+              "RelativeToolTip": "Domain\\GymPoolMembership.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T14:51:47.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GymMembership.cs",
+              "DocumentMoniker": "C:\\Users\\denys\\Desktop\\\u0421#\\Factory Method\\Domain\\GymMembership.cs",
+              "RelativeDocumentMoniker": "Domain\\GymMembership.cs",
+              "ToolTip": "C:\\Users\\denys\\Desktop\\\u0421#\\Factory Method\\Domain\\GymMembership.cs",
+              "RelativeToolTip": "Domain\\GymMembership.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T14:47:35.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IMembership.cs",
+              "DocumentMoniker": "C:\\Users\\denys\\Desktop\\\u0421#\\Factory Method\\Domain\\IMembership.cs",
+              "RelativeDocumentMoniker": "Domain\\IMembership.cs",
+              "ToolTip": "C:\\Users\\denys\\Desktop\\\u0421#\\Factory Method\\Domain\\IMembership.cs",
+              "RelativeToolTip": "Domain\\IMembership.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T14:45:45.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\denys\\Desktop\\\u0421#\\Factory Method\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\denys\\Desktop\\\u0421#\\Factory Method\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABsAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T11:58:08.424Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
