@@ -1,0 +1,246 @@
+NODE: a
+ITERATION: 0
+for node=a, for iter=0, for size=0 Best solution: ['a', 'e', 'b', 'd', 'f', 'c', 'a'], with total distance: 158.
+for node=a, for iter=0, for size=3 Best solution: ['a', 'e', 'b', 'd', 'f', 'c', 'a'], with total distance: 158.
+for node=a, for iter=0, for size=5 Best solution: ['a', 'e', 'b', 'd', 'f', 'c', 'a'], with total distance: 158.
+for node=a, for iter=0, for size=10 Best solution: ['a', 'e', 'b', 'd', 'f', 'c', 'a'], with total distance: 158.
+ITERATION: 1
+for node=a, for iter=1, for size=0 Best solution: ['a', 'e', 'd', 'b', 'f', 'c', 'a'], with total distance: 137.
+for node=a, for iter=1, for size=3 Best solution: ['a', 'e', 'd', 'b', 'f', 'c', 'a'], with total distance: 137.
+for node=a, for iter=1, for size=5 Best solution: ['a', 'e', 'd', 'b', 'f', 'c', 'a'], with total distance: 137.
+for node=a, for iter=1, for size=10 Best solution: ['a', 'e', 'd', 'b', 'f', 'c', 'a'], with total distance: 137.
+ITERATION: 5
+for node=a, for iter=5, for size=0 Best solution: ['a', 'e', 'd', 'b', 'f', 'c', 'a'], with total distance: 137.
+for node=a, for iter=5, for size=3 Best solution: ['a', 'e', 'd', 'b', 'f', 'c', 'a'], with total distance: 137.
+for node=a, for iter=5, for size=5 Best solution: ['a', 'e', 'd', 'b', 'f', 'c', 'a'], with total distance: 137.
+for node=a, for iter=5, for size=10 Best solution: ['a', 'e', 'd', 'b', 'f', 'c', 'a'], with total distance: 137.
+ITERATION: 10
+for node=a, for iter=10, for size=0 Best solution: ['a', 'e', 'd', 'b', 'f', 'c', 'a'], with total distance: 137.
+for node=a, for iter=10, for size=3 Best solution: ['a', 'e', 'd', 'b', 'f', 'c', 'a'], with total distance: 137.
+for node=a, for iter=10, for size=5 Best solution: ['a', 'e', 'd', 'b', 'f', 'c', 'a'], with total distance: 137.
+for node=a, for iter=10, for size=10 Best solution: ['a', 'e', 'd', 'b', 'f', 'c', 'a'], with total distance: 137.
+ITERATION: 50
+for node=a, for iter=50, for size=0 Best solution: ['a', 'e', 'd', 'b', 'f', 'c', 'a'], with total distance: 137.
+for node=a, for iter=50, for size=3 Best solution: ['a', 'e', 'd', 'b', 'f', 'c', 'a'], with total distance: 137.
+for node=a, for iter=50, for size=5 Best solution: ['a', 'e', 'd', 'b', 'f', 'c', 'a'], with total distance: 137.
+for node=a, for iter=50, for size=10 Best solution: ['a', 'e', 'd', 'b', 'f', 'c', 'a'], with total distance: 137.
+ITERATION: 100
+for node=a, for iter=100, for size=0 Best solution: ['a', 'e', 'd', 'b', 'f', 'c', 'a'], with total distance: 137.
+for node=a, for iter=100, for size=3 Best solution: ['a', 'e', 'd', 'b', 'f', 'c', 'a'], with total distance: 137.
+for node=a, for iter=100, for size=5 Best solution: ['a', 'e', 'd', 'b', 'f', 'c', 'a'], with total distance: 137.
+for node=a, for iter=100, for size=10 Best solution: ['a', 'e', 'd', 'b', 'f', 'c', 'a'], with total distance: 137.
+ITERATION: 150
+for node=a, for iter=150, for size=0 Best solution: ['a', 'e', 'd', 'b', 'f', 'c', 'a'], with total distance: 137.
+for node=a, for iter=150, for size=3 Best solution: ['a', 'e', 'd', 'b', 'f', 'c', 'a'], with total distance: 137.
+for node=a, for iter=150, for size=5 Best solution: ['a', 'e', 'd', 'b', 'f', 'c', 'a'], with total distance: 137.
+for node=a, for iter=150, for size=10 Best solution: ['a', 'e', 'd', 'b', 'f', 'c', 'a'], with total distance: 137.
+ITERATION: 200
+for node=a, for iter=200, for size=0 Best solution: ['a', 'e', 'd', 'b', 'f', 'c', 'a'], with total distance: 137.
+for node=a, for iter=200, for size=3 Best solution: ['a', 'e', 'd', 'b', 'f', 'c', 'a'], with total distance: 137.
+for node=a, for iter=200, for size=5 Best solution: ['a', 'e', 'd', 'b', 'f', 'c', 'a'], with total distance: 137.
+for node=a, for iter=200, for size=10 Best solution: ['a', 'e', 'd', 'b', 'f', 'c', 'a'], with total distance: 137.
+NODE: b
+ITERATION: 0
+for node=b, for iter=0, for size=0 Best solution: ['b', 'd', 'a', 'e', 'f', 'c', 'b'], with total distance: 168.
+for node=b, for iter=0, for size=3 Best solution: ['b', 'd', 'a', 'e', 'f', 'c', 'b'], with total distance: 168.
+for node=b, for iter=0, for size=5 Best solution: ['b', 'd', 'a', 'e', 'f', 'c', 'b'], with total distance: 168.
+for node=b, for iter=0, for size=10 Best solution: ['b', 'd', 'a', 'e', 'f', 'c', 'b'], with total distance: 168.
+ITERATION: 1
+for node=b, for iter=1, for size=0 Best solution: ['b', 'd', 'e', 'a', 'f', 'c', 'b'], with total distance: 148.
+for node=b, for iter=1, for size=3 Best solution: ['b', 'd', 'e', 'a', 'f', 'c', 'b'], with total distance: 148.
+for node=b, for iter=1, for size=5 Best solution: ['b', 'd', 'e', 'a', 'f', 'c', 'b'], with total distance: 148.
+for node=b, for iter=1, for size=10 Best solution: ['b', 'd', 'e', 'a', 'f', 'c', 'b'], with total distance: 148.
+ITERATION: 5
+for node=b, for iter=5, for size=0 Best solution: ['b', 'd', 'e', 'a', 'c', 'f', 'b'], with total distance: 137.
+for node=b, for iter=5, for size=3 Best solution: ['b', 'd', 'e', 'a', 'c', 'f', 'b'], with total distance: 137.
+for node=b, for iter=5, for size=5 Best solution: ['b', 'd', 'e', 'a', 'c', 'f', 'b'], with total distance: 137.
+for node=b, for iter=5, for size=10 Best solution: ['b', 'd', 'e', 'a', 'c', 'f', 'b'], with total distance: 137.
+ITERATION: 10
+for node=b, for iter=10, for size=0 Best solution: ['b', 'd', 'e', 'a', 'c', 'f', 'b'], with total distance: 137.
+for node=b, for iter=10, for size=3 Best solution: ['b', 'd', 'e', 'a', 'c', 'f', 'b'], with total distance: 137.
+for node=b, for iter=10, for size=5 Best solution: ['b', 'd', 'e', 'a', 'c', 'f', 'b'], with total distance: 137.
+for node=b, for iter=10, for size=10 Best solution: ['b', 'd', 'e', 'a', 'c', 'f', 'b'], with total distance: 137.
+ITERATION: 50
+for node=b, for iter=50, for size=0 Best solution: ['b', 'd', 'e', 'a', 'c', 'f', 'b'], with total distance: 137.
+for node=b, for iter=50, for size=3 Best solution: ['b', 'd', 'e', 'a', 'c', 'f', 'b'], with total distance: 137.
+for node=b, for iter=50, for size=5 Best solution: ['b', 'd', 'e', 'a', 'c', 'f', 'b'], with total distance: 137.
+for node=b, for iter=50, for size=10 Best solution: ['b', 'd', 'e', 'a', 'c', 'f', 'b'], with total distance: 137.
+ITERATION: 100
+for node=b, for iter=100, for size=0 Best solution: ['b', 'd', 'e', 'a', 'c', 'f', 'b'], with total distance: 137.
+for node=b, for iter=100, for size=3 Best solution: ['b', 'd', 'e', 'a', 'c', 'f', 'b'], with total distance: 137.
+for node=b, for iter=100, for size=5 Best solution: ['b', 'd', 'e', 'a', 'c', 'f', 'b'], with total distance: 137.
+for node=b, for iter=100, for size=10 Best solution: ['b', 'd', 'e', 'a', 'c', 'f', 'b'], with total distance: 137.
+ITERATION: 150
+for node=b, for iter=150, for size=0 Best solution: ['b', 'd', 'e', 'a', 'c', 'f', 'b'], with total distance: 137.
+for node=b, for iter=150, for size=3 Best solution: ['b', 'd', 'e', 'a', 'c', 'f', 'b'], with total distance: 137.
+for node=b, for iter=150, for size=5 Best solution: ['b', 'd', 'e', 'a', 'c', 'f', 'b'], with total distance: 137.
+for node=b, for iter=150, for size=10 Best solution: ['b', 'd', 'e', 'a', 'c', 'f', 'b'], with total distance: 137.
+ITERATION: 200
+for node=b, for iter=200, for size=0 Best solution: ['b', 'd', 'e', 'a', 'c', 'f', 'b'], with total distance: 137.
+for node=b, for iter=200, for size=3 Best solution: ['b', 'd', 'e', 'a', 'c', 'f', 'b'], with total distance: 137.
+for node=b, for iter=200, for size=5 Best solution: ['b', 'd', 'e', 'a', 'c', 'f', 'b'], with total distance: 137.
+for node=b, for iter=200, for size=10 Best solution: ['b', 'd', 'e', 'a', 'c', 'f', 'b'], with total distance: 137.
+NODE: c
+ITERATION: 0
+for node=c, for iter=0, for size=0 Best solution: ['c', 'a', 'e', 'b', 'd', 'f', 'c'], with total distance: 158.
+for node=c, for iter=0, for size=3 Best solution: ['c', 'a', 'e', 'b', 'd', 'f', 'c'], with total distance: 158.
+for node=c, for iter=0, for size=5 Best solution: ['c', 'a', 'e', 'b', 'd', 'f', 'c'], with total distance: 158.
+for node=c, for iter=0, for size=10 Best solution: ['c', 'a', 'e', 'b', 'd', 'f', 'c'], with total distance: 158.
+ITERATION: 1
+for node=c, for iter=1, for size=0 Best solution: ['c', 'a', 'e', 'd', 'b', 'f', 'c'], with total distance: 137.
+for node=c, for iter=1, for size=3 Best solution: ['c', 'a', 'e', 'd', 'b', 'f', 'c'], with total distance: 137.
+for node=c, for iter=1, for size=5 Best solution: ['c', 'a', 'e', 'd', 'b', 'f', 'c'], with total distance: 137.
+for node=c, for iter=1, for size=10 Best solution: ['c', 'a', 'e', 'd', 'b', 'f', 'c'], with total distance: 137.
+ITERATION: 5
+for node=c, for iter=5, for size=0 Best solution: ['c', 'a', 'e', 'd', 'b', 'f', 'c'], with total distance: 137.
+for node=c, for iter=5, for size=3 Best solution: ['c', 'a', 'e', 'd', 'b', 'f', 'c'], with total distance: 137.
+for node=c, for iter=5, for size=5 Best solution: ['c', 'a', 'e', 'd', 'b', 'f', 'c'], with total distance: 137.
+for node=c, for iter=5, for size=10 Best solution: ['c', 'a', 'e', 'd', 'b', 'f', 'c'], with total distance: 137.
+ITERATION: 10
+for node=c, for iter=10, for size=0 Best solution: ['c', 'a', 'e', 'd', 'b', 'f', 'c'], with total distance: 137.
+for node=c, for iter=10, for size=3 Best solution: ['c', 'a', 'e', 'd', 'b', 'f', 'c'], with total distance: 137.
+for node=c, for iter=10, for size=5 Best solution: ['c', 'a', 'e', 'd', 'b', 'f', 'c'], with total distance: 137.
+for node=c, for iter=10, for size=10 Best solution: ['c', 'a', 'e', 'd', 'b', 'f', 'c'], with total distance: 137.
+ITERATION: 50
+for node=c, for iter=50, for size=0 Best solution: ['c', 'a', 'e', 'd', 'b', 'f', 'c'], with total distance: 137.
+for node=c, for iter=50, for size=3 Best solution: ['c', 'a', 'e', 'd', 'b', 'f', 'c'], with total distance: 137.
+for node=c, for iter=50, for size=5 Best solution: ['c', 'a', 'e', 'd', 'b', 'f', 'c'], with total distance: 137.
+for node=c, for iter=50, for size=10 Best solution: ['c', 'a', 'e', 'd', 'b', 'f', 'c'], with total distance: 137.
+ITERATION: 100
+for node=c, for iter=100, for size=0 Best solution: ['c', 'a', 'e', 'd', 'b', 'f', 'c'], with total distance: 137.
+for node=c, for iter=100, for size=3 Best solution: ['c', 'a', 'e', 'd', 'b', 'f', 'c'], with total distance: 137.
+for node=c, for iter=100, for size=5 Best solution: ['c', 'a', 'e', 'd', 'b', 'f', 'c'], with total distance: 137.
+for node=c, for iter=100, for size=10 Best solution: ['c', 'a', 'e', 'd', 'b', 'f', 'c'], with total distance: 137.
+ITERATION: 150
+for node=c, for iter=150, for size=0 Best solution: ['c', 'a', 'e', 'd', 'b', 'f', 'c'], with total distance: 137.
+for node=c, for iter=150, for size=3 Best solution: ['c', 'a', 'e', 'd', 'b', 'f', 'c'], with total distance: 137.
+for node=c, for iter=150, for size=5 Best solution: ['c', 'a', 'e', 'd', 'b', 'f', 'c'], with total distance: 137.
+for node=c, for iter=150, for size=10 Best solution: ['c', 'a', 'e', 'd', 'b', 'f', 'c'], with total distance: 137.
+ITERATION: 200
+for node=c, for iter=200, for size=0 Best solution: ['c', 'a', 'e', 'd', 'b', 'f', 'c'], with total distance: 137.
+for node=c, for iter=200, for size=3 Best solution: ['c', 'a', 'e', 'd', 'b', 'f', 'c'], with total distance: 137.
+for node=c, for iter=200, for size=5 Best solution: ['c', 'a', 'e', 'd', 'b', 'f', 'c'], with total distance: 137.
+for node=c, for iter=200, for size=10 Best solution: ['c', 'a', 'e', 'd', 'b', 'f', 'c'], with total distance: 137.
+NODE: d
+ITERATION: 0
+for node=d, for iter=0, for size=0 Best solution: ['d', 'b', 'a', 'e', 'f', 'c', 'd'], with total distance: 170.
+for node=d, for iter=0, for size=3 Best solution: ['d', 'b', 'a', 'e', 'f', 'c', 'd'], with total distance: 170.
+for node=d, for iter=0, for size=5 Best solution: ['d', 'b', 'a', 'e', 'f', 'c', 'd'], with total distance: 170.
+for node=d, for iter=0, for size=10 Best solution: ['d', 'b', 'a', 'e', 'f', 'c', 'd'], with total distance: 170.
+ITERATION: 1
+for node=d, for iter=1, for size=0 Best solution: ['d', 'b', 'e', 'a', 'f', 'c', 'd'], with total distance: 152.
+for node=d, for iter=1, for size=3 Best solution: ['d', 'b', 'e', 'a', 'f', 'c', 'd'], with total distance: 152.
+for node=d, for iter=1, for size=5 Best solution: ['d', 'b', 'e', 'a', 'f', 'c', 'd'], with total distance: 152.
+for node=d, for iter=1, for size=10 Best solution: ['d', 'b', 'e', 'a', 'f', 'c', 'd'], with total distance: 152.
+ITERATION: 5
+for node=d, for iter=5, for size=0 Best solution: ['d', 'b', 'f', 'c', 'a', 'e', 'd'], with total distance: 137.
+for node=d, for iter=5, for size=3 Best solution: ['d', 'b', 'f', 'c', 'a', 'e', 'd'], with total distance: 137.
+for node=d, for iter=5, for size=5 Best solution: ['d', 'b', 'f', 'c', 'a', 'e', 'd'], with total distance: 137.
+for node=d, for iter=5, for size=10 Best solution: ['d', 'b', 'f', 'c', 'a', 'e', 'd'], with total distance: 137.
+ITERATION: 10
+for node=d, for iter=10, for size=0 Best solution: ['d', 'b', 'f', 'c', 'a', 'e', 'd'], with total distance: 137.
+for node=d, for iter=10, for size=3 Best solution: ['d', 'b', 'f', 'c', 'a', 'e', 'd'], with total distance: 137.
+for node=d, for iter=10, for size=5 Best solution: ['d', 'b', 'f', 'c', 'a', 'e', 'd'], with total distance: 137.
+for node=d, for iter=10, for size=10 Best solution: ['d', 'b', 'f', 'c', 'a', 'e', 'd'], with total distance: 137.
+ITERATION: 50
+for node=d, for iter=50, for size=0 Best solution: ['d', 'b', 'f', 'c', 'a', 'e', 'd'], with total distance: 137.
+for node=d, for iter=50, for size=3 Best solution: ['d', 'b', 'f', 'c', 'a', 'e', 'd'], with total distance: 137.
+for node=d, for iter=50, for size=5 Best solution: ['d', 'b', 'f', 'c', 'a', 'e', 'd'], with total distance: 137.
+for node=d, for iter=50, for size=10 Best solution: ['d', 'b', 'f', 'c', 'a', 'e', 'd'], with total distance: 137.
+ITERATION: 100
+for node=d, for iter=100, for size=0 Best solution: ['d', 'b', 'f', 'c', 'a', 'e', 'd'], with total distance: 137.
+for node=d, for iter=100, for size=3 Best solution: ['d', 'b', 'f', 'c', 'a', 'e', 'd'], with total distance: 137.
+for node=d, for iter=100, for size=5 Best solution: ['d', 'b', 'f', 'c', 'a', 'e', 'd'], with total distance: 137.
+for node=d, for iter=100, for size=10 Best solution: ['d', 'b', 'f', 'c', 'a', 'e', 'd'], with total distance: 137.
+ITERATION: 150
+for node=d, for iter=150, for size=0 Best solution: ['d', 'b', 'f', 'c', 'a', 'e', 'd'], with total distance: 137.
+for node=d, for iter=150, for size=3 Best solution: ['d', 'b', 'f', 'c', 'a', 'e', 'd'], with total distance: 137.
+for node=d, for iter=150, for size=5 Best solution: ['d', 'b', 'f', 'c', 'a', 'e', 'd'], with total distance: 137.
+for node=d, for iter=150, for size=10 Best solution: ['d', 'b', 'f', 'c', 'a', 'e', 'd'], with total distance: 137.
+ITERATION: 200
+for node=d, for iter=200, for size=0 Best solution: ['d', 'b', 'f', 'c', 'a', 'e', 'd'], with total distance: 137.
+for node=d, for iter=200, for size=3 Best solution: ['d', 'b', 'f', 'c', 'a', 'e', 'd'], with total distance: 137.
+for node=d, for iter=200, for size=5 Best solution: ['d', 'b', 'f', 'c', 'a', 'e', 'd'], with total distance: 137.
+for node=d, for iter=200, for size=10 Best solution: ['d', 'b', 'f', 'c', 'a', 'e', 'd'], with total distance: 137.
+NODE: e
+ITERATION: 0
+for node=e, for iter=0, for size=0 Best solution: ['e', 'a', 'b', 'd', 'f', 'c', 'e'], with total distance: 184.
+for node=e, for iter=0, for size=3 Best solution: ['e', 'a', 'b', 'd', 'f', 'c', 'e'], with total distance: 184.
+for node=e, for iter=0, for size=5 Best solution: ['e', 'a', 'b', 'd', 'f', 'c', 'e'], with total distance: 184.
+for node=e, for iter=0, for size=10 Best solution: ['e', 'a', 'b', 'd', 'f', 'c', 'e'], with total distance: 184.
+ITERATION: 1
+for node=e, for iter=1, for size=0 Best solution: ['e', 'd', 'b', 'a', 'f', 'c', 'e'], with total distance: 161.
+for node=e, for iter=1, for size=3 Best solution: ['e', 'd', 'b', 'a', 'f', 'c', 'e'], with total distance: 161.
+for node=e, for iter=1, for size=5 Best solution: ['e', 'd', 'b', 'a', 'f', 'c', 'e'], with total distance: 161.
+for node=e, for iter=1, for size=10 Best solution: ['e', 'd', 'b', 'a', 'f', 'c', 'e'], with total distance: 161.
+ITERATION: 5
+for node=e, for iter=5, for size=0 Best solution: ['e', 'd', 'b', 'f', 'c', 'a', 'e'], with total distance: 137.
+for node=e, for iter=5, for size=3 Best solution: ['e', 'd', 'b', 'f', 'c', 'a', 'e'], with total distance: 137.
+for node=e, for iter=5, for size=5 Best solution: ['e', 'd', 'b', 'f', 'c', 'a', 'e'], with total distance: 137.
+for node=e, for iter=5, for size=10 Best solution: ['e', 'd', 'b', 'f', 'c', 'a', 'e'], with total distance: 137.
+ITERATION: 10
+for node=e, for iter=10, for size=0 Best solution: ['e', 'd', 'b', 'f', 'c', 'a', 'e'], with total distance: 137.
+for node=e, for iter=10, for size=3 Best solution: ['e', 'd', 'b', 'f', 'c', 'a', 'e'], with total distance: 137.
+for node=e, for iter=10, for size=5 Best solution: ['e', 'd', 'b', 'f', 'c', 'a', 'e'], with total distance: 137.
+for node=e, for iter=10, for size=10 Best solution: ['e', 'd', 'b', 'f', 'c', 'a', 'e'], with total distance: 137.
+ITERATION: 50
+for node=e, for iter=50, for size=0 Best solution: ['e', 'd', 'b', 'f', 'c', 'a', 'e'], with total distance: 137.
+for node=e, for iter=50, for size=3 Best solution: ['e', 'd', 'b', 'f', 'c', 'a', 'e'], with total distance: 137.
+for node=e, for iter=50, for size=5 Best solution: ['e', 'd', 'b', 'f', 'c', 'a', 'e'], with total distance: 137.
+for node=e, for iter=50, for size=10 Best solution: ['e', 'd', 'b', 'f', 'c', 'a', 'e'], with total distance: 137.
+ITERATION: 100
+for node=e, for iter=100, for size=0 Best solution: ['e', 'd', 'b', 'f', 'c', 'a', 'e'], with total distance: 137.
+for node=e, for iter=100, for size=3 Best solution: ['e', 'd', 'b', 'f', 'c', 'a', 'e'], with total distance: 137.
+for node=e, for iter=100, for size=5 Best solution: ['e', 'd', 'b', 'f', 'c', 'a', 'e'], with total distance: 137.
+for node=e, for iter=100, for size=10 Best solution: ['e', 'd', 'b', 'f', 'c', 'a', 'e'], with total distance: 137.
+ITERATION: 150
+for node=e, for iter=150, for size=0 Best solution: ['e', 'd', 'b', 'f', 'c', 'a', 'e'], with total distance: 137.
+for node=e, for iter=150, for size=3 Best solution: ['e', 'd', 'b', 'f', 'c', 'a', 'e'], with total distance: 137.
+for node=e, for iter=150, for size=5 Best solution: ['e', 'd', 'b', 'f', 'c', 'a', 'e'], with total distance: 137.
+for node=e, for iter=150, for size=10 Best solution: ['e', 'd', 'b', 'f', 'c', 'a', 'e'], with total distance: 137.
+ITERATION: 200
+for node=e, for iter=200, for size=0 Best solution: ['e', 'd', 'b', 'f', 'c', 'a', 'e'], with total distance: 137.
+for node=e, for iter=200, for size=3 Best solution: ['e', 'd', 'b', 'f', 'c', 'a', 'e'], with total distance: 137.
+for node=e, for iter=200, for size=5 Best solution: ['e', 'd', 'b', 'f', 'c', 'a', 'e'], with total distance: 137.
+for node=e, for iter=200, for size=10 Best solution: ['e', 'd', 'b', 'f', 'c', 'a', 'e'], with total distance: 137.
+NODE: f
+ITERATION: 0
+for node=f, for iter=0, for size=0 Best solution: ['f', 'a', 'e', 'b', 'd', 'c', 'f'], with total distance: 152.
+for node=f, for iter=0, for size=3 Best solution: ['f', 'a', 'e', 'b', 'd', 'c', 'f'], with total distance: 152.
+for node=f, for iter=0, for size=5 Best solution: ['f', 'a', 'e', 'b', 'd', 'c', 'f'], with total distance: 152.
+for node=f, for iter=0, for size=10 Best solution: ['f', 'a', 'e', 'b', 'd', 'c', 'f'], with total distance: 152.
+ITERATION: 1
+for node=f, for iter=1, for size=0 Best solution: ['f', 'a', 'e', 'd', 'b', 'c', 'f'], with total distance: 148.
+for node=f, for iter=1, for size=3 Best solution: ['f', 'a', 'e', 'd', 'b', 'c', 'f'], with total distance: 148.
+for node=f, for iter=1, for size=5 Best solution: ['f', 'a', 'e', 'd', 'b', 'c', 'f'], with total distance: 148.
+for node=f, for iter=1, for size=10 Best solution: ['f', 'a', 'e', 'd', 'b', 'c', 'f'], with total distance: 148.
+ITERATION: 5
+for node=f, for iter=5, for size=0 Best solution: ['f', 'a', 'e', 'd', 'b', 'c', 'f'], with total distance: 148.
+for node=f, for iter=5, for size=3 Best solution: ['f', 'a', 'e', 'd', 'b', 'c', 'f'], with total distance: 148.
+for node=f, for iter=5, for size=5 Best solution: ['f', 'a', 'e', 'd', 'b', 'c', 'f'], with total distance: 148.
+for node=f, for iter=5, for size=10 Best solution: ['f', 'a', 'e', 'd', 'b', 'c', 'f'], with total distance: 148.
+ITERATION: 10
+for node=f, for iter=10, for size=0 Best solution: ['f', 'a', 'e', 'd', 'b', 'c', 'f'], with total distance: 148.
+for node=f, for iter=10, for size=3 Best solution: ['f', 'b', 'd', 'e', 'a', 'c', 'f'], with total distance: 137.
+for node=f, for iter=10, for size=5 Best solution: ['f', 'b', 'd', 'e', 'a', 'c', 'f'], with total distance: 137.
+for node=f, for iter=10, for size=10 Best solution: ['f', 'c', 'a', 'e', 'd', 'b', 'f'], with total distance: 137.
+ITERATION: 50
+for node=f, for iter=50, for size=0 Best solution: ['f', 'a', 'e', 'd', 'b', 'c', 'f'], with total distance: 148.
+for node=f, for iter=50, for size=3 Best solution: ['f', 'b', 'd', 'e', 'a', 'c', 'f'], with total distance: 137.
+for node=f, for iter=50, for size=5 Best solution: ['f', 'b', 'd', 'e', 'a', 'c', 'f'], with total distance: 137.
+for node=f, for iter=50, for size=10 Best solution: ['f', 'c', 'a', 'e', 'd', 'b', 'f'], with total distance: 137.
+ITERATION: 100
+for node=f, for iter=100, for size=0 Best solution: ['f', 'a', 'e', 'd', 'b', 'c', 'f'], with total distance: 148.
+for node=f, for iter=100, for size=3 Best solution: ['f', 'b', 'd', 'e', 'a', 'c', 'f'], with total distance: 137.
+for node=f, for iter=100, for size=5 Best solution: ['f', 'b', 'd', 'e', 'a', 'c', 'f'], with total distance: 137.
+for node=f, for iter=100, for size=10 Best solution: ['f', 'c', 'a', 'e', 'd', 'b', 'f'], with total distance: 137.
+ITERATION: 150
+for node=f, for iter=150, for size=0 Best solution: ['f', 'a', 'e', 'd', 'b', 'c', 'f'], with total distance: 148.
+for node=f, for iter=150, for size=3 Best solution: ['f', 'b', 'd', 'e', 'a', 'c', 'f'], with total distance: 137.
+for node=f, for iter=150, for size=5 Best solution: ['f', 'b', 'd', 'e', 'a', 'c', 'f'], with total distance: 137.
+for node=f, for iter=150, for size=10 Best solution: ['f', 'c', 'a', 'e', 'd', 'b', 'f'], with total distance: 137.
+ITERATION: 200
+for node=f, for iter=200, for size=0 Best solution: ['f', 'a', 'e', 'd', 'b', 'c', 'f'], with total distance: 148.
+for node=f, for iter=200, for size=3 Best solution: ['f', 'b', 'd', 'e', 'a', 'c', 'f'], with total distance: 137.
+for node=f, for iter=200, for size=5 Best solution: ['f', 'b', 'd', 'e', 'a', 'c', 'f'], with total distance: 137.
+for node=f, for iter=200, for size=10 Best solution: ['f', 'c', 'a', 'e', 'd', 'b', 'f'], with total distance: 137.

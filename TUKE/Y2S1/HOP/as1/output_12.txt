@@ -1,0 +1,1091 @@
+NODE: a
+ITERATION: 0
+for node=a, for iter=0, for size=0 Best solution: ['a', 'k', 'l', 'f', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'e', 'a'], with total distance: 229.
+for node=a, for iter=0, for size=20 Best solution: ['a', 'k', 'l', 'f', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'e', 'a'], with total distance: 229.
+for node=a, for iter=0, for size=30 Best solution: ['a', 'k', 'l', 'f', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'e', 'a'], with total distance: 229.
+for node=a, for iter=0, for size=35 Best solution: ['a', 'k', 'l', 'f', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'e', 'a'], with total distance: 229.
+for node=a, for iter=0, for size=40 Best solution: ['a', 'k', 'l', 'f', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'e', 'a'], with total distance: 229.
+for node=a, for iter=0, for size=45 Best solution: ['a', 'k', 'l', 'f', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'e', 'a'], with total distance: 229.
+for node=a, for iter=0, for size=50 Best solution: ['a', 'k', 'l', 'f', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'e', 'a'], with total distance: 229.
+for node=a, for iter=0, for size=55 Best solution: ['a', 'k', 'l', 'f', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'e', 'a'], with total distance: 229.
+ITERATION: 1
+for node=a, for iter=1, for size=0 Best solution: ['a', 'k', 'l', 'f', 'e', 'g', 'h', 'd', 'i', 'c', 'j', 'b', 'a'], with total distance: 202.
+for node=a, for iter=1, for size=20 Best solution: ['a', 'k', 'l', 'f', 'e', 'g', 'h', 'd', 'i', 'c', 'j', 'b', 'a'], with total distance: 202.
+for node=a, for iter=1, for size=30 Best solution: ['a', 'k', 'l', 'f', 'e', 'g', 'h', 'd', 'i', 'c', 'j', 'b', 'a'], with total distance: 202.
+for node=a, for iter=1, for size=35 Best solution: ['a', 'k', 'l', 'f', 'e', 'g', 'h', 'd', 'i', 'c', 'j', 'b', 'a'], with total distance: 202.
+for node=a, for iter=1, for size=40 Best solution: ['a', 'k', 'l', 'f', 'e', 'g', 'h', 'd', 'i', 'c', 'j', 'b', 'a'], with total distance: 202.
+for node=a, for iter=1, for size=45 Best solution: ['a', 'k', 'l', 'f', 'e', 'g', 'h', 'd', 'i', 'c', 'j', 'b', 'a'], with total distance: 202.
+for node=a, for iter=1, for size=50 Best solution: ['a', 'k', 'l', 'f', 'e', 'g', 'h', 'd', 'i', 'c', 'j', 'b', 'a'], with total distance: 202.
+for node=a, for iter=1, for size=55 Best solution: ['a', 'k', 'l', 'f', 'e', 'g', 'h', 'd', 'i', 'c', 'j', 'b', 'a'], with total distance: 202.
+ITERATION: 5
+for node=a, for iter=5, for size=0 Best solution: ['a', 'k', 'l', 'f', 'e', 'g', 'h', 'd', 'i', 'c', 'j', 'b', 'a'], with total distance: 202.
+for node=a, for iter=5, for size=20 Best solution: ['a', 'k', 'l', 'f', 'e', 'g', 'h', 'd', 'i', 'c', 'j', 'b', 'a'], with total distance: 202.
+for node=a, for iter=5, for size=30 Best solution: ['a', 'k', 'l', 'f', 'e', 'g', 'h', 'd', 'i', 'c', 'j', 'b', 'a'], with total distance: 202.
+for node=a, for iter=5, for size=35 Best solution: ['a', 'k', 'l', 'f', 'e', 'g', 'h', 'd', 'i', 'c', 'j', 'b', 'a'], with total distance: 202.
+for node=a, for iter=5, for size=40 Best solution: ['a', 'k', 'l', 'f', 'e', 'g', 'h', 'd', 'i', 'c', 'j', 'b', 'a'], with total distance: 202.
+for node=a, for iter=5, for size=45 Best solution: ['a', 'k', 'l', 'f', 'e', 'g', 'h', 'd', 'i', 'c', 'j', 'b', 'a'], with total distance: 202.
+for node=a, for iter=5, for size=50 Best solution: ['a', 'k', 'l', 'f', 'e', 'g', 'h', 'd', 'i', 'c', 'j', 'b', 'a'], with total distance: 202.
+for node=a, for iter=5, for size=55 Best solution: ['a', 'k', 'l', 'f', 'e', 'g', 'h', 'd', 'i', 'c', 'j', 'b', 'a'], with total distance: 202.
+ITERATION: 10
+for node=a, for iter=10, for size=0 Best solution: ['a', 'k', 'l', 'f', 'e', 'g', 'h', 'd', 'i', 'c', 'j', 'b', 'a'], with total distance: 202.
+for node=a, for iter=10, for size=20 Best solution: ['a', 'k', 'l', 'f', 'e', 'g', 'h', 'd', 'i', 'c', 'j', 'b', 'a'], with total distance: 202.
+for node=a, for iter=10, for size=30 Best solution: ['a', 'k', 'l', 'f', 'e', 'g', 'h', 'd', 'i', 'c', 'j', 'b', 'a'], with total distance: 202.
+for node=a, for iter=10, for size=35 Best solution: ['a', 'k', 'l', 'f', 'e', 'g', 'h', 'd', 'i', 'c', 'j', 'b', 'a'], with total distance: 202.
+for node=a, for iter=10, for size=40 Best solution: ['a', 'k', 'l', 'f', 'e', 'g', 'h', 'd', 'i', 'c', 'j', 'b', 'a'], with total distance: 202.
+for node=a, for iter=10, for size=45 Best solution: ['a', 'k', 'l', 'f', 'e', 'g', 'h', 'd', 'i', 'c', 'j', 'b', 'a'], with total distance: 202.
+for node=a, for iter=10, for size=50 Best solution: ['a', 'k', 'l', 'f', 'e', 'g', 'h', 'd', 'i', 'c', 'j', 'b', 'a'], with total distance: 202.
+for node=a, for iter=10, for size=55 Best solution: ['a', 'k', 'l', 'f', 'e', 'g', 'h', 'd', 'i', 'c', 'j', 'b', 'a'], with total distance: 202.
+ITERATION: 100
+for node=a, for iter=100, for size=0 Best solution: ['a', 'k', 'l', 'f', 'e', 'g', 'h', 'd', 'i', 'c', 'j', 'b', 'a'], with total distance: 202.
+for node=a, for iter=100, for size=20 Best solution: ['a', 'k', 'f', 'l', 'i', 'd', 'h', 'c', 'j', 'b', 'g', 'e', 'a'], with total distance: 170.
+for node=a, for iter=100, for size=30 Best solution: ['a', 'k', 'l', 'i', 'd', 'h', 'b', 'e', 'g', 'c', 'j', 'f', 'a'], with total distance: 181.
+for node=a, for iter=100, for size=35 Best solution: ['a', 'k', 'f', 'l', 'g', 'e', 'b', 'd', 'i', 'h', 'c', 'j', 'a'], with total distance: 185.
+for node=a, for iter=100, for size=40 Best solution: ['a', 'j', 'c', 'h', 'g', 'b', 'd', 'i', 'k', 'l', 'f', 'e', 'a'], with total distance: 181.
+for node=a, for iter=100, for size=45 Best solution: ['a', 'k', 'l', 'f', 'e', 'b', 'd', 'i', 'g', 'h', 'c', 'j', 'a'], with total distance: 192.
+for node=a, for iter=100, for size=50 Best solution: ['a', 'k', 'l', 'f', 'e', 'b', 'd', 'i', 'g', 'h', 'c', 'j', 'a'], with total distance: 192.
+for node=a, for iter=100, for size=55 Best solution: ['a', 'k', 'l', 'f', 'e', 'b', 'd', 'i', 'g', 'h', 'c', 'j', 'a'], with total distance: 192.
+ITERATION: 500
+for node=a, for iter=500, for size=0 Best solution: ['a', 'k', 'l', 'f', 'e', 'g', 'h', 'd', 'i', 'c', 'j', 'b', 'a'], with total distance: 202.
+for node=a, for iter=500, for size=20 Best solution: ['a', 'k', 'f', 'l', 'i', 'd', 'h', 'c', 'j', 'b', 'g', 'e', 'a'], with total distance: 170.
+for node=a, for iter=500, for size=30 Best solution: ['a', 'e', 'b', 'g', 'i', 'd', 'h', 'c', 'j', 'f', 'l', 'k', 'a'], with total distance: 167.
+for node=a, for iter=500, for size=35 Best solution: ['a', 'k', 'f', 'l', 'i', 'd', 'b', 'e', 'g', 'h', 'c', 'j', 'a'], with total distance: 171.
+for node=a, for iter=500, for size=40 Best solution: ['a', 'c', 'j', 'f', 'l', 'k', 'i', 'd', 'h', 'b', 'g', 'e', 'a'], with total distance: 177.
+for node=a, for iter=500, for size=45 Best solution: ['a', 'k', 'c', 'j', 'f', 'l', 'i', 'd', 'b', 'h', 'g', 'e', 'a'], with total distance: 181.
+for node=a, for iter=500, for size=50 Best solution: ['a', 'k', 'l', 'f', 'e', 'b', 'd', 'i', 'g', 'h', 'c', 'j', 'a'], with total distance: 192.
+for node=a, for iter=500, for size=55 Best solution: ['a', 'k', 'l', 'f', 'e', 'b', 'd', 'i', 'g', 'h', 'c', 'j', 'a'], with total distance: 192.
+ITERATION: 1000
+for node=a, for iter=1000, for size=0 Best solution: ['a', 'k', 'l', 'f', 'e', 'g', 'h', 'd', 'i', 'c', 'j', 'b', 'a'], with total distance: 202.
+for node=a, for iter=1000, for size=20 Best solution: ['a', 'k', 'l', 'f', 'j', 'c', 'h', 'i', 'd', 'b', 'g', 'e', 'a'], with total distance: 156.
+for node=a, for iter=1000, for size=30 Best solution: ['a', 'e', 'g', 'b', 'd', 'i', 'h', 'c', 'j', 'f', 'l', 'k', 'a'], with total distance: 156.
+for node=a, for iter=1000, for size=35 Best solution: ['a', 'k', 'l', 'f', 'j', 'c', 'i', 'd', 'h', 'g', 'b', 'e', 'a'], with total distance: 159.
+for node=a, for iter=1000, for size=40 Best solution: ['a', 'c', 'j', 'f', 'k', 'l', 'i', 'd', 'b', 'h', 'g', 'e', 'a'], with total distance: 176.
+for node=a, for iter=1000, for size=45 Best solution: ['a', 'e', 'g', 'c', 'j', 'b', 'd', 'h', 'i', 'l', 'f', 'k', 'a'], with total distance: 175.
+for node=a, for iter=1000, for size=50 Best solution: ['a', 'k', 'l', 'f', 'e', 'b', 'd', 'i', 'g', 'h', 'c', 'j', 'a'], with total distance: 192.
+for node=a, for iter=1000, for size=55 Best solution: ['a', 'e', 'g', 'c', 'j', 'f', 'b', 'h', 'd', 'i', 'l', 'k', 'a'], with total distance: 183.
+ITERATION: 2000
+for node=a, for iter=2000, for size=0 Best solution: ['a', 'k', 'l', 'f', 'e', 'g', 'h', 'd', 'i', 'c', 'j', 'b', 'a'], with total distance: 202.
+for node=a, for iter=2000, for size=20 Best solution: ['a', 'k', 'l', 'f', 'j', 'c', 'h', 'i', 'd', 'b', 'g', 'e', 'a'], with total distance: 156.
+for node=a, for iter=2000, for size=30 Best solution: ['a', 'e', 'g', 'b', 'd', 'i', 'h', 'c', 'j', 'f', 'l', 'k', 'a'], with total distance: 156.
+for node=a, for iter=2000, for size=35 Best solution: ['a', 'k', 'l', 'f', 'j', 'c', 'i', 'd', 'h', 'g', 'b', 'e', 'a'], with total distance: 159.
+for node=a, for iter=2000, for size=40 Best solution: ['a', 'c', 'j', 'f', 'k', 'l', 'i', 'd', 'b', 'h', 'g', 'e', 'a'], with total distance: 176.
+for node=a, for iter=2000, for size=45 Best solution: ['a', 'e', 'g', 'c', 'j', 'b', 'd', 'h', 'i', 'l', 'f', 'k', 'a'], with total distance: 175.
+for node=a, for iter=2000, for size=50 Best solution: ['a', 'e', 'g', 'b', 'h', 'd', 'i', 'c', 'j', 'f', 'l', 'k', 'a'], with total distance: 168.
+for node=a, for iter=2000, for size=55 Best solution: ['a', 'e', 'g', 'c', 'j', 'f', 'b', 'h', 'd', 'i', 'l', 'k', 'a'], with total distance: 183.
+ITERATION: 2500
+for node=a, for iter=2500, for size=0 Best solution: ['a', 'k', 'l', 'f', 'e', 'g', 'h', 'd', 'i', 'c', 'j', 'b', 'a'], with total distance: 202.
+for node=a, for iter=2500, for size=20 Best solution: ['a', 'k', 'l', 'f', 'j', 'c', 'h', 'i', 'd', 'b', 'g', 'e', 'a'], with total distance: 156.
+for node=a, for iter=2500, for size=30 Best solution: ['a', 'e', 'g', 'b', 'd', 'i', 'h', 'c', 'j', 'f', 'l', 'k', 'a'], with total distance: 156.
+for node=a, for iter=2500, for size=35 Best solution: ['a', 'k', 'l', 'f', 'j', 'c', 'i', 'd', 'h', 'g', 'b', 'e', 'a'], with total distance: 159.
+for node=a, for iter=2500, for size=40 Best solution: ['a', 'k', 'c', 'j', 'f', 'l', 'i', 'd', 'h', 'g', 'b', 'e', 'a'], with total distance: 170.
+for node=a, for iter=2500, for size=45 Best solution: ['a', 'e', 'g', 'c', 'j', 'b', 'd', 'h', 'i', 'l', 'f', 'k', 'a'], with total distance: 175.
+for node=a, for iter=2500, for size=50 Best solution: ['a', 'e', 'g', 'b', 'h', 'd', 'i', 'c', 'j', 'f', 'l', 'k', 'a'], with total distance: 168.
+for node=a, for iter=2500, for size=55 Best solution: ['a', 'e', 'g', 'c', 'j', 'f', 'b', 'h', 'd', 'i', 'l', 'k', 'a'], with total distance: 183.
+ITERATION: 3000
+for node=a, for iter=3000, for size=0 Best solution: ['a', 'k', 'l', 'f', 'e', 'g', 'h', 'd', 'i', 'c', 'j', 'b', 'a'], with total distance: 202.
+for node=a, for iter=3000, for size=20 Best solution: ['a', 'k', 'l', 'f', 'j', 'c', 'h', 'i', 'd', 'b', 'g', 'e', 'a'], with total distance: 156.
+for node=a, for iter=3000, for size=30 Best solution: ['a', 'e', 'g', 'b', 'd', 'i', 'h', 'c', 'j', 'f', 'l', 'k', 'a'], with total distance: 156.
+for node=a, for iter=3000, for size=35 Best solution: ['a', 'k', 'l', 'f', 'j', 'c', 'i', 'd', 'h', 'g', 'b', 'e', 'a'], with total distance: 159.
+for node=a, for iter=3000, for size=40 Best solution: ['a', 'k', 'c', 'j', 'f', 'l', 'i', 'd', 'h', 'g', 'b', 'e', 'a'], with total distance: 170.
+for node=a, for iter=3000, for size=45 Best solution: ['a', 'e', 'g', 'c', 'j', 'b', 'd', 'h', 'i', 'l', 'f', 'k', 'a'], with total distance: 175.
+for node=a, for iter=3000, for size=50 Best solution: ['a', 'e', 'g', 'b', 'h', 'd', 'i', 'c', 'j', 'f', 'l', 'k', 'a'], with total distance: 168.
+for node=a, for iter=3000, for size=55 Best solution: ['a', 'e', 'g', 'c', 'j', 'f', 'b', 'h', 'd', 'i', 'l', 'k', 'a'], with total distance: 183.
+NODE: b
+ITERATION: 0
+for node=b, for iter=0, for size=0 Best solution: ['b', 'g', 'h', 'd', 'i', 'l', 'k', 'a', 'e', 'f', 'j', 'c', 'b'], with total distance: 194.
+for node=b, for iter=0, for size=20 Best solution: ['b', 'g', 'h', 'd', 'i', 'l', 'k', 'a', 'e', 'f', 'j', 'c', 'b'], with total distance: 194.
+for node=b, for iter=0, for size=30 Best solution: ['b', 'g', 'h', 'd', 'i', 'l', 'k', 'a', 'e', 'f', 'j', 'c', 'b'], with total distance: 194.
+for node=b, for iter=0, for size=35 Best solution: ['b', 'g', 'h', 'd', 'i', 'l', 'k', 'a', 'e', 'f', 'j', 'c', 'b'], with total distance: 194.
+for node=b, for iter=0, for size=40 Best solution: ['b', 'g', 'h', 'd', 'i', 'l', 'k', 'a', 'e', 'f', 'j', 'c', 'b'], with total distance: 194.
+for node=b, for iter=0, for size=45 Best solution: ['b', 'g', 'h', 'd', 'i', 'l', 'k', 'a', 'e', 'f', 'j', 'c', 'b'], with total distance: 194.
+for node=b, for iter=0, for size=50 Best solution: ['b', 'g', 'h', 'd', 'i', 'l', 'k', 'a', 'e', 'f', 'j', 'c', 'b'], with total distance: 194.
+for node=b, for iter=0, for size=55 Best solution: ['b', 'g', 'h', 'd', 'i', 'l', 'k', 'a', 'e', 'f', 'j', 'c', 'b'], with total distance: 194.
+ITERATION: 1
+for node=b, for iter=1, for size=0 Best solution: ['b', 'g', 'h', 'd', 'i', 'l', 'k', 'a', 'e', 'c', 'j', 'f', 'b'], with total distance: 191.
+for node=b, for iter=1, for size=20 Best solution: ['b', 'g', 'h', 'd', 'i', 'l', 'k', 'a', 'e', 'c', 'j', 'f', 'b'], with total distance: 191.
+for node=b, for iter=1, for size=30 Best solution: ['b', 'g', 'h', 'd', 'i', 'l', 'k', 'a', 'e', 'c', 'j', 'f', 'b'], with total distance: 191.
+for node=b, for iter=1, for size=35 Best solution: ['b', 'g', 'h', 'd', 'i', 'l', 'k', 'a', 'e', 'c', 'j', 'f', 'b'], with total distance: 191.
+for node=b, for iter=1, for size=40 Best solution: ['b', 'g', 'h', 'd', 'i', 'l', 'k', 'a', 'e', 'c', 'j', 'f', 'b'], with total distance: 191.
+for node=b, for iter=1, for size=45 Best solution: ['b', 'g', 'h', 'd', 'i', 'l', 'k', 'a', 'e', 'c', 'j', 'f', 'b'], with total distance: 191.
+for node=b, for iter=1, for size=50 Best solution: ['b', 'g', 'h', 'd', 'i', 'l', 'k', 'a', 'e', 'c', 'j', 'f', 'b'], with total distance: 191.
+for node=b, for iter=1, for size=55 Best solution: ['b', 'g', 'h', 'd', 'i', 'l', 'k', 'a', 'e', 'c', 'j', 'f', 'b'], with total distance: 191.
+ITERATION: 5
+for node=b, for iter=5, for size=0 Best solution: ['b', 'g', 'h', 'd', 'i', 'l', 'k', 'a', 'e', 'c', 'j', 'f', 'b'], with total distance: 191.
+for node=b, for iter=5, for size=20 Best solution: ['b', 'g', 'h', 'd', 'i', 'l', 'k', 'a', 'e', 'c', 'j', 'f', 'b'], with total distance: 191.
+for node=b, for iter=5, for size=30 Best solution: ['b', 'g', 'h', 'd', 'i', 'l', 'k', 'a', 'e', 'c', 'j', 'f', 'b'], with total distance: 191.
+for node=b, for iter=5, for size=35 Best solution: ['b', 'g', 'h', 'd', 'i', 'l', 'k', 'a', 'e', 'c', 'j', 'f', 'b'], with total distance: 191.
+for node=b, for iter=5, for size=40 Best solution: ['b', 'g', 'h', 'd', 'i', 'l', 'k', 'a', 'e', 'c', 'j', 'f', 'b'], with total distance: 191.
+for node=b, for iter=5, for size=45 Best solution: ['b', 'g', 'h', 'd', 'i', 'l', 'k', 'a', 'e', 'c', 'j', 'f', 'b'], with total distance: 191.
+for node=b, for iter=5, for size=50 Best solution: ['b', 'g', 'h', 'd', 'i', 'l', 'k', 'a', 'e', 'c', 'j', 'f', 'b'], with total distance: 191.
+for node=b, for iter=5, for size=55 Best solution: ['b', 'g', 'h', 'd', 'i', 'l', 'k', 'a', 'e', 'c', 'j', 'f', 'b'], with total distance: 191.
+ITERATION: 10
+for node=b, for iter=10, for size=0 Best solution: ['b', 'g', 'h', 'd', 'i', 'l', 'k', 'a', 'e', 'c', 'j', 'f', 'b'], with total distance: 191.
+for node=b, for iter=10, for size=20 Best solution: ['b', 'h', 'd', 'i', 'l', 'f', 'k', 'a', 'j', 'c', 'g', 'e', 'b'], with total distance: 180.
+for node=b, for iter=10, for size=30 Best solution: ['b', 'h', 'd', 'i', 'l', 'f', 'k', 'a', 'j', 'c', 'g', 'e', 'b'], with total distance: 180.
+for node=b, for iter=10, for size=40 Best solution: ['b', 'h', 'd', 'i', 'l', 'f', 'k', 'a', 'j', 'c', 'g', 'e', 'b'], with total distance: 180.
+for node=b, for iter=10, for size=45 Best solution: ['b', 'h', 'd', 'i', 'l', 'f', 'k', 'a', 'j', 'c', 'g', 'e', 'b'], with total distance: 180.
+for node=b, for iter=10, for size=50 Best solution: ['b', 'h', 'd', 'i', 'l', 'f', 'k', 'a', 'j', 'c', 'g', 'e', 'b'], with total distance: 180.
+for node=b, for iter=10, for size=55 Best solution: ['b', 'h', 'd', 'i', 'l', 'f', 'k', 'a', 'j', 'c', 'g', 'e', 'b'], with total distance: 180.
+ITERATION: 100
+for node=b, for iter=100, for size=0 Best solution: ['b', 'g', 'h', 'd', 'i', 'l', 'k', 'a', 'e', 'c', 'j', 'f', 'b'], with total distance: 191.
+for node=b, for iter=100, for size=20 Best solution: ['b', 'g', 'e', 'a', 'k', 'l', 'i', 'd', 'h', 'c', 'j', 'f', 'b'], with total distance: 172.
+for node=b, for iter=100, for size=30 Best solution: ['b', 'h', 'd', 'i', 'l', 'f', 'k', 'a', 'j', 'c', 'g', 'e', 'b'], with total distance: 180.
+for node=b, for iter=100, for size=35 Best solution: ['b', 'h', 'd', 'i', 'l', 'f', 'k', 'a', 'j', 'c', 'g', 'e', 'b'], with total distance: 180.
+for node=b, for iter=100, for size=40 Best solution: ['b', 'h', 'd', 'i', 'l', 'f', 'k', 'a', 'j', 'c', 'g', 'e', 'b'], with total distance: 180.
+for node=b, for iter=100, for size=45 Best solution: ['b', 'h', 'd', 'i', 'l', 'f', 'k', 'a', 'j', 'c', 'g', 'e', 'b'], with total distance: 180.
+for node=b, for iter=100, for size=50 Best solution: ['b', 'h', 'd', 'i', 'l', 'f', 'k', 'a', 'j', 'c', 'g', 'e', 'b'], with total distance: 180.
+for node=b, for iter=100, for size=55 Best solution: ['b', 'h', 'd', 'i', 'l', 'f', 'k', 'a', 'j', 'c', 'g', 'e', 'b'], with total distance: 180.
+ITERATION: 500
+for node=b, for iter=500, for size=0 Best solution: ['b', 'g', 'h', 'd', 'i', 'l', 'k', 'a', 'e', 'c', 'j', 'f', 'b'], with total distance: 191.
+for node=b, for iter=500, for size=20 Best solution: ['b', 'd', 'h', 'c', 'j', 'f', 'l', 'i', 'k', 'a', 'e', 'g', 'b'], with total distance: 167.
+for node=b, for iter=500, for size=30 Best solution: ['b', 'd', 'h', 'i', 'c', 'j', 'f', 'l', 'k', 'a', 'e', 'g', 'b'], with total distance: 162.
+for node=b, for iter=500, for size=35 Best solution: ['b', 'g', 'e', 'a', 'k', 'c', 'j', 'f', 'l', 'i', 'd', 'h', 'b'], with total distance: 179.
+for node=b, for iter=500, for size=40 Best solution: ['b', 'g', 'e', 'a', 'k', 'l', 'f', 'j', 'c', 'i', 'h', 'd', 'b'], with total distance: 162.
+for node=b, for iter=500, for size=45 Best solution: ['b', 'h', 'd', 'i', 'l', 'f', 'k', 'a', 'j', 'c', 'g', 'e', 'b'], with total distance: 180.
+for node=b, for iter=500, for size=50 Best solution: ['b', 'h', 'd', 'i', 'l', 'f', 'k', 'a', 'j', 'c', 'g', 'e', 'b'], with total distance: 180.
+for node=b, for iter=500, for size=55 Best solution: ['b', 'h', 'd', 'i', 'l', 'f', 'k', 'a', 'j', 'c', 'g', 'e', 'b'], with total distance: 180.
+ITERATION: 1000
+for node=b, for iter=1000, for size=0 Best solution: ['b', 'g', 'h', 'd', 'i', 'l', 'k', 'a', 'e', 'c', 'j', 'f', 'b'], with total distance: 191.
+for node=b, for iter=1000, for size=20 Best solution: ['b', 'd', 'h', 'i', 'c', 'j', 'f', 'l', 'k', 'a', 'e', 'g', 'b'], with total distance: 162.
+for node=b, for iter=1000, for size=30 Best solution: ['b', 'd', 'h', 'i', 'c', 'j', 'f', 'l', 'k', 'a', 'e', 'g', 'b'], with total distance: 162.
+for node=b, for iter=1000, for size=35 Best solution: ['b', 'd', 'i', 'l', 'f', 'k', 'a', 'j', 'c', 'h', 'g', 'e', 'b'], with total distance: 171.
+for node=b, for iter=1000, for size=40 Best solution: ['b', 'g', 'e', 'a', 'k', 'l', 'f', 'j', 'c', 'i', 'h', 'd', 'b'], with total distance: 162.
+for node=b, for iter=1000, for size=45 Best solution: ['b', 'h', 'd', 'i', 'l', 'f', 'k', 'a', 'j', 'c', 'g', 'e', 'b'], with total distance: 180.
+for node=b, for iter=1000, for size=50 Best solution: ['b', 'h', 'd', 'i', 'l', 'f', 'k', 'a', 'j', 'c', 'g', 'e', 'b'], with total distance: 180.
+for node=b, for iter=1000, for size=55 Best solution: ['b', 'h', 'd', 'i', 'l', 'f', 'k', 'a', 'j', 'c', 'g', 'e', 'b'], with total distance: 180.
+ITERATION: 2000
+for node=b, for iter=2000, for size=0 Best solution: ['b', 'g', 'h', 'd', 'i', 'l', 'k', 'a', 'e', 'c', 'j', 'f', 'b'], with total distance: 191.
+for node=b, for iter=2000, for size=20 Best solution: ['b', 'd', 'i', 'h', 'g', 'c', 'j', 'f', 'l', 'k', 'a', 'e', 'b'], with total distance: 158.
+for node=b, for iter=2000, for size=30 Best solution: ['b', 'd', 'h', 'i', 'c', 'j', 'f', 'l', 'k', 'a', 'e', 'g', 'b'], with total distance: 162.
+for node=b, for iter=2000, for size=35 Best solution: ['b', 'e', 'a', 'c', 'j', 'f', 'l', 'k', 'i', 'd', 'h', 'g', 'b'], with total distance: 168.
+for node=b, for iter=2000, for size=40 Best solution: ['b', 'g', 'e', 'a', 'k', 'l', 'f', 'j', 'c', 'i', 'h', 'd', 'b'], with total distance: 162.
+for node=b, for iter=2000, for size=45 Best solution: ['b', 'h', 'd', 'i', 'l', 'f', 'k', 'a', 'j', 'c', 'g', 'e', 'b'], with total distance: 180.
+for node=b, for iter=2000, for size=50 Best solution: ['b', 'h', 'd', 'i', 'l', 'f', 'k', 'a', 'j', 'c', 'g', 'e', 'b'], with total distance: 180.
+for node=b, for iter=2000, for size=55 Best solution: ['b', 'h', 'd', 'i', 'l', 'f', 'k', 'a', 'j', 'c', 'g', 'e', 'b'], with total distance: 180.
+ITERATION: 2500
+for node=b, for iter=2500, for size=0 Best solution: ['b', 'g', 'h', 'd', 'i', 'l', 'k', 'a', 'e', 'c', 'j', 'f', 'b'], with total distance: 191.
+for node=b, for iter=2500, for size=20 Best solution: ['b', 'd', 'i', 'h', 'g', 'c', 'j', 'f', 'l', 'k', 'a', 'e', 'b'], with total distance: 158.
+for node=b, for iter=2500, for size=30 Best solution: ['b', 'd', 'h', 'i', 'c', 'j', 'f', 'l', 'k', 'a', 'e', 'g', 'b'], with total distance: 162.
+for node=b, for iter=2500, for size=35 Best solution: ['b', 'e', 'a', 'c', 'j', 'f', 'l', 'k', 'i', 'd', 'h', 'g', 'b'], with total distance: 168.
+for node=b, for iter=2500, for size=40 Best solution: ['b', 'g', 'e', 'a', 'k', 'l', 'f', 'j', 'c', 'i', 'h', 'd', 'b'], with total distance: 162.
+for node=b, for iter=2500, for size=45 Best solution: ['b', 'd', 'h', 'g', 'i', 'c', 'j', 'f', 'l', 'k', 'a', 'e', 'b'], with total distance: 175.
+for node=b, for iter=2500, for size=50 Best solution: ['b', 'h', 'd', 'i', 'l', 'f', 'k', 'a', 'j', 'c', 'g', 'e', 'b'], with total distance: 180.
+for node=b, for iter=2500, for size=55 Best solution: ['b', 'h', 'd', 'i', 'l', 'f', 'k', 'a', 'j', 'c', 'g', 'e', 'b'], with total distance: 180.
+ITERATION: 3000
+for node=b, for iter=3000, for size=0 Best solution: ['b', 'g', 'h', 'd', 'i', 'l', 'k', 'a', 'e', 'c', 'j', 'f', 'b'], with total distance: 191.
+for node=b, for iter=3000, for size=20 Best solution: ['b', 'g', 'e', 'a', 'k', 'l', 'f', 'j', 'c', 'h', 'i', 'd', 'b'], with total distance: 156.
+for node=b, for iter=3000, for size=30 Best solution: ['b', 'd', 'h', 'i', 'c', 'j', 'f', 'l', 'k', 'a', 'e', 'g', 'b'], with total distance: 162.
+for node=b, for iter=3000, for size=35 Best solution: ['b', 'g', 'h', 'd', 'i', 'c', 'j', 'f', 'l', 'k', 'a', 'e', 'b'], with total distance: 159.
+for node=b, for iter=3000, for size=40 Best solution: ['b', 'g', 'e', 'a', 'k', 'l', 'f', 'j', 'c', 'i', 'h', 'd', 'b'], with total distance: 162.
+for node=b, for iter=3000, for size=45 Best solution: ['b', 'g', 'h', 'd', 'i', 'c', 'j', 'f', 'l', 'k', 'a', 'e', 'b'], with total distance: 159.
+for node=b, for iter=3000, for size=50 Best solution: ['b', 'd', 'i', 'g', 'e', 'a', 'k', 'l', 'f', 'j', 'c', 'h', 'b'], with total distance: 178.
+for node=b, for iter=3000, for size=55 Best solution: ['b', 'h', 'd', 'i', 'l', 'f', 'k', 'a', 'j', 'c', 'g', 'e', 'b'], with total distance: 180.
+NODE: c
+ITERATION: 0
+for node=c, for iter=0, for size=0 Best solution: ['c', 'j', 'a', 'k', 'l', 'f', 'b', 'g', 'h', 'd', 'i', 'e', 'c'], with total distance: 248.
+for node=c, for iter=0, for size=20 Best solution: ['c', 'j', 'a', 'k', 'l', 'f', 'b', 'g', 'h', 'd', 'i', 'e', 'c'], with total distance: 248.
+for node=c, for iter=0, for size=30 Best solution: ['c', 'j', 'a', 'k', 'l', 'f', 'b', 'g', 'h', 'd', 'i', 'e', 'c'], with total distance: 248.
+for node=c, for iter=0, for size=35 Best solution: ['c', 'j', 'a', 'k', 'l', 'f', 'b', 'g', 'h', 'd', 'i', 'e', 'c'], with total distance: 248.
+for node=c, for iter=0, for size=40 Best solution: ['c', 'j', 'a', 'k', 'l', 'f', 'b', 'g', 'h', 'd', 'i', 'e', 'c'], with total distance: 248.
+for node=c, for iter=0, for size=45 Best solution: ['c', 'j', 'a', 'k', 'l', 'f', 'b', 'g', 'h', 'd', 'i', 'e', 'c'], with total distance: 248.
+for node=c, for iter=0, for size=50 Best solution: ['c', 'j', 'a', 'k', 'l', 'f', 'b', 'g', 'h', 'd', 'i', 'e', 'c'], with total distance: 248.
+for node=c, for iter=0, for size=55 Best solution: ['c', 'j', 'a', 'k', 'l', 'f', 'b', 'g', 'h', 'd', 'i', 'e', 'c'], with total distance: 248.
+ITERATION: 1
+for node=c, for iter=1, for size=0 Best solution: ['c', 'j', 'a', 'k', 'l', 'f', 'b', 'g', 'e', 'd', 'i', 'h', 'c'], with total distance: 197.
+for node=c, for iter=1, for size=20 Best solution: ['c', 'j', 'a', 'k', 'l', 'f', 'b', 'g', 'e', 'd', 'i', 'h', 'c'], with total distance: 197.
+for node=c, for iter=1, for size=30 Best solution: ['c', 'j', 'a', 'k', 'l', 'f', 'b', 'g', 'e', 'd', 'i', 'h', 'c'], with total distance: 197.
+for node=c, for iter=1, for size=35 Best solution: ['c', 'j', 'a', 'k', 'l', 'f', 'b', 'g', 'e', 'd', 'i', 'h', 'c'], with total distance: 197.
+for node=c, for iter=1, for size=40 Best solution: ['c', 'j', 'a', 'k', 'l', 'f', 'b', 'g', 'e', 'd', 'i', 'h', 'c'], with total distance: 197.
+for node=c, for iter=1, for size=45 Best solution: ['c', 'j', 'a', 'k', 'l', 'f', 'b', 'g', 'e', 'd', 'i', 'h', 'c'], with total distance: 197.
+for node=c, for iter=1, for size=50 Best solution: ['c', 'j', 'a', 'k', 'l', 'f', 'b', 'g', 'e', 'd', 'i', 'h', 'c'], with total distance: 197.
+for node=c, for iter=1, for size=55 Best solution: ['c', 'j', 'a', 'k', 'l', 'f', 'b', 'g', 'e', 'd', 'i', 'h', 'c'], with total distance: 197.
+ITERATION: 5
+for node=c, for iter=5, for size=0 Best solution: ['c', 'j', 'a', 'k', 'l', 'f', 'e', 'g', 'b', 'd', 'i', 'h', 'c'], with total distance: 179.
+for node=c, for iter=5, for size=20 Best solution: ['c', 'j', 'a', 'k', 'l', 'f', 'e', 'g', 'b', 'd', 'i', 'h', 'c'], with total distance: 179.
+for node=c, for iter=5, for size=30 Best solution: ['c', 'j', 'a', 'k', 'l', 'f', 'e', 'g', 'b', 'd', 'i', 'h', 'c'], with total distance: 179.
+for node=c, for iter=5, for size=35 Best solution: ['c', 'j', 'a', 'k', 'l', 'f', 'e', 'g', 'b', 'd', 'i', 'h', 'c'], with total distance: 179.
+for node=c, for iter=5, for size=40 Best solution: ['c', 'j', 'a', 'k', 'l', 'f', 'e', 'g', 'b', 'd', 'i', 'h', 'c'], with total distance: 179.
+for node=c, for iter=5, for size=45 Best solution: ['c', 'j', 'a', 'k', 'l', 'f', 'e', 'g', 'b', 'd', 'i', 'h', 'c'], with total distance: 179.
+for node=c, for iter=5, for size=50 Best solution: ['c', 'j', 'a', 'k', 'l', 'f', 'e', 'g', 'b', 'd', 'i', 'h', 'c'], with total distance: 179.
+for node=c, for iter=5, for size=55 Best solution: ['c', 'j', 'a', 'k', 'l', 'f', 'e', 'g', 'b', 'd', 'i', 'h', 'c'], with total distance: 179.
+ITERATION: 10
+for node=c, for iter=10, for size=0 Best solution: ['c', 'j', 'a', 'k', 'l', 'f', 'e', 'g', 'b', 'd', 'i', 'h', 'c'], with total distance: 179.
+for node=c, for iter=10, for size=20 Best solution: ['c', 'j', 'a', 'k', 'l', 'f', 'e', 'g', 'b', 'd', 'i', 'h', 'c'], with total distance: 179.
+for node=c, for iter=10, for size=30 Best solution: ['c', 'j', 'a', 'k', 'l', 'f', 'e', 'g', 'b', 'd', 'i', 'h', 'c'], with total distance: 179.
+for node=c, for iter=10, for size=35 Best solution: ['c', 'j', 'a', 'k', 'l', 'f', 'e', 'g', 'b', 'd', 'i', 'h', 'c'], with total distance: 179.
+for node=c, for iter=10, for size=40 Best solution: ['c', 'j', 'a', 'k', 'l', 'f', 'e', 'g', 'b', 'd', 'i', 'h', 'c'], with total distance: 179.
+for node=c, for iter=10, for size=45 Best solution: ['c', 'j', 'a', 'k', 'l', 'f', 'e', 'g', 'b', 'd', 'i', 'h', 'c'], with total distance: 179.
+for node=c, for iter=10, for size=50 Best solution: ['c', 'j', 'a', 'k', 'l', 'f', 'e', 'g', 'b', 'd', 'i', 'h', 'c'], with total distance: 179.
+for node=c, for iter=10, for size=55 Best solution: ['c', 'j', 'a', 'k', 'l', 'f', 'e', 'g', 'b', 'd', 'i', 'h', 'c'], with total distance: 179.
+ITERATION: 100
+for node=c, for iter=100, for size=0 Best solution: ['c', 'j', 'a', 'k', 'l', 'f', 'e', 'g', 'b', 'd', 'i', 'h', 'c'], with total distance: 179.
+for node=c, for iter=100, for size=20 Best solution: ['c', 'j', 'a', 'k', 'f', 'l', 'i', 'd', 'b', 'e', 'g', 'h', 'c'], with total distance: 171.
+for node=c, for iter=100, for size=30 Best solution: ['c', 'a', 'e', 'b', 'g', 'h', 'd', 'i', 'k', 'l', 'f', 'j', 'c'], with total distance: 168.
+for node=c, for iter=100, for size=35 Best solution: ['c', 'j', 'a', 'k', 'f', 'l', 'i', 'd', 'b', 'e', 'g', 'h', 'c'], with total distance: 171.
+for node=c, for iter=100, for size=40 Best solution: ['c', 'j', 'a', 'k', 'f', 'l', 'i', 'd', 'b', 'e', 'g', 'h', 'c'], with total distance: 171.
+for node=c, for iter=100, for size=45 Best solution: ['c', 'j', 'a', 'k', 'f', 'l', 'i', 'd', 'b', 'e', 'g', 'h', 'c'], with total distance: 171.
+for node=c, for iter=100, for size=50 Best solution: ['c', 'j', 'a', 'k', 'f', 'l', 'i', 'd', 'b', 'e', 'g', 'h', 'c'], with total distance: 171.
+for node=c, for iter=100, for size=55 Best solution: ['c', 'j', 'a', 'k', 'f', 'l', 'i', 'd', 'b', 'e', 'g', 'h', 'c'], with total distance: 171.
+ITERATION: 500
+for node=c, for iter=500, for size=0 Best solution: ['c', 'j', 'a', 'k', 'l', 'f', 'e', 'g', 'b', 'd', 'i', 'h', 'c'], with total distance: 179.
+for node=c, for iter=500, for size=20 Best solution: ['c', 'j', 'f', 'l', 'k', 'a', 'e', 'b', 'g', 'h', 'd', 'i', 'c'], with total distance: 159.
+for node=c, for iter=500, for size=30 Best solution: ['c', 'a', 'e', 'b', 'g', 'h', 'd', 'i', 'k', 'l', 'f', 'j', 'c'], with total distance: 168.
+for node=c, for iter=500, for size=35 Best solution: ['c', 'j', 'a', 'k', 'f', 'l', 'i', 'd', 'b', 'e', 'g', 'h', 'c'], with total distance: 171.
+for node=c, for iter=500, for size=40 Best solution: ['c', 'j', 'a', 'k', 'f', 'l', 'i', 'd', 'b', 'e', 'g', 'h', 'c'], with total distance: 171.
+for node=c, for iter=500, for size=45 Best solution: ['c', 'j', 'a', 'k', 'f', 'l', 'i', 'd', 'b', 'e', 'g', 'h', 'c'], with total distance: 171.
+for node=c, for iter=500, for size=50 Best solution: ['c', 'a', 'e', 'b', 'g', 'h', 'd', 'i', 'l', 'k', 'f', 'j', 'c'], with total distance: 165.
+for node=c, for iter=500, for size=55 Best solution: ['c', 'j', 'a', 'k', 'f', 'l', 'i', 'd', 'b', 'e', 'g', 'h', 'c'], with total distance: 171.
+ITERATION: 1000
+for node=c, for iter=1000, for size=0 Best solution: ['c', 'j', 'a', 'k', 'l', 'f', 'e', 'g', 'b', 'd', 'i', 'h', 'c'], with total distance: 179.
+for node=c, for iter=1000, for size=20 Best solution: ['c', 'j', 'f', 'l', 'k', 'a', 'e', 'b', 'g', 'h', 'd', 'i', 'c'], with total distance: 159.
+for node=c, for iter=1000, for size=30 Best solution: ['c', 'h', 'd', 'b', 'g', 'e', 'a', 'k', 'i', 'l', 'f', 'j', 'c'], with total distance: 167.
+for node=c, for iter=1000, for size=35 Best solution: ['c', 'h', 'd', 'b', 'g', 'e', 'a', 'k', 'i', 'l', 'f', 'j', 'c'], with total distance: 167.
+for node=c, for iter=1000, for size=40 Best solution: ['c', 'j', 'a', 'k', 'f', 'l', 'i', 'd', 'b', 'e', 'g', 'h', 'c'], with total distance: 171.
+for node=c, for iter=1000, for size=45 Best solution: ['c', 'j', 'a', 'k', 'f', 'l', 'i', 'd', 'b', 'e', 'g', 'h', 'c'], with total distance: 171.
+for node=c, for iter=1000, for size=50 Best solution: ['c', 'a', 'e', 'b', 'g', 'h', 'd', 'i', 'l', 'k', 'f', 'j', 'c'], with total distance: 165.
+for node=c, for iter=1000, for size=55 Best solution: ['c', 'j', 'a', 'k', 'f', 'l', 'i', 'd', 'b', 'e', 'g', 'h', 'c'], with total distance: 171.
+ITERATION: 2000
+for node=c, for iter=2000, for size=0 Best solution: ['c', 'j', 'a', 'k', 'l', 'f', 'e', 'g', 'b', 'd', 'i', 'h', 'c'], with total distance: 179.
+for node=c, for iter=2000, for size=20 Best solution: ['c', 'j', 'f', 'l', 'k', 'a', 'e', 'g', 'b', 'd', 'i', 'h', 'c'], with total distance: 156.
+for node=c, for iter=2000, for size=30 Best solution: ['c', 'a', 'e', 'b', 'g', 'h', 'd', 'i', 'l', 'k', 'f', 'j', 'c'], with total distance: 165.
+for node=c, for iter=2000, for size=35 Best solution: ['c', 'a', 'e', 'b', 'g', 'h', 'd', 'i', 'l', 'k', 'f', 'j', 'c'], with total distance: 165.
+for node=c, for iter=2000, for size=40 Best solution: ['c', 'j', 'a', 'k', 'f', 'l', 'i', 'd', 'b', 'e', 'g', 'h', 'c'], with total distance: 171.
+for node=c, for iter=2000, for size=45 Best solution: ['c', 'j', 'a', 'k', 'f', 'l', 'i', 'd', 'b', 'e', 'g', 'h', 'c'], with total distance: 171.
+for node=c, for iter=2000, for size=50 Best solution: ['c', 'a', 'e', 'b', 'g', 'h', 'd', 'i', 'l', 'k', 'f', 'j', 'c'], with total distance: 165.
+for node=c, for iter=2000, for size=55 Best solution: ['c', 'j', 'a', 'k', 'f', 'l', 'i', 'd', 'b', 'e', 'g', 'h', 'c'], with total distance: 171.
+ITERATION: 2500
+for node=c, for iter=2500, for size=0 Best solution: ['c', 'j', 'a', 'k', 'l', 'f', 'e', 'g', 'b', 'd', 'i', 'h', 'c'], with total distance: 179.
+for node=c, for iter=2500, for size=20 Best solution: ['c', 'j', 'f', 'l', 'k', 'a', 'e', 'g', 'b', 'd', 'i', 'h', 'c'], with total distance: 156.
+for node=c, for iter=2500, for size=30 Best solution: ['c', 'a', 'e', 'b', 'g', 'h', 'd', 'i', 'l', 'k', 'f', 'j', 'c'], with total distance: 165.
+for node=c, for iter=2500, for size=35 Best solution: ['c', 'a', 'e', 'b', 'g', 'h', 'd', 'i', 'l', 'k', 'f', 'j', 'c'], with total distance: 165.
+for node=c, for iter=2500, for size=40 Best solution: ['c', 'h', 'i', 'd', 'b', 'g', 'e', 'a', 'k', 'l', 'f', 'j', 'c'], with total distance: 156.
+for node=c, for iter=2500, for size=45 Best solution: ['c', 'j', 'a', 'k', 'f', 'l', 'i', 'd', 'b', 'e', 'g', 'h', 'c'], with total distance: 171.
+for node=c, for iter=2500, for size=50 Best solution: ['c', 'a', 'e', 'b', 'g', 'h', 'd', 'i', 'l', 'k', 'f', 'j', 'c'], with total distance: 165.
+for node=c, for iter=2500, for size=55 Best solution: ['c', 'j', 'a', 'k', 'f', 'l', 'i', 'd', 'b', 'e', 'g', 'h', 'c'], with total distance: 171.
+ITERATION: 3000
+for node=c, for iter=3000, for size=0 Best solution: ['c', 'j', 'a', 'k', 'l', 'f', 'e', 'g', 'b', 'd', 'i', 'h', 'c'], with total distance: 179.
+for node=c, for iter=3000, for size=20 Best solution: ['c', 'j', 'f', 'l', 'k', 'a', 'e', 'g', 'b', 'd', 'i', 'h', 'c'], with total distance: 156.
+for node=c, for iter=3000, for size=30 Best solution: ['c', 'j', 'f', 'l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c'], with total distance: 158.
+for node=c, for iter=3000, for size=35 Best solution: ['c', 'h', 'i', 'd', 'b', 'g', 'e', 'a', 'k', 'l', 'f', 'j', 'c'], with total distance: 156.
+for node=c, for iter=3000, for size=40 Best solution: ['c', 'h', 'i', 'd', 'b', 'g', 'e', 'a', 'k', 'l', 'f', 'j', 'c'], with total distance: 156.
+for node=c, for iter=3000, for size=45 Best solution: ['c', 'j', 'a', 'k', 'f', 'l', 'i', 'd', 'b', 'e', 'g', 'h', 'c'], with total distance: 171.
+for node=c, for iter=3000, for size=50 Best solution: ['c', 'a', 'e', 'b', 'g', 'h', 'd', 'i', 'l', 'k', 'f', 'j', 'c'], with total distance: 165.
+for node=c, for iter=3000, for size=55 Best solution: ['c', 'j', 'a', 'k', 'f', 'l', 'i', 'd', 'b', 'e', 'g', 'h', 'c'], with total distance: 171.
+NODE: d
+ITERATION: 0
+for node=d, for iter=0, for size=0 Best solution: ['d', 'b', 'g', 'h', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'i', 'd'], with total distance: 228.
+for node=d, for iter=0, for size=20 Best solution: ['d', 'b', 'g', 'h', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'i', 'd'], with total distance: 228.
+for node=d, for iter=0, for size=30 Best solution: ['d', 'b', 'g', 'h', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'i', 'd'], with total distance: 228.
+for node=d, for iter=0, for size=35 Best solution: ['d', 'b', 'g', 'h', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'i', 'd'], with total distance: 228.
+for node=d, for iter=0, for size=40 Best solution: ['d', 'b', 'g', 'h', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'i', 'd'], with total distance: 228.
+for node=d, for iter=0, for size=45 Best solution: ['d', 'b', 'g', 'h', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'i', 'd'], with total distance: 228.
+for node=d, for iter=0, for size=50 Best solution: ['d', 'b', 'g', 'h', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'i', 'd'], with total distance: 228.
+for node=d, for iter=0, for size=55 Best solution: ['d', 'b', 'g', 'h', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'i', 'd'], with total distance: 228.
+ITERATION: 1
+for node=d, for iter=1, for size=0 Best solution: ['d', 'i', 'g', 'h', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'd'], with total distance: 192.
+for node=d, for iter=1, for size=20 Best solution: ['d', 'i', 'g', 'h', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'd'], with total distance: 192.
+for node=d, for iter=1, for size=30 Best solution: ['d', 'i', 'g', 'h', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'd'], with total distance: 192.
+for node=d, for iter=1, for size=35 Best solution: ['d', 'i', 'g', 'h', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'd'], with total distance: 192.
+for node=d, for iter=1, for size=40 Best solution: ['d', 'i', 'g', 'h', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'd'], with total distance: 192.
+for node=d, for iter=1, for size=45 Best solution: ['d', 'i', 'g', 'h', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'd'], with total distance: 192.
+for node=d, for iter=1, for size=50 Best solution: ['d', 'i', 'g', 'h', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'd'], with total distance: 192.
+for node=d, for iter=1, for size=55 Best solution: ['d', 'i', 'g', 'h', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'd'], with total distance: 192.
+ITERATION: 5
+for node=d, for iter=5, for size=0 Best solution: ['d', 'i', 'h', 'g', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'd'], with total distance: 181.
+for node=d, for iter=5, for size=20 Best solution: ['d', 'i', 'h', 'g', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'd'], with total distance: 181.
+for node=d, for iter=5, for size=30 Best solution: ['d', 'i', 'h', 'g', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'd'], with total distance: 181.
+for node=d, for iter=5, for size=35 Best solution: ['d', 'i', 'h', 'g', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'd'], with total distance: 181.
+for node=d, for iter=5, for size=40 Best solution: ['d', 'i', 'h', 'g', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'd'], with total distance: 181.
+for node=d, for iter=5, for size=45 Best solution: ['d', 'i', 'h', 'g', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'd'], with total distance: 181.
+for node=d, for iter=5, for size=50 Best solution: ['d', 'i', 'h', 'g', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'd'], with total distance: 181.
+for node=d, for iter=5, for size=55 Best solution: ['d', 'i', 'h', 'g', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'd'], with total distance: 181.
+ITERATION: 10
+for node=d, for iter=10, for size=0 Best solution: ['d', 'i', 'h', 'g', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'd'], with total distance: 181.
+for node=d, for iter=10, for size=20 Best solution: ['d', 'i', 'h', 'g', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'd'], with total distance: 181.
+for node=d, for iter=10, for size=30 Best solution: ['d', 'i', 'h', 'g', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'd'], with total distance: 181.
+for node=d, for iter=10, for size=35 Best solution: ['d', 'i', 'h', 'g', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'd'], with total distance: 181.
+for node=d, for iter=10, for size=40 Best solution: ['d', 'i', 'h', 'g', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'd'], with total distance: 181.
+for node=d, for iter=10, for size=45 Best solution: ['d', 'i', 'h', 'g', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'd'], with total distance: 181.
+for node=d, for iter=10, for size=50 Best solution: ['d', 'i', 'h', 'g', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'd'], with total distance: 181.
+for node=d, for iter=10, for size=55 Best solution: ['d', 'i', 'h', 'g', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'd'], with total distance: 181.
+ITERATION: 100
+for node=d, for iter=100, for size=0 Best solution: ['d', 'i', 'h', 'g', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'd'], with total distance: 181.
+for node=d, for iter=100, for size=20 Best solution: ['d', 'i', 'h', 'g', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'd'], with total distance: 181.
+for node=d, for iter=100, for size=30 Best solution: ['d', 'b', 'e', 'a', 'k', 'i', 'l', 'f', 'j', 'c', 'g', 'h', 'd'], with total distance: 169.
+for node=d, for iter=100, for size=35 Best solution: ['d', 'i', 'h', 'g', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'd'], with total distance: 181.
+for node=d, for iter=100, for size=40 Best solution: ['d', 'i', 'h', 'g', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'd'], with total distance: 181.
+for node=d, for iter=100, for size=45 Best solution: ['d', 'b', 'e', 'a', 'k', 'i', 'l', 'f', 'j', 'c', 'g', 'h', 'd'], with total distance: 169.
+for node=d, for iter=100, for size=50 Best solution: ['d', 'i', 'h', 'g', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'd'], with total distance: 181.
+for node=d, for iter=100, for size=55 Best solution: ['d', 'i', 'h', 'g', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'd'], with total distance: 181.
+ITERATION: 500
+for node=d, for iter=500, for size=0 Best solution: ['d', 'i', 'h', 'g', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'd'], with total distance: 181.
+for node=d, for iter=500, for size=20 Best solution: ['d', 'b', 'e', 'a', 'k', 'l', 'f', 'j', 'c', 'g', 'h', 'i', 'd'], with total distance: 158.
+for node=d, for iter=500, for size=30 Best solution: ['d', 'b', 'e', 'a', 'k', 'i', 'l', 'f', 'j', 'c', 'g', 'h', 'd'], with total distance: 169.
+for node=d, for iter=500, for size=35 Best solution: ['d', 'b', 'g', 'e', 'a', 'k', 'i', 'l', 'f', 'j', 'c', 'h', 'd'], with total distance: 167.
+for node=d, for iter=500, for size=40 Best solution: ['d', 'h', 'g', 'c', 'j', 'b', 'e', 'a', 'k', 'f', 'l', 'i', 'd'], with total distance: 172.
+for node=d, for iter=500, for size=45 Best solution: ['d', 'b', 'e', 'a', 'k', 'i', 'l', 'f', 'j', 'c', 'g', 'h', 'd'], with total distance: 169.
+for node=d, for iter=500, for size=50 Best solution: ['d', 'i', 'h', 'g', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'd'], with total distance: 181.
+for node=d, for iter=500, for size=55 Best solution: ['d', 'i', 'h', 'g', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'd'], with total distance: 181.
+ITERATION: 1000
+for node=d, for iter=1000, for size=0 Best solution: ['d', 'i', 'h', 'g', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'd'], with total distance: 181.
+for node=d, for iter=1000, for size=20 Best solution: ['d', 'b', 'e', 'a', 'k', 'l', 'f', 'j', 'c', 'g', 'h', 'i', 'd'], with total distance: 158.
+for node=d, for iter=1000, for size=30 Best solution: ['d', 'b', 'e', 'a', 'k', 'i', 'l', 'f', 'j', 'c', 'g', 'h', 'd'], with total distance: 169.
+for node=d, for iter=1000, for size=35 Best solution: ['d', 'b', 'g', 'e', 'a', 'k', 'i', 'l', 'f', 'j', 'c', 'h', 'd'], with total distance: 167.
+for node=d, for iter=1000, for size=40 Best solution: ['d', 'b', 'e', 'a', 'k', 'l', 'f', 'j', 'c', 'g', 'h', 'i', 'd'], with total distance: 158.
+for node=d, for iter=1000, for size=45 Best solution: ['d', 'b', 'e', 'a', 'k', 'i', 'l', 'f', 'j', 'c', 'g', 'h', 'd'], with total distance: 169.
+for node=d, for iter=1000, for size=50 Best solution: ['d', 'i', 'h', 'g', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'd'], with total distance: 181.
+for node=d, for iter=1000, for size=55 Best solution: ['d', 'i', 'h', 'g', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'd'], with total distance: 181.
+ITERATION: 2000
+for node=d, for iter=2000, for size=0 Best solution: ['d', 'i', 'h', 'g', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'd'], with total distance: 181.
+for node=d, for iter=2000, for size=20 Best solution: ['d', 'b', 'e', 'a', 'k', 'l', 'f', 'j', 'c', 'g', 'h', 'i', 'd'], with total distance: 158.
+for node=d, for iter=2000, for size=30 Best solution: ['d', 'i', 'c', 'j', 'f', 'l', 'k', 'a', 'e', 'b', 'g', 'h', 'd'], with total distance: 159.
+for node=d, for iter=2000, for size=35 Best solution: ['d', 'b', 'g', 'e', 'a', 'k', 'i', 'l', 'f', 'j', 'c', 'h', 'd'], with total distance: 167.
+for node=d, for iter=2000, for size=40 Best solution: ['d', 'b', 'e', 'a', 'k', 'l', 'f', 'j', 'c', 'g', 'h', 'i', 'd'], with total distance: 158.
+for node=d, for iter=2000, for size=45 Best solution: ['d', 'b', 'e', 'a', 'k', 'i', 'l', 'f', 'j', 'c', 'g', 'h', 'd'], with total distance: 169.
+for node=d, for iter=2000, for size=50 Best solution: ['d', 'i', 'h', 'g', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'd'], with total distance: 181.
+for node=d, for iter=2000, for size=55 Best solution: ['d', 'i', 'h', 'g', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'd'], with total distance: 181.
+ITERATION: 2500
+for node=d, for iter=2500, for size=0 Best solution: ['d', 'i', 'h', 'g', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'd'], with total distance: 181.
+for node=d, for iter=2500, for size=20 Best solution: ['d', 'b', 'e', 'a', 'k', 'l', 'f', 'j', 'c', 'g', 'h', 'i', 'd'], with total distance: 158.
+for node=d, for iter=2500, for size=30 Best solution: ['d', 'i', 'c', 'j', 'f', 'l', 'k', 'a', 'e', 'b', 'g', 'h', 'd'], with total distance: 159.
+for node=d, for iter=2500, for size=35 Best solution: ['d', 'i', 'h', 'g', 'c', 'j', 'f', 'l', 'k', 'a', 'e', 'b', 'd'], with total distance: 158.
+for node=d, for iter=2500, for size=40 Best solution: ['d', 'b', 'e', 'a', 'k', 'l', 'f', 'j', 'c', 'g', 'h', 'i', 'd'], with total distance: 158.
+for node=d, for iter=2500, for size=45 Best solution: ['d', 'b', 'e', 'a', 'k', 'i', 'l', 'f', 'j', 'c', 'g', 'h', 'd'], with total distance: 169.
+for node=d, for iter=2500, for size=50 Best solution: ['d', 'i', 'h', 'g', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'd'], with total distance: 181.
+for node=d, for iter=2500, for size=55 Best solution: ['d', 'i', 'h', 'g', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'd'], with total distance: 181.
+ITERATION: 3000
+for node=d, for iter=3000, for size=0 Best solution: ['d', 'i', 'h', 'g', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'd'], with total distance: 181.
+for node=d, for iter=3000, for size=20 Best solution: ['d', 'b', 'e', 'a', 'k', 'l', 'f', 'j', 'c', 'g', 'h', 'i', 'd'], with total distance: 158.
+for node=d, for iter=3000, for size=30 Best solution: ['d', 'i', 'c', 'j', 'f', 'l', 'k', 'a', 'e', 'b', 'g', 'h', 'd'], with total distance: 159.
+for node=d, for iter=3000, for size=35 Best solution: ['d', 'i', 'h', 'g', 'c', 'j', 'f', 'l', 'k', 'a', 'e', 'b', 'd'], with total distance: 158.
+for node=d, for iter=3000, for size=40 Best solution: ['d', 'b', 'e', 'a', 'k', 'l', 'f', 'j', 'c', 'g', 'h', 'i', 'd'], with total distance: 158.
+for node=d, for iter=3000, for size=45 Best solution: ['d', 'b', 'e', 'a', 'k', 'i', 'l', 'f', 'j', 'c', 'g', 'h', 'd'], with total distance: 169.
+for node=d, for iter=3000, for size=50 Best solution: ['d', 'i', 'h', 'g', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'd'], with total distance: 181.
+for node=d, for iter=3000, for size=55 Best solution: ['d', 'i', 'h', 'g', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'd'], with total distance: 181.
+NODE: e
+ITERATION: 0
+for node=e, for iter=0, for size=0 Best solution: ['e', 'a', 'k', 'l', 'f', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'e'], with total distance: 229.
+for node=e, for iter=0, for size=20 Best solution: ['e', 'a', 'k', 'l', 'f', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'e'], with total distance: 229.
+for node=e, for iter=0, for size=30 Best solution: ['e', 'a', 'k', 'l', 'f', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'e'], with total distance: 229.
+for node=e, for iter=0, for size=35 Best solution: ['e', 'a', 'k', 'l', 'f', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'e'], with total distance: 229.
+for node=e, for iter=0, for size=40 Best solution: ['e', 'a', 'k', 'l', 'f', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'e'], with total distance: 229.
+for node=e, for iter=0, for size=45 Best solution: ['e', 'a', 'k', 'l', 'f', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'e'], with total distance: 229.
+for node=e, for iter=0, for size=50 Best solution: ['e', 'a', 'k', 'l', 'f', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'e'], with total distance: 229.
+for node=e, for iter=0, for size=55 Best solution: ['e', 'a', 'k', 'l', 'f', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'e'], with total distance: 229.
+ITERATION: 1
+for node=e, for iter=1, for size=0 Best solution: ['e', 'a', 'k', 'l', 'f', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'e'], with total distance: 229.
+for node=e, for iter=1, for size=20 Best solution: ['e', 'a', 'k', 'l', 'f', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'e'], with total distance: 229.
+for node=e, for iter=1, for size=30 Best solution: ['e', 'a', 'k', 'l', 'f', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'e'], with total distance: 229.
+for node=e, for iter=1, for size=35 Best solution: ['e', 'a', 'k', 'l', 'f', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'e'], with total distance: 229.
+for node=e, for iter=1, for size=40 Best solution: ['e', 'a', 'k', 'l', 'f', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'e'], with total distance: 229.
+for node=e, for iter=1, for size=45 Best solution: ['e', 'a', 'k', 'l', 'f', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'e'], with total distance: 229.
+for node=e, for iter=1, for size=50 Best solution: ['e', 'a', 'k', 'l', 'f', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'e'], with total distance: 229.
+for node=e, for iter=1, for size=55 Best solution: ['e', 'a', 'k', 'l', 'f', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'e'], with total distance: 229.
+ITERATION: 5
+for node=e, for iter=5, for size=0 Best solution: ['e', 'a', 'k', 'l', 'f', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'e'], with total distance: 229.
+for node=e, for iter=5, for size=20 Best solution: ['e', 'a', 'f', 'l', 'k', 'i', 'd', 'b', 'g', 'j', 'c', 'h', 'e'], with total distance: 221.
+for node=e, for iter=5, for size=30 Best solution: ['e', 'a', 'f', 'l', 'k', 'i', 'd', 'b', 'g', 'j', 'c', 'h', 'e'], with total distance: 221.
+for node=e, for iter=5, for size=35 Best solution: ['e', 'a', 'f', 'l', 'k', 'i', 'd', 'b', 'g', 'j', 'c', 'h', 'e'], with total distance: 221.
+for node=e, for iter=5, for size=40 Best solution: ['e', 'a', 'f', 'l', 'k', 'i', 'd', 'b', 'g', 'j', 'c', 'h', 'e'], with total distance: 221.
+for node=e, for iter=5, for size=45 Best solution: ['e', 'a', 'f', 'l', 'k', 'i', 'd', 'b', 'g', 'j', 'c', 'h', 'e'], with total distance: 221.
+for node=e, for iter=5, for size=50 Best solution: ['e', 'a', 'f', 'l', 'k', 'i', 'd', 'b', 'g', 'j', 'c', 'h', 'e'], with total distance: 221.
+for node=e, for iter=5, for size=55 Best solution: ['e', 'a', 'f', 'l', 'k', 'i', 'd', 'b', 'g', 'j', 'c', 'h', 'e'], with total distance: 221.
+ITERATION: 10
+for node=e, for iter=10, for size=0 Best solution: ['e', 'a', 'k', 'l', 'f', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'e'], with total distance: 229.
+for node=e, for iter=10, for size=20 Best solution: ['e', 'a', 'f', 'k', 'l', 'i', 'd', 'h', 'c', 'j', 'b', 'g', 'e'], with total distance: 178.
+for node=e, for iter=10, for size=30 Best solution: ['e', 'a', 'f', 'k', 'l', 'i', 'd', 'h', 'c', 'j', 'b', 'g', 'e'], with total distance: 178.
+for node=e, for iter=10, for size=35 Best solution: ['e', 'a', 'f', 'k', 'l', 'i', 'd', 'h', 'c', 'j', 'b', 'g', 'e'], with total distance: 178.
+for node=e, for iter=10, for size=40 Best solution: ['e', 'a', 'f', 'k', 'l', 'i', 'd', 'h', 'c', 'j', 'b', 'g', 'e'], with total distance: 178.
+for node=e, for iter=10, for size=45 Best solution: ['e', 'a', 'f', 'k', 'l', 'i', 'd', 'h', 'c', 'j', 'b', 'g', 'e'], with total distance: 178.
+for node=e, for iter=10, for size=50 Best solution: ['e', 'a', 'f', 'k', 'l', 'i', 'd', 'h', 'c', 'j', 'b', 'g', 'e'], with total distance: 178.
+for node=e, for iter=10, for size=55 Best solution: ['e', 'a', 'f', 'k', 'l', 'i', 'd', 'h', 'c', 'j', 'b', 'g', 'e'], with total distance: 178.
+ITERATION: 100
+for node=e, for iter=100, for size=0 Best solution: ['e', 'a', 'k', 'l', 'f', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'e'], with total distance: 229.
+for node=e, for iter=100, for size=20 Best solution: ['e', 'a', 'f', 'k', 'l', 'i', 'd', 'h', 'c', 'j', 'b', 'g', 'e'], with total distance: 178.
+for node=e, for iter=100, for size=30 Best solution: ['e', 'a', 'f', 'k', 'l', 'i', 'd', 'h', 'c', 'j', 'b', 'g', 'e'], with total distance: 178.
+for node=e, for iter=100, for size=35 Best solution: ['e', 'b', 'j', 'c', 'g', 'h', 'd', 'i', 'l', 'f', 'k', 'a', 'e'], with total distance: 172.
+for node=e, for iter=100, for size=40 Best solution: ['e', 'a', 'f', 'k', 'l', 'i', 'd', 'h', 'c', 'j', 'b', 'g', 'e'], with total distance: 178.
+for node=e, for iter=100, for size=45 Best solution: ['e', 'a', 'f', 'k', 'l', 'i', 'd', 'h', 'c', 'j', 'b', 'g', 'e'], with total distance: 178.
+for node=e, for iter=100, for size=50 Best solution: ['e', 'a', 'f', 'k', 'l', 'i', 'd', 'h', 'c', 'j', 'b', 'g', 'e'], with total distance: 178.
+for node=e, for iter=100, for size=55 Best solution: ['e', 'a', 'f', 'k', 'l', 'i', 'd', 'h', 'c', 'j', 'b', 'g', 'e'], with total distance: 178.
+ITERATION: 500
+for node=e, for iter=500, for size=0 Best solution: ['e', 'a', 'k', 'l', 'f', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'e'], with total distance: 229.
+for node=e, for iter=500, for size=20 Best solution: ['e', 'b', 'd', 'h', 'g', 'c', 'j', 'f', 'l', 'i', 'k', 'a', 'e'], with total distance: 169.
+for node=e, for iter=500, for size=30 Best solution: ['e', 'a', 'k', 'i', 'l', 'f', 'j', 'c', 'g', 'h', 'd', 'b', 'e'], with total distance: 169.
+for node=e, for iter=500, for size=35 Best solution: ['e', 'b', 'd', 'h', 'g', 'c', 'j', 'f', 'l', 'i', 'k', 'a', 'e'], with total distance: 169.
+for node=e, for iter=500, for size=40 Best solution: ['e', 'a', 'f', 'k', 'l', 'i', 'd', 'h', 'c', 'j', 'b', 'g', 'e'], with total distance: 178.
+for node=e, for iter=500, for size=45 Best solution: ['e', 'a', 'k', 'l', 'i', 'h', 'd', 'b', 'f', 'j', 'c', 'g', 'e'], with total distance: 177.
+for node=e, for iter=500, for size=50 Best solution: ['e', 'a', 'f', 'k', 'l', 'i', 'd', 'h', 'c', 'j', 'b', 'g', 'e'], with total distance: 178.
+for node=e, for iter=500, for size=55 Best solution: ['e', 'a', 'f', 'k', 'l', 'i', 'd', 'h', 'c', 'j', 'b', 'g', 'e'], with total distance: 178.
+ITERATION: 1000
+for node=e, for iter=1000, for size=0 Best solution: ['e', 'a', 'k', 'l', 'f', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'e'], with total distance: 229.
+for node=e, for iter=1000, for size=20 Best solution: ['e', 'g', 'b', 'd', 'h', 'i', 'l', 'k', 'f', 'j', 'c', 'a', 'e'], with total distance: 168.
+for node=e, for iter=1000, for size=30 Best solution: ['e', 'b', 'g', 'h', 'd', 'i', 'k', 'l', 'f', 'j', 'c', 'a', 'e'], with total distance: 168.
+for node=e, for iter=1000, for size=35 Best solution: ['e', 'a', 'k', 'l', 'f', 'j', 'c', 'g', 'h', 'i', 'd', 'b', 'e'], with total distance: 158.
+for node=e, for iter=1000, for size=40 Best solution: ['e', 'a', 'f', 'k', 'l', 'i', 'd', 'h', 'c', 'j', 'b', 'g', 'e'], with total distance: 178.
+for node=e, for iter=1000, for size=45 Best solution: ['e', 'a', 'k', 'l', 'f', 'j', 'c', 'g', 'h', 'i', 'd', 'b', 'e'], with total distance: 158.
+for node=e, for iter=1000, for size=50 Best solution: ['e', 'a', 'f', 'k', 'l', 'i', 'd', 'h', 'c', 'j', 'b', 'g', 'e'], with total distance: 178.
+for node=e, for iter=1000, for size=55 Best solution: ['e', 'a', 'f', 'k', 'l', 'i', 'd', 'h', 'c', 'j', 'b', 'g', 'e'], with total distance: 178.
+ITERATION: 2000
+for node=e, for iter=2000, for size=0 Best solution: ['e', 'a', 'k', 'l', 'f', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'e'], with total distance: 229.
+for node=e, for iter=2000, for size=20 Best solution: ['e', 'a', 'k', 'l', 'f', 'j', 'c', 'i', 'd', 'h', 'g', 'b', 'e'], with total distance: 159.
+for node=e, for iter=2000, for size=30 Best solution: ['e', 'b', 'g', 'h', 'd', 'i', 'l', 'k', 'f', 'j', 'c', 'a', 'e'], with total distance: 165.
+for node=e, for iter=2000, for size=35 Best solution: ['e', 'a', 'k', 'l', 'f', 'j', 'c', 'g', 'h', 'i', 'd', 'b', 'e'], with total distance: 158.
+for node=e, for iter=2000, for size=40 Best solution: ['e', 'a', 'k', 'l', 'f', 'j', 'c', 'i', 'h', 'd', 'b', 'g', 'e'], with total distance: 162.
+for node=e, for iter=2000, for size=45 Best solution: ['e', 'a', 'k', 'l', 'f', 'j', 'c', 'g', 'h', 'i', 'd', 'b', 'e'], with total distance: 158.
+for node=e, for iter=2000, for size=50 Best solution: ['e', 'a', 'f', 'k', 'l', 'i', 'd', 'h', 'c', 'j', 'b', 'g', 'e'], with total distance: 178.
+for node=e, for iter=2000, for size=55 Best solution: ['e', 'a', 'f', 'k', 'l', 'i', 'd', 'h', 'c', 'j', 'b', 'g', 'e'], with total distance: 178.
+ITERATION: 2500
+for node=e, for iter=2500, for size=0 Best solution: ['e', 'a', 'k', 'l', 'f', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'e'], with total distance: 229.
+for node=e, for iter=2500, for size=20 Best solution: ['e', 'a', 'k', 'l', 'f', 'j', 'c', 'i', 'd', 'h', 'g', 'b', 'e'], with total distance: 159.
+for node=e, for iter=2500, for size=30 Best solution: ['e', 'b', 'g', 'h', 'd', 'i', 'l', 'k', 'f', 'j', 'c', 'a', 'e'], with total distance: 165.
+for node=e, for iter=2500, for size=35 Best solution: ['e', 'a', 'k', 'l', 'f', 'j', 'c', 'g', 'h', 'i', 'd', 'b', 'e'], with total distance: 158.
+for node=e, for iter=2500, for size=40 Best solution: ['e', 'a', 'k', 'l', 'f', 'j', 'c', 'i', 'h', 'd', 'b', 'g', 'e'], with total distance: 162.
+for node=e, for iter=2500, for size=45 Best solution: ['e', 'a', 'k', 'l', 'f', 'j', 'c', 'g', 'h', 'i', 'd', 'b', 'e'], with total distance: 158.
+for node=e, for iter=2500, for size=50 Best solution: ['e', 'a', 'f', 'k', 'l', 'i', 'd', 'h', 'c', 'j', 'b', 'g', 'e'], with total distance: 178.
+for node=e, for iter=2500, for size=55 Best solution: ['e', 'a', 'f', 'k', 'l', 'i', 'd', 'h', 'c', 'j', 'b', 'g', 'e'], with total distance: 178.
+ITERATION: 3000
+for node=e, for iter=3000, for size=0 Best solution: ['e', 'a', 'k', 'l', 'f', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'e'], with total distance: 229.
+for node=e, for iter=3000, for size=20 Best solution: ['e', 'g', 'b', 'd', 'i', 'h', 'c', 'j', 'f', 'l', 'k', 'a', 'e'], with total distance: 156.
+for node=e, for iter=3000, for size=30 Best solution: ['e', 'b', 'g', 'h', 'd', 'i', 'l', 'k', 'f', 'j', 'c', 'a', 'e'], with total distance: 165.
+for node=e, for iter=3000, for size=35 Best solution: ['e', 'a', 'k', 'l', 'f', 'j', 'c', 'g', 'h', 'i', 'd', 'b', 'e'], with total distance: 158.
+for node=e, for iter=3000, for size=40 Best solution: ['e', 'a', 'k', 'l', 'f', 'j', 'c', 'i', 'h', 'd', 'b', 'g', 'e'], with total distance: 162.
+for node=e, for iter=3000, for size=45 Best solution: ['e', 'a', 'k', 'l', 'f', 'j', 'c', 'g', 'h', 'i', 'd', 'b', 'e'], with total distance: 158.
+for node=e, for iter=3000, for size=50 Best solution: ['e', 'a', 'f', 'k', 'l', 'i', 'd', 'h', 'c', 'j', 'b', 'g', 'e'], with total distance: 178.
+for node=e, for iter=3000, for size=55 Best solution: ['e', 'a', 'f', 'k', 'l', 'i', 'd', 'h', 'c', 'j', 'b', 'g', 'e'], with total distance: 178.
+NODE: f
+ITERATION: 0
+for node=f, for iter=0, for size=0 Best solution: ['f', 'l', 'k', 'a', 'e', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'f'], with total distance: 159.
+for node=f, for iter=0, for size=20 Best solution: ['f', 'l', 'k', 'a', 'e', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'f'], with total distance: 159.
+for node=f, for iter=0, for size=30 Best solution: ['f', 'l', 'k', 'a', 'e', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'f'], with total distance: 159.
+for node=f, for iter=0, for size=35 Best solution: ['f', 'l', 'k', 'a', 'e', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'f'], with total distance: 159.
+for node=f, for iter=0, for size=40 Best solution: ['f', 'l', 'k', 'a', 'e', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'f'], with total distance: 159.
+for node=f, for iter=0, for size=45 Best solution: ['f', 'l', 'k', 'a', 'e', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'f'], with total distance: 159.
+for node=f, for iter=0, for size=50 Best solution: ['f', 'l', 'k', 'a', 'e', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'f'], with total distance: 159.
+for node=f, for iter=0, for size=55 Best solution: ['f', 'l', 'k', 'a', 'e', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'f'], with total distance: 159.
+ITERATION: 1
+for node=f, for iter=1, for size=0 Best solution: ['f', 'l', 'k', 'a', 'e', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'f'], with total distance: 159.
+for node=f, for iter=1, for size=20 Best solution: ['f', 'l', 'k', 'a', 'e', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'f'], with total distance: 159.
+for node=f, for iter=1, for size=30 Best solution: ['f', 'l', 'k', 'a', 'e', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'f'], with total distance: 159.
+for node=f, for iter=1, for size=35 Best solution: ['f', 'l', 'k', 'a', 'e', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'f'], with total distance: 159.
+for node=f, for iter=1, for size=40 Best solution: ['f', 'l', 'k', 'a', 'e', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'f'], with total distance: 159.
+for node=f, for iter=1, for size=45 Best solution: ['f', 'l', 'k', 'a', 'e', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'f'], with total distance: 159.
+for node=f, for iter=1, for size=50 Best solution: ['f', 'l', 'k', 'a', 'e', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'f'], with total distance: 159.
+for node=f, for iter=1, for size=55 Best solution: ['f', 'l', 'k', 'a', 'e', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'f'], with total distance: 159.
+ITERATION: 5
+for node=f, for iter=5, for size=0 Best solution: ['f', 'l', 'k', 'a', 'e', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'f'], with total distance: 159.
+for node=f, for iter=5, for size=20 Best solution: ['f', 'l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f'], with total distance: 158.
+for node=f, for iter=5, for size=30 Best solution: ['f', 'l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f'], with total distance: 158.
+for node=f, for iter=5, for size=35 Best solution: ['f', 'l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f'], with total distance: 158.
+for node=f, for iter=5, for size=40 Best solution: ['f', 'l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f'], with total distance: 158.
+for node=f, for iter=5, for size=45 Best solution: ['f', 'l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f'], with total distance: 158.
+for node=f, for iter=5, for size=50 Best solution: ['f', 'l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f'], with total distance: 158.
+for node=f, for iter=5, for size=55 Best solution: ['f', 'l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f'], with total distance: 158.
+ITERATION: 10
+for node=f, for iter=10, for size=0 Best solution: ['f', 'l', 'k', 'a', 'e', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'f'], with total distance: 159.
+for node=f, for iter=10, for size=20 Best solution: ['f', 'l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f'], with total distance: 158.
+for node=f, for iter=10, for size=30 Best solution: ['f', 'l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f'], with total distance: 158.
+for node=f, for iter=10, for size=35 Best solution: ['f', 'l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f'], with total distance: 158.
+for node=f, for iter=10, for size=40 Best solution: ['f', 'l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f'], with total distance: 158.
+for node=f, for iter=10, for size=45 Best solution: ['f', 'l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f'], with total distance: 158.
+for node=f, for iter=10, for size=50 Best solution: ['f', 'l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f'], with total distance: 158.
+for node=f, for iter=10, for size=55 Best solution: ['f', 'l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f'], with total distance: 158.
+ITERATION: 100
+for node=f, for iter=100, for size=0 Best solution: ['f', 'l', 'k', 'a', 'e', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'f'], with total distance: 159.
+for node=f, for iter=100, for size=20 Best solution: ['f', 'l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f'], with total distance: 158.
+for node=f, for iter=100, for size=30 Best solution: ['f', 'l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f'], with total distance: 158.
+for node=f, for iter=100, for size=35 Best solution: ['f', 'l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f'], with total distance: 158.
+for node=f, for iter=100, for size=40 Best solution: ['f', 'l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f'], with total distance: 158.
+for node=f, for iter=100, for size=45 Best solution: ['f', 'l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f'], with total distance: 158.
+for node=f, for iter=100, for size=50 Best solution: ['f', 'l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f'], with total distance: 158.
+for node=f, for iter=100, for size=55 Best solution: ['f', 'l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f'], with total distance: 158.
+ITERATION: 500
+for node=f, for iter=500, for size=0 Best solution: ['f', 'l', 'k', 'a', 'e', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'f'], with total distance: 159.
+for node=f, for iter=500, for size=20 Best solution: ['f', 'l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f'], with total distance: 158.
+for node=f, for iter=500, for size=30 Best solution: ['f', 'l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f'], with total distance: 158.
+for node=f, for iter=500, for size=35 Best solution: ['f', 'l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f'], with total distance: 158.
+for node=f, for iter=500, for size=40 Best solution: ['f', 'l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f'], with total distance: 158.
+for node=f, for iter=500, for size=45 Best solution: ['f', 'l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f'], with total distance: 158.
+for node=f, for iter=500, for size=50 Best solution: ['f', 'l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f'], with total distance: 158.
+for node=f, for iter=500, for size=55 Best solution: ['f', 'l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f'], with total distance: 158.
+ITERATION: 1000
+for node=f, for iter=1000, for size=0 Best solution: ['f', 'l', 'k', 'a', 'e', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'f'], with total distance: 159.
+for node=f, for iter=1000, for size=20 Best solution: ['f', 'l', 'k', 'a', 'e', 'g', 'b', 'd', 'i', 'h', 'c', 'j', 'f'], with total distance: 156.
+for node=f, for iter=1000, for size=30 Best solution: ['f', 'l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f'], with total distance: 158.
+for node=f, for iter=1000, for size=35 Best solution: ['f', 'l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f'], with total distance: 158.
+for node=f, for iter=1000, for size=40 Best solution: ['f', 'l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f'], with total distance: 158.
+for node=f, for iter=1000, for size=45 Best solution: ['f', 'l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f'], with total distance: 158.
+for node=f, for iter=1000, for size=50 Best solution: ['f', 'l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f'], with total distance: 158.
+for node=f, for iter=1000, for size=55 Best solution: ['f', 'l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f'], with total distance: 158.
+ITERATION: 2000
+for node=f, for iter=2000, for size=0 Best solution: ['f', 'l', 'k', 'a', 'e', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'f'], with total distance: 159.
+for node=f, for iter=2000, for size=20 Best solution: ['f', 'l', 'k', 'a', 'e', 'g', 'b', 'd', 'i', 'h', 'c', 'j', 'f'], with total distance: 156.
+for node=f, for iter=2000, for size=30 Best solution: ['f', 'l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f'], with total distance: 158.
+for node=f, for iter=2000, for size=35 Best solution: ['f', 'l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f'], with total distance: 158.
+for node=f, for iter=2000, for size=40 Best solution: ['f', 'l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f'], with total distance: 158.
+for node=f, for iter=2000, for size=45 Best solution: ['f', 'l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f'], with total distance: 158.
+for node=f, for iter=2000, for size=50 Best solution: ['f', 'l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f'], with total distance: 158.
+for node=f, for iter=2000, for size=55 Best solution: ['f', 'l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f'], with total distance: 158.
+ITERATION: 2500
+for node=f, for iter=2500, for size=0 Best solution: ['f', 'l', 'k', 'a', 'e', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'f'], with total distance: 159.
+for node=f, for iter=2500, for size=20 Best solution: ['f', 'l', 'k', 'a', 'e', 'g', 'b', 'd', 'i', 'h', 'c', 'j', 'f'], with total distance: 156.
+for node=f, for iter=2500, for size=30 Best solution: ['f', 'l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f'], with total distance: 158.
+for node=f, for iter=2500, for size=35 Best solution: ['f', 'l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f'], with total distance: 158.
+for node=f, for iter=2500, for size=40 Best solution: ['f', 'l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f'], with total distance: 158.
+for node=f, for iter=2500, for size=45 Best solution: ['f', 'l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f'], with total distance: 158.
+for node=f, for iter=2500, for size=50 Best solution: ['f', 'l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f'], with total distance: 158.
+for node=f, for iter=2500, for size=55 Best solution: ['f', 'l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f'], with total distance: 158.
+ITERATION: 3000
+for node=f, for iter=3000, for size=0 Best solution: ['f', 'l', 'k', 'a', 'e', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'f'], with total distance: 159.
+for node=f, for iter=3000, for size=20 Best solution: ['f', 'l', 'k', 'a', 'e', 'g', 'b', 'd', 'i', 'h', 'c', 'j', 'f'], with total distance: 156.
+for node=f, for iter=3000, for size=30 Best solution: ['f', 'l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f'], with total distance: 158.
+for node=f, for iter=3000, for size=35 Best solution: ['f', 'l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f'], with total distance: 158.
+for node=f, for iter=3000, for size=40 Best solution: ['f', 'l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f'], with total distance: 158.
+for node=f, for iter=3000, for size=45 Best solution: ['f', 'l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f'], with total distance: 158.
+for node=f, for iter=3000, for size=50 Best solution: ['f', 'l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f'], with total distance: 158.
+for node=f, for iter=3000, for size=55 Best solution: ['f', 'l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f'], with total distance: 158.
+NODE: g
+ITERATION: 0
+for node=g, for iter=0, for size=0 Best solution: ['g', 'b', 'd', 'h', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'i', 'g'], with total distance: 242.
+for node=g, for iter=0, for size=20 Best solution: ['g', 'b', 'd', 'h', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'i', 'g'], with total distance: 242.
+for node=g, for iter=0, for size=30 Best solution: ['g', 'b', 'd', 'h', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'i', 'g'], with total distance: 242.
+for node=g, for iter=0, for size=35 Best solution: ['g', 'b', 'd', 'h', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'i', 'g'], with total distance: 242.
+for node=g, for iter=0, for size=40 Best solution: ['g', 'b', 'd', 'h', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'i', 'g'], with total distance: 242.
+for node=g, for iter=0, for size=45 Best solution: ['g', 'b', 'd', 'h', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'i', 'g'], with total distance: 242.
+for node=g, for iter=0, for size=50 Best solution: ['g', 'b', 'd', 'h', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'i', 'g'], with total distance: 242.
+for node=g, for iter=0, for size=55 Best solution: ['g', 'b', 'd', 'h', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'i', 'g'], with total distance: 242.
+ITERATION: 1
+for node=g, for iter=1, for size=0 Best solution: ['g', 'i', 'd', 'h', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'g'], with total distance: 190.
+for node=g, for iter=1, for size=20 Best solution: ['g', 'i', 'd', 'h', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'g'], with total distance: 190.
+for node=g, for iter=1, for size=30 Best solution: ['g', 'i', 'd', 'h', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'g'], with total distance: 190.
+for node=g, for iter=1, for size=35 Best solution: ['g', 'i', 'd', 'h', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'g'], with total distance: 190.
+for node=g, for iter=1, for size=40 Best solution: ['g', 'i', 'd', 'h', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'g'], with total distance: 190.
+for node=g, for iter=1, for size=45 Best solution: ['g', 'i', 'd', 'h', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'g'], with total distance: 190.
+for node=g, for iter=1, for size=50 Best solution: ['g', 'i', 'd', 'h', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'g'], with total distance: 190.
+for node=g, for iter=1, for size=55 Best solution: ['g', 'i', 'd', 'h', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'g'], with total distance: 190.
+ITERATION: 5
+for node=g, for iter=5, for size=0 Best solution: ['g', 'h', 'd', 'i', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'g'], with total distance: 182.
+for node=g, for iter=5, for size=20 Best solution: ['g', 'h', 'd', 'i', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'g'], with total distance: 182.
+for node=g, for iter=5, for size=30 Best solution: ['g', 'h', 'd', 'i', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'g'], with total distance: 182.
+for node=g, for iter=5, for size=35 Best solution: ['g', 'h', 'd', 'i', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'g'], with total distance: 182.
+for node=g, for iter=5, for size=40 Best solution: ['g', 'h', 'd', 'i', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'g'], with total distance: 182.
+for node=g, for iter=5, for size=45 Best solution: ['g', 'h', 'd', 'i', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'g'], with total distance: 182.
+for node=g, for iter=5, for size=50 Best solution: ['g', 'h', 'd', 'i', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'g'], with total distance: 182.
+for node=g, for iter=5, for size=55 Best solution: ['g', 'h', 'd', 'i', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'g'], with total distance: 182.
+ITERATION: 10
+for node=g, for iter=10, for size=0 Best solution: ['g', 'h', 'd', 'i', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'g'], with total distance: 182.
+for node=g, for iter=10, for size=20 Best solution: ['g', 'h', 'd', 'i', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'g'], with total distance: 182.
+for node=g, for iter=10, for size=30 Best solution: ['g', 'h', 'd', 'i', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'g'], with total distance: 182.
+for node=g, for iter=10, for size=35 Best solution: ['g', 'h', 'd', 'i', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'g'], with total distance: 182.
+for node=g, for iter=10, for size=40 Best solution: ['g', 'h', 'd', 'i', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'g'], with total distance: 182.
+for node=g, for iter=10, for size=45 Best solution: ['g', 'h', 'd', 'i', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'g'], with total distance: 182.
+for node=g, for iter=10, for size=50 Best solution: ['g', 'h', 'd', 'i', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'g'], with total distance: 182.
+for node=g, for iter=10, for size=55 Best solution: ['g', 'h', 'd', 'i', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'g'], with total distance: 182.
+ITERATION: 100
+for node=g, for iter=100, for size=0 Best solution: ['g', 'h', 'd', 'i', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'g'], with total distance: 182.
+for node=g, for iter=100, for size=20 Best solution: ['g', 'b', 'e', 'a', 'c', 'j', 'f', 'k', 'l', 'i', 'd', 'h', 'g'], with total distance: 165.
+for node=g, for iter=100, for size=30 Best solution: ['g', 'b', 'e', 'a', 'k', 'l', 'f', 'j', 'c', 'i', 'd', 'h', 'g'], with total distance: 159.
+for node=g, for iter=100, for size=35 Best solution: ['g', 'h', 'd', 'i', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'g'], with total distance: 182.
+for node=g, for iter=100, for size=40 Best solution: ['g', 'h', 'd', 'i', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'g'], with total distance: 182.
+for node=g, for iter=100, for size=45 Best solution: ['g', 'h', 'd', 'i', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'g'], with total distance: 182.
+for node=g, for iter=100, for size=50 Best solution: ['g', 'h', 'd', 'i', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'g'], with total distance: 182.
+for node=g, for iter=100, for size=55 Best solution: ['g', 'h', 'd', 'i', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'g'], with total distance: 182.
+ITERATION: 500
+for node=g, for iter=500, for size=0 Best solution: ['g', 'h', 'd', 'i', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'g'], with total distance: 182.
+for node=g, for iter=500, for size=20 Best solution: ['g', 'b', 'd', 'i', 'h', 'c', 'j', 'f', 'l', 'k', 'a', 'e', 'g'], with total distance: 156.
+for node=g, for iter=500, for size=30 Best solution: ['g', 'b', 'e', 'a', 'k', 'l', 'f', 'j', 'c', 'i', 'd', 'h', 'g'], with total distance: 159.
+for node=g, for iter=500, for size=35 Best solution: ['g', 'e', 'a', 'c', 'j', 'f', 'l', 'k', 'i', 'h', 'd', 'b', 'g'], with total distance: 171.
+for node=g, for iter=500, for size=40 Best solution: ['g', 'b', 'e', 'a', 'k', 'l', 'f', 'j', 'c', 'h', 'd', 'i', 'g'], with total distance: 167.
+for node=g, for iter=500, for size=45 Best solution: ['g', 'h', 'd', 'i', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'g'], with total distance: 182.
+for node=g, for iter=500, for size=50 Best solution: ['g', 'h', 'd', 'i', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'g'], with total distance: 182.
+for node=g, for iter=500, for size=55 Best solution: ['g', 'h', 'd', 'i', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'g'], with total distance: 182.
+ITERATION: 1000
+for node=g, for iter=1000, for size=0 Best solution: ['g', 'h', 'd', 'i', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'g'], with total distance: 182.
+for node=g, for iter=1000, for size=20 Best solution: ['g', 'b', 'd', 'i', 'h', 'c', 'j', 'f', 'l', 'k', 'a', 'e', 'g'], with total distance: 156.
+for node=g, for iter=1000, for size=30 Best solution: ['g', 'b', 'e', 'a', 'k', 'l', 'f', 'j', 'c', 'i', 'd', 'h', 'g'], with total distance: 159.
+for node=g, for iter=1000, for size=35 Best solution: ['g', 'b', 'j', 'c', 'h', 'd', 'i', 'l', 'f', 'k', 'a', 'e', 'g'], with total distance: 170.
+for node=g, for iter=1000, for size=40 Best solution: ['g', 'b', 'e', 'a', 'k', 'l', 'f', 'j', 'c', 'h', 'd', 'i', 'g'], with total distance: 167.
+for node=g, for iter=1000, for size=45 Best solution: ['g', 'c', 'j', 'f', 'a', 'k', 'l', 'i', 'd', 'h', 'b', 'e', 'g'], with total distance: 181.
+for node=g, for iter=1000, for size=50 Best solution: ['g', 'h', 'd', 'i', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'g'], with total distance: 182.
+for node=g, for iter=1000, for size=55 Best solution: ['g', 'h', 'd', 'i', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'g'], with total distance: 182.
+ITERATION: 2000
+for node=g, for iter=2000, for size=0 Best solution: ['g', 'h', 'd', 'i', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'g'], with total distance: 182.
+for node=g, for iter=2000, for size=20 Best solution: ['g', 'b', 'd', 'i', 'h', 'c', 'j', 'f', 'l', 'k', 'a', 'e', 'g'], with total distance: 156.
+for node=g, for iter=2000, for size=30 Best solution: ['g', 'b', 'e', 'a', 'k', 'l', 'f', 'j', 'c', 'i', 'd', 'h', 'g'], with total distance: 159.
+for node=g, for iter=2000, for size=35 Best solution: ['g', 'b', 'j', 'c', 'h', 'd', 'i', 'l', 'f', 'k', 'a', 'e', 'g'], with total distance: 170.
+for node=g, for iter=2000, for size=40 Best solution: ['g', 'b', 'e', 'a', 'k', 'l', 'f', 'j', 'c', 'h', 'd', 'i', 'g'], with total distance: 167.
+for node=g, for iter=2000, for size=45 Best solution: ['g', 'e', 'b', 'd', 'i', 'a', 'k', 'l', 'f', 'j', 'c', 'h', 'g'], with total distance: 180.
+for node=g, for iter=2000, for size=50 Best solution: ['g', 'h', 'd', 'i', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'g'], with total distance: 182.
+for node=g, for iter=2000, for size=55 Best solution: ['g', 'h', 'd', 'i', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'g'], with total distance: 182.
+ITERATION: 2500
+for node=g, for iter=2500, for size=0 Best solution: ['g', 'h', 'd', 'i', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'g'], with total distance: 182.
+for node=g, for iter=2500, for size=20 Best solution: ['g', 'b', 'd', 'i', 'h', 'c', 'j', 'f', 'l', 'k', 'a', 'e', 'g'], with total distance: 156.
+for node=g, for iter=2500, for size=30 Best solution: ['g', 'e', 'a', 'k', 'l', 'f', 'j', 'c', 'h', 'i', 'd', 'b', 'g'], with total distance: 156.
+for node=g, for iter=2500, for size=35 Best solution: ['g', 'b', 'd', 'h', 'i', 'l', 'k', 'f', 'j', 'c', 'a', 'e', 'g'], with total distance: 168.
+for node=g, for iter=2500, for size=40 Best solution: ['g', 'b', 'e', 'a', 'k', 'l', 'f', 'j', 'c', 'i', 'd', 'h', 'g'], with total distance: 159.
+for node=g, for iter=2500, for size=45 Best solution: ['g', 'e', 'b', 'd', 'i', 'a', 'k', 'l', 'f', 'j', 'c', 'h', 'g'], with total distance: 180.
+for node=g, for iter=2500, for size=50 Best solution: ['g', 'h', 'd', 'i', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'g'], with total distance: 182.
+for node=g, for iter=2500, for size=55 Best solution: ['g', 'h', 'd', 'i', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'g'], with total distance: 182.
+ITERATION: 3000
+for node=g, for iter=3000, for size=0 Best solution: ['g', 'h', 'd', 'i', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'g'], with total distance: 182.
+for node=g, for iter=3000, for size=20 Best solution: ['g', 'b', 'd', 'i', 'h', 'c', 'j', 'f', 'l', 'k', 'a', 'e', 'g'], with total distance: 156.
+for node=g, for iter=3000, for size=30 Best solution: ['g', 'e', 'a', 'k', 'l', 'f', 'j', 'c', 'h', 'i', 'd', 'b', 'g'], with total distance: 156.
+for node=g, for iter=3000, for size=35 Best solution: ['g', 'b', 'd', 'h', 'i', 'l', 'k', 'f', 'j', 'c', 'a', 'e', 'g'], with total distance: 168.
+for node=g, for iter=3000, for size=40 Best solution: ['g', 'b', 'e', 'a', 'k', 'l', 'f', 'j', 'c', 'i', 'd', 'h', 'g'], with total distance: 159.
+for node=g, for iter=3000, for size=45 Best solution: ['g', 'e', 'b', 'd', 'i', 'a', 'k', 'l', 'f', 'j', 'c', 'h', 'g'], with total distance: 180.
+for node=g, for iter=3000, for size=50 Best solution: ['g', 'h', 'd', 'i', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'g'], with total distance: 182.
+for node=g, for iter=3000, for size=55 Best solution: ['g', 'h', 'd', 'i', 'c', 'j', 'a', 'k', 'l', 'f', 'e', 'b', 'g'], with total distance: 182.
+NODE: h
+ITERATION: 0
+for node=h, for iter=0, for size=0 Best solution: ['h', 'g', 'b', 'd', 'i', 'l', 'k', 'a', 'e', 'f', 'j', 'c', 'h'], with total distance: 171.
+for node=h, for iter=0, for size=20 Best solution: ['h', 'g', 'b', 'd', 'i', 'l', 'k', 'a', 'e', 'f', 'j', 'c', 'h'], with total distance: 171.
+for node=h, for iter=0, for size=30 Best solution: ['h', 'g', 'b', 'd', 'i', 'l', 'k', 'a', 'e', 'f', 'j', 'c', 'h'], with total distance: 171.
+for node=h, for iter=0, for size=35 Best solution: ['h', 'g', 'b', 'd', 'i', 'l', 'k', 'a', 'e', 'f', 'j', 'c', 'h'], with total distance: 171.
+for node=h, for iter=0, for size=40 Best solution: ['h', 'g', 'b', 'd', 'i', 'l', 'k', 'a', 'e', 'f', 'j', 'c', 'h'], with total distance: 171.
+for node=h, for iter=0, for size=45 Best solution: ['h', 'g', 'b', 'd', 'i', 'l', 'k', 'a', 'e', 'f', 'j', 'c', 'h'], with total distance: 171.
+for node=h, for iter=0, for size=50 Best solution: ['h', 'g', 'b', 'd', 'i', 'l', 'k', 'a', 'e', 'f', 'j', 'c', 'h'], with total distance: 171.
+for node=h, for iter=0, for size=55 Best solution: ['h', 'g', 'b', 'd', 'i', 'l', 'k', 'a', 'e', 'f', 'j', 'c', 'h'], with total distance: 171.
+ITERATION: 1
+for node=h, for iter=1, for size=0 Best solution: ['h', 'g', 'b', 'd', 'i', 'l', 'k', 'a', 'e', 'f', 'j', 'c', 'h'], with total distance: 171.
+for node=h, for iter=1, for size=20 Best solution: ['h', 'g', 'b', 'd', 'i', 'l', 'k', 'a', 'e', 'f', 'j', 'c', 'h'], with total distance: 171.
+for node=h, for iter=1, for size=30 Best solution: ['h', 'g', 'b', 'd', 'i', 'l', 'k', 'a', 'e', 'f', 'j', 'c', 'h'], with total distance: 171.
+for node=h, for iter=1, for size=35 Best solution: ['h', 'g', 'b', 'd', 'i', 'l', 'k', 'a', 'e', 'f', 'j', 'c', 'h'], with total distance: 171.
+for node=h, for iter=1, for size=40 Best solution: ['h', 'g', 'b', 'd', 'i', 'l', 'k', 'a', 'e', 'f', 'j', 'c', 'h'], with total distance: 171.
+for node=h, for iter=1, for size=45 Best solution: ['h', 'g', 'b', 'd', 'i', 'l', 'k', 'a', 'e', 'f', 'j', 'c', 'h'], with total distance: 171.
+for node=h, for iter=1, for size=50 Best solution: ['h', 'g', 'b', 'd', 'i', 'l', 'k', 'a', 'e', 'f', 'j', 'c', 'h'], with total distance: 171.
+for node=h, for iter=1, for size=55 Best solution: ['h', 'g', 'b', 'd', 'i', 'l', 'k', 'a', 'e', 'f', 'j', 'c', 'h'], with total distance: 171.
+ITERATION: 5
+for node=h, for iter=5, for size=0 Best solution: ['h', 'g', 'b', 'd', 'i', 'l', 'k', 'a', 'e', 'f', 'j', 'c', 'h'], with total distance: 171.
+for node=h, for iter=5, for size=20 Best solution: ['h', 'g', 'b', 'd', 'i', 'l', 'k', 'a', 'e', 'f', 'j', 'c', 'h'], with total distance: 171.
+for node=h, for iter=5, for size=30 Best solution: ['h', 'g', 'b', 'd', 'i', 'l', 'k', 'a', 'e', 'f', 'j', 'c', 'h'], with total distance: 171.
+for node=h, for iter=5, for size=35 Best solution: ['h', 'g', 'b', 'd', 'i', 'l', 'k', 'a', 'e', 'f', 'j', 'c', 'h'], with total distance: 171.
+for node=h, for iter=5, for size=40 Best solution: ['h', 'g', 'b', 'd', 'i', 'l', 'k', 'a', 'e', 'f', 'j', 'c', 'h'], with total distance: 171.
+for node=h, for iter=5, for size=45 Best solution: ['h', 'g', 'b', 'd', 'i', 'l', 'k', 'a', 'e', 'f', 'j', 'c', 'h'], with total distance: 171.
+for node=h, for iter=5, for size=50 Best solution: ['h', 'g', 'b', 'd', 'i', 'l', 'k', 'a', 'e', 'f', 'j', 'c', 'h'], with total distance: 171.
+for node=h, for iter=5, for size=55 Best solution: ['h', 'g', 'b', 'd', 'i', 'l', 'k', 'a', 'e', 'f', 'j', 'c', 'h'], with total distance: 171.
+ITERATION: 10
+for node=h, for iter=10, for size=0 Best solution: ['h', 'g', 'b', 'd', 'i', 'l', 'k', 'a', 'e', 'f', 'j', 'c', 'h'], with total distance: 171.
+for node=h, for iter=10, for size=20 Best solution: ['h', 'g', 'b', 'd', 'i', 'l', 'k', 'a', 'e', 'f', 'j', 'c', 'h'], with total distance: 171.
+for node=h, for iter=10, for size=30 Best solution: ['h', 'g', 'b', 'd', 'i', 'l', 'k', 'a', 'e', 'f', 'j', 'c', 'h'], with total distance: 171.
+for node=h, for iter=10, for size=35 Best solution: ['h', 'g', 'b', 'd', 'i', 'l', 'k', 'a', 'e', 'f', 'j', 'c', 'h'], with total distance: 171.
+for node=h, for iter=10, for size=40 Best solution: ['h', 'g', 'b', 'd', 'i', 'l', 'k', 'a', 'e', 'f', 'j', 'c', 'h'], with total distance: 171.
+for node=h, for iter=10, for size=45 Best solution: ['h', 'g', 'b', 'd', 'i', 'l', 'k', 'a', 'e', 'f', 'j', 'c', 'h'], with total distance: 171.
+for node=h, for iter=10, for size=50 Best solution: ['h', 'g', 'b', 'd', 'i', 'l', 'k', 'a', 'e', 'f', 'j', 'c', 'h'], with total distance: 171.
+for node=h, for iter=10, for size=55 Best solution: ['h', 'g', 'b', 'd', 'i', 'l', 'k', 'a', 'e', 'f', 'j', 'c', 'h'], with total distance: 171.
+ITERATION: 100
+for node=h, for iter=100, for size=0 Best solution: ['h', 'g', 'b', 'd', 'i', 'l', 'k', 'a', 'e', 'f', 'j', 'c', 'h'], with total distance: 171.
+for node=h, for iter=100, for size=20 Best solution: ['h', 'i', 'l', 'k', 'f', 'j', 'c', 'a', 'e', 'g', 'b', 'd', 'h'], with total distance: 168.
+for node=h, for iter=100, for size=30 Best solution: ['h', 'g', 'b', 'd', 'i', 'l', 'k', 'a', 'e', 'f', 'j', 'c', 'h'], with total distance: 171.
+for node=h, for iter=100, for size=35 Best solution: ['h', 'g', 'b', 'd', 'i', 'l', 'k', 'a', 'e', 'f', 'j', 'c', 'h'], with total distance: 171.
+for node=h, for iter=100, for size=40 Best solution: ['h', 'g', 'b', 'd', 'i', 'l', 'k', 'a', 'e', 'f', 'j', 'c', 'h'], with total distance: 171.
+for node=h, for iter=100, for size=45 Best solution: ['h', 'g', 'b', 'd', 'i', 'l', 'k', 'a', 'e', 'f', 'j', 'c', 'h'], with total distance: 171.
+for node=h, for iter=100, for size=50 Best solution: ['h', 'g', 'b', 'd', 'i', 'l', 'k', 'a', 'e', 'f', 'j', 'c', 'h'], with total distance: 171.
+for node=h, for iter=100, for size=55 Best solution: ['h', 'g', 'b', 'd', 'i', 'l', 'k', 'a', 'e', 'f', 'j', 'c', 'h'], with total distance: 171.
+ITERATION: 500
+for node=h, for iter=500, for size=0 Best solution: ['h', 'g', 'b', 'd', 'i', 'l', 'k', 'a', 'e', 'f', 'j', 'c', 'h'], with total distance: 171.
+for node=h, for iter=500, for size=20 Best solution: ['h', 'c', 'j', 'f', 'l', 'k', 'a', 'e', 'g', 'b', 'd', 'i', 'h'], with total distance: 156.
+for node=h, for iter=500, for size=30 Best solution: ['h', 'g', 'b', 'e', 'a', 'k', 'l', 'f', 'j', 'c', 'i', 'd', 'h'], with total distance: 159.
+for node=h, for iter=500, for size=35 Best solution: ['h', 'c', 'j', 'f', 'l', 'k', 'a', 'e', 'g', 'b', 'd', 'i', 'h'], with total distance: 156.
+for node=h, for iter=500, for size=40 Best solution: ['h', 'g', 'b', 'd', 'i', 'l', 'k', 'a', 'e', 'f', 'j', 'c', 'h'], with total distance: 171.
+for node=h, for iter=500, for size=45 Best solution: ['h', 'g', 'b', 'd', 'i', 'l', 'k', 'a', 'e', 'f', 'j', 'c', 'h'], with total distance: 171.
+for node=h, for iter=500, for size=50 Best solution: ['h', 'g', 'b', 'd', 'i', 'l', 'k', 'a', 'e', 'f', 'j', 'c', 'h'], with total distance: 171.
+for node=h, for iter=500, for size=55 Best solution: ['h', 'g', 'b', 'd', 'i', 'l', 'k', 'a', 'e', 'f', 'j', 'c', 'h'], with total distance: 171.
+ITERATION: 1000
+for node=h, for iter=1000, for size=0 Best solution: ['h', 'g', 'b', 'd', 'i', 'l', 'k', 'a', 'e', 'f', 'j', 'c', 'h'], with total distance: 171.
+for node=h, for iter=1000, for size=20 Best solution: ['h', 'c', 'j', 'f', 'l', 'k', 'a', 'e', 'g', 'b', 'd', 'i', 'h'], with total distance: 156.
+for node=h, for iter=1000, for size=30 Best solution: ['h', 'g', 'b', 'e', 'a', 'k', 'l', 'f', 'j', 'c', 'i', 'd', 'h'], with total distance: 159.
+for node=h, for iter=1000, for size=35 Best solution: ['h', 'c', 'j', 'f', 'l', 'k', 'a', 'e', 'g', 'b', 'd', 'i', 'h'], with total distance: 156.
+for node=h, for iter=1000, for size=40 Best solution: ['h', 'g', 'b', 'd', 'i', 'l', 'k', 'a', 'e', 'f', 'j', 'c', 'h'], with total distance: 171.
+for node=h, for iter=1000, for size=45 Best solution: ['h', 'g', 'b', 'd', 'i', 'l', 'k', 'a', 'e', 'f', 'j', 'c', 'h'], with total distance: 171.
+for node=h, for iter=1000, for size=50 Best solution: ['h', 'g', 'b', 'd', 'i', 'l', 'k', 'a', 'e', 'f', 'j', 'c', 'h'], with total distance: 171.
+for node=h, for iter=1000, for size=55 Best solution: ['h', 'g', 'b', 'd', 'i', 'l', 'k', 'a', 'e', 'f', 'j', 'c', 'h'], with total distance: 171.
+ITERATION: 2000
+for node=h, for iter=2000, for size=0 Best solution: ['h', 'g', 'b', 'd', 'i', 'l', 'k', 'a', 'e', 'f', 'j', 'c', 'h'], with total distance: 171.
+for node=h, for iter=2000, for size=20 Best solution: ['h', 'c', 'j', 'f', 'l', 'k', 'a', 'e', 'g', 'b', 'd', 'i', 'h'], with total distance: 156.
+for node=h, for iter=2000, for size=30 Best solution: ['h', 'g', 'b', 'e', 'a', 'k', 'l', 'f', 'j', 'c', 'i', 'd', 'h'], with total distance: 159.
+for node=h, for iter=2000, for size=35 Best solution: ['h', 'c', 'j', 'f', 'l', 'k', 'a', 'e', 'g', 'b', 'd', 'i', 'h'], with total distance: 156.
+for node=h, for iter=2000, for size=40 Best solution: ['h', 'd', 'i', 'l', 'k', 'f', 'j', 'c', 'a', 'e', 'b', 'g', 'h'], with total distance: 165.
+for node=h, for iter=2000, for size=45 Best solution: ['h', 'g', 'b', 'd', 'i', 'l', 'k', 'a', 'e', 'f', 'j', 'c', 'h'], with total distance: 171.
+for node=h, for iter=2000, for size=50 Best solution: ['h', 'g', 'b', 'd', 'i', 'l', 'k', 'a', 'e', 'f', 'j', 'c', 'h'], with total distance: 171.
+for node=h, for iter=2000, for size=55 Best solution: ['h', 'g', 'b', 'd', 'i', 'l', 'k', 'a', 'e', 'f', 'j', 'c', 'h'], with total distance: 171.
+ITERATION: 2500
+for node=h, for iter=2500, for size=0 Best solution: ['h', 'g', 'b', 'd', 'i', 'l', 'k', 'a', 'e', 'f', 'j', 'c', 'h'], with total distance: 171.
+for node=h, for iter=2500, for size=20 Best solution: ['h', 'c', 'j', 'f', 'l', 'k', 'a', 'e', 'g', 'b', 'd', 'i', 'h'], with total distance: 156.
+for node=h, for iter=2500, for size=30 Best solution: ['h', 'g', 'b', 'e', 'a', 'k', 'l', 'f', 'j', 'c', 'i', 'd', 'h'], with total distance: 159.
+for node=h, for iter=2500, for size=35 Best solution: ['h', 'c', 'j', 'f', 'l', 'k', 'a', 'e', 'g', 'b', 'd', 'i', 'h'], with total distance: 156.
+for node=h, for iter=2500, for size=40 Best solution: ['h', 'd', 'i', 'l', 'k', 'f', 'j', 'c', 'a', 'e', 'b', 'g', 'h'], with total distance: 165.
+for node=h, for iter=2500, for size=45 Best solution: ['h', 'i', 'l', 'k', 'f', 'j', 'c', 'a', 'e', 'g', 'b', 'd', 'h'], with total distance: 168.
+for node=h, for iter=2500, for size=50 Best solution: ['h', 'g', 'b', 'd', 'i', 'l', 'k', 'a', 'e', 'f', 'j', 'c', 'h'], with total distance: 171.
+for node=h, for iter=2500, for size=55 Best solution: ['h', 'g', 'b', 'd', 'i', 'l', 'k', 'a', 'e', 'f', 'j', 'c', 'h'], with total distance: 171.
+ITERATION: 3000
+for node=h, for iter=3000, for size=0 Best solution: ['h', 'g', 'b', 'd', 'i', 'l', 'k', 'a', 'e', 'f', 'j', 'c', 'h'], with total distance: 171.
+for node=h, for iter=3000, for size=20 Best solution: ['h', 'c', 'j', 'f', 'l', 'k', 'a', 'e', 'g', 'b', 'd', 'i', 'h'], with total distance: 156.
+for node=h, for iter=3000, for size=30 Best solution: ['h', 'g', 'b', 'e', 'a', 'k', 'l', 'f', 'j', 'c', 'i', 'd', 'h'], with total distance: 159.
+for node=h, for iter=3000, for size=35 Best solution: ['h', 'c', 'j', 'f', 'l', 'k', 'a', 'e', 'g', 'b', 'd', 'i', 'h'], with total distance: 156.
+for node=h, for iter=3000, for size=40 Best solution: ['h', 'i', 'd', 'b', 'g', 'e', 'a', 'k', 'l', 'f', 'j', 'c', 'h'], with total distance: 156.
+for node=h, for iter=3000, for size=45 Best solution: ['h', 'i', 'l', 'k', 'f', 'j', 'c', 'a', 'e', 'g', 'b', 'd', 'h'], with total distance: 168.
+for node=h, for iter=3000, for size=50 Best solution: ['h', 'g', 'b', 'd', 'i', 'l', 'k', 'a', 'e', 'f', 'j', 'c', 'h'], with total distance: 171.
+for node=h, for iter=3000, for size=55 Best solution: ['h', 'g', 'b', 'd', 'i', 'l', 'k', 'a', 'e', 'f', 'j', 'c', 'h'], with total distance: 171.
+NODE: i
+ITERATION: 0
+for node=i, for iter=0, for size=0 Best solution: ['i', 'l', 'k', 'a', 'e', 'b', 'g', 'h', 'd', 'j', 'c', 'f', 'i'], with total distance: 230.
+for node=i, for iter=0, for size=20 Best solution: ['i', 'l', 'k', 'a', 'e', 'b', 'g', 'h', 'd', 'j', 'c', 'f', 'i'], with total distance: 230.
+for node=i, for iter=0, for size=30 Best solution: ['i', 'l', 'k', 'a', 'e', 'b', 'g', 'h', 'd', 'j', 'c', 'f', 'i'], with total distance: 230.
+for node=i, for iter=0, for size=35 Best solution: ['i', 'l', 'k', 'a', 'e', 'b', 'g', 'h', 'd', 'j', 'c', 'f', 'i'], with total distance: 230.
+for node=i, for iter=0, for size=40 Best solution: ['i', 'l', 'k', 'a', 'e', 'b', 'g', 'h', 'd', 'j', 'c', 'f', 'i'], with total distance: 230.
+for node=i, for iter=0, for size=45 Best solution: ['i', 'l', 'k', 'a', 'e', 'b', 'g', 'h', 'd', 'j', 'c', 'f', 'i'], with total distance: 230.
+for node=i, for iter=0, for size=50 Best solution: ['i', 'l', 'k', 'a', 'e', 'b', 'g', 'h', 'd', 'j', 'c', 'f', 'i'], with total distance: 230.
+for node=i, for iter=0, for size=55 Best solution: ['i', 'l', 'k', 'a', 'e', 'b', 'g', 'h', 'd', 'j', 'c', 'f', 'i'], with total distance: 230.
+ITERATION: 1
+for node=i, for iter=1, for size=0 Best solution: ['i', 'l', 'f', 'a', 'e', 'b', 'g', 'h', 'd', 'j', 'c', 'k', 'i'], with total distance: 218.
+for node=i, for iter=1, for size=20 Best solution: ['i', 'l', 'f', 'a', 'e', 'b', 'g', 'h', 'd', 'j', 'c', 'k', 'i'], with total distance: 218.
+for node=i, for iter=1, for size=30 Best solution: ['i', 'l', 'f', 'a', 'e', 'b', 'g', 'h', 'd', 'j', 'c', 'k', 'i'], with total distance: 218.
+for node=i, for iter=1, for size=35 Best solution: ['i', 'l', 'f', 'a', 'e', 'b', 'g', 'h', 'd', 'j', 'c', 'k', 'i'], with total distance: 218.
+for node=i, for iter=1, for size=40 Best solution: ['i', 'l', 'f', 'a', 'e', 'b', 'g', 'h', 'd', 'j', 'c', 'k', 'i'], with total distance: 218.
+for node=i, for iter=1, for size=45 Best solution: ['i', 'l', 'f', 'a', 'e', 'b', 'g', 'h', 'd', 'j', 'c', 'k', 'i'], with total distance: 218.
+for node=i, for iter=1, for size=50 Best solution: ['i', 'l', 'f', 'a', 'e', 'b', 'g', 'h', 'd', 'j', 'c', 'k', 'i'], with total distance: 218.
+for node=i, for iter=1, for size=55 Best solution: ['i', 'l', 'f', 'a', 'e', 'b', 'g', 'h', 'd', 'j', 'c', 'k', 'i'], with total distance: 218.
+ITERATION: 5
+for node=i, for iter=5, for size=0 Best solution: ['i', 'l', 'f', 'a', 'e', 'b', 'd', 'h', 'g', 'j', 'c', 'k', 'i'], with total distance: 214.
+for node=i, for iter=5, for size=20 Best solution: ['i', 'l', 'f', 'a', 'e', 'g', 'h', 'd', 'b', 'j', 'c', 'k', 'i'], with total distance: 200.
+for node=i, for iter=5, for size=30 Best solution: ['i', 'l', 'f', 'a', 'e', 'g', 'h', 'd', 'b', 'j', 'c', 'k', 'i'], with total distance: 200.
+for node=i, for iter=5, for size=35 Best solution: ['i', 'l', 'f', 'a', 'e', 'g', 'h', 'd', 'b', 'j', 'c', 'k', 'i'], with total distance: 200.
+for node=i, for iter=5, for size=40 Best solution: ['i', 'l', 'f', 'a', 'e', 'g', 'h', 'd', 'b', 'j', 'c', 'k', 'i'], with total distance: 200.
+for node=i, for iter=5, for size=45 Best solution: ['i', 'l', 'f', 'a', 'e', 'g', 'h', 'd', 'b', 'j', 'c', 'k', 'i'], with total distance: 200.
+for node=i, for iter=5, for size=50 Best solution: ['i', 'l', 'f', 'a', 'e', 'g', 'h', 'd', 'b', 'j', 'c', 'k', 'i'], with total distance: 200.
+for node=i, for iter=5, for size=55 Best solution: ['i', 'l', 'f', 'a', 'e', 'g', 'h', 'd', 'b', 'j', 'c', 'k', 'i'], with total distance: 200.
+ITERATION: 10
+for node=i, for iter=10, for size=0 Best solution: ['i', 'l', 'f', 'a', 'e', 'b', 'd', 'h', 'g', 'j', 'c', 'k', 'i'], with total distance: 214.
+for node=i, for iter=10, for size=20 Best solution: ['i', 'l', 'f', 'a', 'e', 'g', 'h', 'd', 'b', 'j', 'c', 'k', 'i'], with total distance: 200.
+for node=i, for iter=10, for size=30 Best solution: ['i', 'l', 'f', 'a', 'e', 'g', 'h', 'd', 'b', 'j', 'c', 'k', 'i'], with total distance: 200.
+for node=i, for iter=10, for size=35 Best solution: ['i', 'l', 'f', 'a', 'e', 'g', 'h', 'd', 'b', 'j', 'c', 'k', 'i'], with total distance: 200.
+for node=i, for iter=10, for size=40 Best solution: ['i', 'l', 'f', 'a', 'e', 'g', 'h', 'd', 'b', 'j', 'c', 'k', 'i'], with total distance: 200.
+for node=i, for iter=10, for size=45 Best solution: ['i', 'l', 'f', 'a', 'e', 'g', 'h', 'd', 'b', 'j', 'c', 'k', 'i'], with total distance: 200.
+for node=i, for iter=10, for size=50 Best solution: ['i', 'l', 'f', 'a', 'e', 'g', 'h', 'd', 'b', 'j', 'c', 'k', 'i'], with total distance: 200.
+for node=i, for iter=10, for size=55 Best solution: ['i', 'l', 'f', 'a', 'e', 'g', 'h', 'd', 'b', 'j', 'c', 'k', 'i'], with total distance: 200.
+ITERATION: 100
+for node=i, for iter=100, for size=0 Best solution: ['i', 'l', 'f', 'a', 'e', 'b', 'd', 'h', 'g', 'j', 'c', 'k', 'i'], with total distance: 214.
+for node=i, for iter=100, for size=20 Best solution: ['i', 'k', 'a', 'e', 'b', 'g', 'l', 'f', 'j', 'c', 'h', 'd', 'i'], with total distance: 178.
+for node=i, for iter=100, for size=30 Best solution: ['i', 'l', 'f', 'k', 'a', 'e', 'b', 'd', 'h', 'g', 'j', 'c', 'i'], with total distance: 192.
+for node=i, for iter=100, for size=35 Best solution: ['i', 'l', 'f', 'k', 'a', 'e', 'b', 'd', 'h', 'g', 'j', 'c', 'i'], with total distance: 192.
+for node=i, for iter=100, for size=40 Best solution: ['i', 'l', 'f', 'k', 'a', 'e', 'b', 'd', 'h', 'g', 'j', 'c', 'i'], with total distance: 192.
+for node=i, for iter=100, for size=45 Best solution: ['i', 'l', 'f', 'k', 'a', 'e', 'b', 'd', 'h', 'g', 'j', 'c', 'i'], with total distance: 192.
+for node=i, for iter=100, for size=50 Best solution: ['i', 'l', 'f', 'k', 'a', 'e', 'b', 'd', 'h', 'g', 'j', 'c', 'i'], with total distance: 192.
+for node=i, for iter=100, for size=55 Best solution: ['i', 'l', 'f', 'k', 'a', 'e', 'b', 'd', 'h', 'g', 'j', 'c', 'i'], with total distance: 192.
+ITERATION: 500
+for node=i, for iter=500, for size=0 Best solution: ['i', 'l', 'f', 'a', 'e', 'b', 'd', 'h', 'g', 'j', 'c', 'k', 'i'], with total distance: 214.
+for node=i, for iter=500, for size=20 Best solution: ['i', 'h', 'c', 'j', 'f', 'l', 'k', 'a', 'e', 'g', 'b', 'd', 'i'], with total distance: 156.
+for node=i, for iter=500, for size=30 Best solution: ['i', 'd', 'b', 'h', 'g', 'e', 'a', 'k', 'l', 'f', 'j', 'c', 'i'], with total distance: 170.
+for node=i, for iter=500, for size=35 Best solution: ['i', 'k', 'l', 'f', 'j', 'c', 'g', 'e', 'a', 'b', 'd', 'h', 'i'], with total distance: 180.
+for node=i, for iter=500, for size=40 Best solution: ['i', 'k', 'b', 'd', 'h', 'g', 'e', 'a', 'c', 'j', 'f', 'l', 'i'], with total distance: 188.
+for node=i, for iter=500, for size=45 Best solution: ['i', 'l', 'k', 'a', 'f', 'j', 'c', 'h', 'g', 'e', 'b', 'd', 'i'], with total distance: 172.
+for node=i, for iter=500, for size=50 Best solution: ['i', 'l', 'f', 'k', 'a', 'e', 'b', 'd', 'h', 'g', 'j', 'c', 'i'], with total distance: 192.
+for node=i, for iter=500, for size=55 Best solution: ['i', 'l', 'f', 'k', 'a', 'e', 'b', 'd', 'h', 'g', 'j', 'c', 'i'], with total distance: 192.
+ITERATION: 1000
+for node=i, for iter=1000, for size=0 Best solution: ['i', 'l', 'f', 'a', 'e', 'b', 'd', 'h', 'g', 'j', 'c', 'k', 'i'], with total distance: 214.
+for node=i, for iter=1000, for size=20 Best solution: ['i', 'h', 'c', 'j', 'f', 'l', 'k', 'a', 'e', 'g', 'b', 'd', 'i'], with total distance: 156.
+for node=i, for iter=1000, for size=30 Best solution: ['i', 'd', 'b', 'h', 'g', 'e', 'a', 'k', 'l', 'f', 'j', 'c', 'i'], with total distance: 170.
+for node=i, for iter=1000, for size=35 Best solution: ['i', 'l', 'k', 'f', 'a', 'e', 'g', 'b', 'j', 'c', 'h', 'd', 'i'], with total distance: 178.
+for node=i, for iter=1000, for size=40 Best solution: ['i', 'd', 'h', 'g', 'b', 'e', 'a', 'j', 'c', 'k', 'f', 'l', 'i'], with total distance: 177.
+for node=i, for iter=1000, for size=45 Best solution: ['i', 'l', 'k', 'a', 'f', 'j', 'c', 'h', 'g', 'e', 'b', 'd', 'i'], with total distance: 172.
+for node=i, for iter=1000, for size=50 Best solution: ['i', 'l', 'f', 'k', 'a', 'e', 'b', 'd', 'h', 'g', 'j', 'c', 'i'], with total distance: 192.
+for node=i, for iter=1000, for size=55 Best solution: ['i', 'l', 'f', 'k', 'a', 'e', 'b', 'd', 'h', 'g', 'j', 'c', 'i'], with total distance: 192.
+ITERATION: 2000
+for node=i, for iter=2000, for size=0 Best solution: ['i', 'l', 'f', 'a', 'e', 'b', 'd', 'h', 'g', 'j', 'c', 'k', 'i'], with total distance: 214.
+for node=i, for iter=2000, for size=20 Best solution: ['i', 'h', 'c', 'j', 'f', 'l', 'k', 'a', 'e', 'g', 'b', 'd', 'i'], with total distance: 156.
+for node=i, for iter=2000, for size=30 Best solution: ['i', 'c', 'j', 'f', 'l', 'k', 'a', 'e', 'g', 'b', 'd', 'h', 'i'], with total distance: 162.
+for node=i, for iter=2000, for size=35 Best solution: ['i', 'l', 'f', 'k', 'a', 'e', 'g', 'b', 'j', 'c', 'h', 'd', 'i'], with total distance: 170.
+for node=i, for iter=2000, for size=40 Best solution: ['i', 'd', 'b', 'k', 'a', 'e', 'g', 'h', 'c', 'j', 'f', 'l', 'i'], with total distance: 173.
+for node=i, for iter=2000, for size=45 Best solution: ['i', 'l', 'k', 'a', 'f', 'j', 'c', 'h', 'g', 'e', 'b', 'd', 'i'], with total distance: 172.
+for node=i, for iter=2000, for size=50 Best solution: ['i', 'd', 'b', 'h', 'g', 'e', 'a', 'c', 'j', 'f', 'l', 'k', 'i'], with total distance: 179.
+for node=i, for iter=2000, for size=55 Best solution: ['i', 'l', 'f', 'k', 'a', 'e', 'b', 'd', 'h', 'g', 'j', 'c', 'i'], with total distance: 192.
+ITERATION: 2500
+for node=i, for iter=2500, for size=0 Best solution: ['i', 'l', 'f', 'a', 'e', 'b', 'd', 'h', 'g', 'j', 'c', 'k', 'i'], with total distance: 214.
+for node=i, for iter=2500, for size=20 Best solution: ['i', 'h', 'c', 'j', 'f', 'l', 'k', 'a', 'e', 'g', 'b', 'd', 'i'], with total distance: 156.
+for node=i, for iter=2500, for size=30 Best solution: ['i', 'h', 'g', 'c', 'j', 'f', 'l', 'k', 'a', 'e', 'b', 'd', 'i'], with total distance: 158.
+for node=i, for iter=2500, for size=35 Best solution: ['i', 'l', 'f', 'k', 'a', 'e', 'g', 'b', 'j', 'c', 'h', 'd', 'i'], with total distance: 170.
+for node=i, for iter=2500, for size=40 Best solution: ['i', 'd', 'h', 'g', 'b', 'e', 'a', 'c', 'j', 'f', 'k', 'l', 'i'], with total distance: 165.
+for node=i, for iter=2500, for size=45 Best solution: ['i', 'l', 'k', 'a', 'f', 'j', 'c', 'h', 'g', 'e', 'b', 'd', 'i'], with total distance: 172.
+for node=i, for iter=2500, for size=50 Best solution: ['i', 'd', 'b', 'j', 'c', 'h', 'g', 'e', 'a', 'k', 'f', 'l', 'i'], with total distance: 172.
+for node=i, for iter=2500, for size=55 Best solution: ['i', 'l', 'f', 'k', 'a', 'e', 'b', 'd', 'h', 'g', 'j', 'c', 'i'], with total distance: 192.
+ITERATION: 3000
+for node=i, for iter=3000, for size=0 Best solution: ['i', 'l', 'f', 'a', 'e', 'b', 'd', 'h', 'g', 'j', 'c', 'k', 'i'], with total distance: 214.
+for node=i, for iter=3000, for size=20 Best solution: ['i', 'h', 'c', 'j', 'f', 'l', 'k', 'a', 'e', 'g', 'b', 'd', 'i'], with total distance: 156.
+for node=i, for iter=3000, for size=30 Best solution: ['i', 'h', 'g', 'c', 'j', 'f', 'l', 'k', 'a', 'e', 'b', 'd', 'i'], with total distance: 158.
+for node=i, for iter=3000, for size=35 Best solution: ['i', 'k', 'a', 'e', 'g', 'b', 'd', 'h', 'c', 'j', 'f', 'l', 'i'], with total distance: 167.
+for node=i, for iter=3000, for size=40 Best solution: ['i', 'd', 'h', 'g', 'b', 'e', 'a', 'c', 'j', 'f', 'k', 'l', 'i'], with total distance: 165.
+for node=i, for iter=3000, for size=45 Best solution: ['i', 'l', 'k', 'a', 'f', 'j', 'c', 'h', 'g', 'e', 'b', 'd', 'i'], with total distance: 172.
+for node=i, for iter=3000, for size=50 Best solution: ['i', 'd', 'b', 'j', 'c', 'h', 'g', 'e', 'a', 'k', 'f', 'l', 'i'], with total distance: 172.
+for node=i, for iter=3000, for size=55 Best solution: ['i', 'l', 'f', 'k', 'a', 'e', 'b', 'd', 'h', 'g', 'j', 'c', 'i'], with total distance: 192.
+NODE: j
+ITERATION: 0
+for node=j, for iter=0, for size=0 Best solution: ['j', 'c', 'a', 'k', 'l', 'f', 'b', 'g', 'h', 'd', 'i', 'e', 'j'], with total distance: 285.
+for node=j, for iter=0, for size=20 Best solution: ['j', 'c', 'a', 'k', 'l', 'f', 'b', 'g', 'h', 'd', 'i', 'e', 'j'], with total distance: 285.
+for node=j, for iter=0, for size=30 Best solution: ['j', 'c', 'a', 'k', 'l', 'f', 'b', 'g', 'h', 'd', 'i', 'e', 'j'], with total distance: 285.
+for node=j, for iter=0, for size=35 Best solution: ['j', 'c', 'a', 'k', 'l', 'f', 'b', 'g', 'h', 'd', 'i', 'e', 'j'], with total distance: 285.
+for node=j, for iter=0, for size=40 Best solution: ['j', 'c', 'a', 'k', 'l', 'f', 'b', 'g', 'h', 'd', 'i', 'e', 'j'], with total distance: 285.
+for node=j, for iter=0, for size=45 Best solution: ['j', 'c', 'a', 'k', 'l', 'f', 'b', 'g', 'h', 'd', 'i', 'e', 'j'], with total distance: 285.
+for node=j, for iter=0, for size=50 Best solution: ['j', 'c', 'a', 'k', 'l', 'f', 'b', 'g', 'h', 'd', 'i', 'e', 'j'], with total distance: 285.
+for node=j, for iter=0, for size=55 Best solution: ['j', 'c', 'a', 'k', 'l', 'f', 'b', 'g', 'h', 'd', 'i', 'e', 'j'], with total distance: 285.
+ITERATION: 1
+for node=j, for iter=1, for size=0 Best solution: ['j', 'e', 'a', 'k', 'l', 'f', 'b', 'g', 'h', 'd', 'i', 'c', 'j'], with total distance: 229.
+for node=j, for iter=1, for size=20 Best solution: ['j', 'e', 'a', 'k', 'l', 'f', 'b', 'g', 'h', 'd', 'i', 'c', 'j'], with total distance: 229.
+for node=j, for iter=1, for size=30 Best solution: ['j', 'e', 'a', 'k', 'l', 'f', 'b', 'g', 'h', 'd', 'i', 'c', 'j'], with total distance: 229.
+for node=j, for iter=1, for size=35 Best solution: ['j', 'e', 'a', 'k', 'l', 'f', 'b', 'g', 'h', 'd', 'i', 'c', 'j'], with total distance: 229.
+for node=j, for iter=1, for size=40 Best solution: ['j', 'e', 'a', 'k', 'l', 'f', 'b', 'g', 'h', 'd', 'i', 'c', 'j'], with total distance: 229.
+for node=j, for iter=1, for size=45 Best solution: ['j', 'e', 'a', 'k', 'l', 'f', 'b', 'g', 'h', 'd', 'i', 'c', 'j'], with total distance: 229.
+for node=j, for iter=1, for size=50 Best solution: ['j', 'e', 'a', 'k', 'l', 'f', 'b', 'g', 'h', 'd', 'i', 'c', 'j'], with total distance: 229.
+for node=j, for iter=1, for size=55 Best solution: ['j', 'e', 'a', 'k', 'l', 'f', 'b', 'g', 'h', 'd', 'i', 'c', 'j'], with total distance: 229.
+ITERATION: 5
+for node=j, for iter=5, for size=0 Best solution: ['j', 'b', 'a', 'k', 'l', 'f', 'e', 'g', 'h', 'd', 'i', 'c', 'j'], with total distance: 202.
+for node=j, for iter=5, for size=20 Best solution: ['j', 'b', 'a', 'k', 'l', 'f', 'e', 'g', 'h', 'd', 'i', 'c', 'j'], with total distance: 202.
+for node=j, for iter=5, for size=30 Best solution: ['j', 'b', 'a', 'k', 'l', 'f', 'e', 'g', 'h', 'd', 'i', 'c', 'j'], with total distance: 202.
+for node=j, for iter=5, for size=35 Best solution: ['j', 'b', 'a', 'k', 'l', 'f', 'e', 'g', 'h', 'd', 'i', 'c', 'j'], with total distance: 202.
+for node=j, for iter=5, for size=40 Best solution: ['j', 'b', 'a', 'k', 'l', 'f', 'e', 'g', 'h', 'd', 'i', 'c', 'j'], with total distance: 202.
+for node=j, for iter=5, for size=45 Best solution: ['j', 'b', 'a', 'k', 'l', 'f', 'e', 'g', 'h', 'd', 'i', 'c', 'j'], with total distance: 202.
+for node=j, for iter=5, for size=50 Best solution: ['j', 'b', 'a', 'k', 'l', 'f', 'e', 'g', 'h', 'd', 'i', 'c', 'j'], with total distance: 202.
+for node=j, for iter=5, for size=55 Best solution: ['j', 'b', 'a', 'k', 'l', 'f', 'e', 'g', 'h', 'd', 'i', 'c', 'j'], with total distance: 202.
+ITERATION: 10
+for node=j, for iter=10, for size=0 Best solution: ['j', 'b', 'a', 'k', 'l', 'f', 'e', 'g', 'h', 'd', 'i', 'c', 'j'], with total distance: 202.
+for node=j, for iter=10, for size=20 Best solution: ['j', 'a', 'k', 'i', 'l', 'f', 'e', 'g', 'b', 'd', 'h', 'c', 'j'], with total distance: 190.
+for node=j, for iter=10, for size=30 Best solution: ['j', 'a', 'k', 'i', 'l', 'f', 'e', 'g', 'b', 'd', 'h', 'c', 'j'], with total distance: 190.
+for node=j, for iter=10, for size=35 Best solution: ['j', 'a', 'k', 'i', 'l', 'f', 'e', 'g', 'b', 'd', 'h', 'c', 'j'], with total distance: 190.
+for node=j, for iter=10, for size=40 Best solution: ['j', 'a', 'k', 'i', 'l', 'f', 'e', 'g', 'b', 'd', 'h', 'c', 'j'], with total distance: 190.
+for node=j, for iter=10, for size=45 Best solution: ['j', 'a', 'k', 'i', 'l', 'f', 'e', 'g', 'b', 'd', 'h', 'c', 'j'], with total distance: 190.
+for node=j, for iter=10, for size=50 Best solution: ['j', 'a', 'k', 'i', 'l', 'f', 'e', 'g', 'b', 'd', 'h', 'c', 'j'], with total distance: 190.
+for node=j, for iter=10, for size=55 Best solution: ['j', 'a', 'k', 'i', 'l', 'f', 'e', 'g', 'b', 'd', 'h', 'c', 'j'], with total distance: 190.
+ITERATION: 100
+for node=j, for iter=100, for size=0 Best solution: ['j', 'b', 'a', 'k', 'l', 'f', 'e', 'g', 'h', 'd', 'i', 'c', 'j'], with total distance: 202.
+for node=j, for iter=100, for size=20 Best solution: ['j', 'f', 'k', 'l', 'i', 'd', 'h', 'g', 'b', 'e', 'a', 'c', 'j'], with total distance: 165.
+for node=j, for iter=100, for size=30 Best solution: ['j', 'f', 'b', 'g', 'e', 'a', 'k', 'l', 'i', 'd', 'h', 'c', 'j'], with total distance: 172.
+for node=j, for iter=100, for size=35 Best solution: ['j', 'f', 'k', 'l', 'i', 'a', 'e', 'b', 'd', 'h', 'g', 'c', 'j'], with total distance: 182.
+for node=j, for iter=100, for size=40 Best solution: ['j', 'f', 'k', 'l', 'i', 'a', 'e', 'b', 'd', 'h', 'g', 'c', 'j'], with total distance: 182.
+for node=j, for iter=100, for size=45 Best solution: ['j', 'f', 'k', 'l', 'i', 'a', 'e', 'b', 'd', 'h', 'g', 'c', 'j'], with total distance: 182.
+for node=j, for iter=100, for size=50 Best solution: ['j', 'f', 'k', 'l', 'i', 'a', 'e', 'b', 'd', 'h', 'g', 'c', 'j'], with total distance: 182.
+for node=j, for iter=100, for size=55 Best solution: ['j', 'f', 'k', 'l', 'i', 'a', 'e', 'b', 'd', 'h', 'g', 'c', 'j'], with total distance: 182.
+ITERATION: 500
+for node=j, for iter=500, for size=0 Best solution: ['j', 'b', 'a', 'k', 'l', 'f', 'e', 'g', 'h', 'd', 'i', 'c', 'j'], with total distance: 202.
+for node=j, for iter=500, for size=20 Best solution: ['j', 'f', 'l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j'], with total distance: 158.
+for node=j, for iter=500, for size=30 Best solution: ['j', 'c', 'h', 'd', 'b', 'g', 'e', 'a', 'k', 'i', 'l', 'f', 'j'], with total distance: 167.
+for node=j, for iter=500, for size=35 Best solution: ['j', 'f', 'l', 'k', 'a', 'e', 'g', 'b', 'd', 'h', 'i', 'c', 'j'], with total distance: 162.
+for node=j, for iter=500, for size=40 Best solution: ['j', 'f', 'a', 'k', 'l', 'i', 'd', 'b', 'e', 'g', 'h', 'c', 'j'], with total distance: 172.
+for node=j, for iter=500, for size=45 Best solution: ['j', 'c', 'g', 'h', 'd', 'i', 'l', 'k', 'f', 'b', 'e', 'a', 'j'], with total distance: 181.
+for node=j, for iter=500, for size=50 Best solution: ['j', 'f', 'k', 'l', 'i', 'a', 'e', 'b', 'd', 'h', 'g', 'c', 'j'], with total distance: 182.
+for node=j, for iter=500, for size=55 Best solution: ['j', 'f', 'k', 'l', 'i', 'a', 'e', 'b', 'd', 'h', 'g', 'c', 'j'], with total distance: 182.
+ITERATION: 1000
+for node=j, for iter=1000, for size=0 Best solution: ['j', 'b', 'a', 'k', 'l', 'f', 'e', 'g', 'h', 'd', 'i', 'c', 'j'], with total distance: 202.
+for node=j, for iter=1000, for size=20 Best solution: ['j', 'f', 'l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j'], with total distance: 158.
+for node=j, for iter=1000, for size=30 Best solution: ['j', 'c', 'g', 'h', 'i', 'd', 'b', 'e', 'a', 'k', 'l', 'f', 'j'], with total distance: 158.
+for node=j, for iter=1000, for size=35 Best solution: ['j', 'f', 'l', 'k', 'a', 'e', 'g', 'b', 'd', 'h', 'i', 'c', 'j'], with total distance: 162.
+for node=j, for iter=1000, for size=40 Best solution: ['j', 'f', 'a', 'k', 'l', 'i', 'd', 'b', 'e', 'g', 'h', 'c', 'j'], with total distance: 172.
+for node=j, for iter=1000, for size=45 Best solution: ['j', 'c', 'g', 'h', 'd', 'i', 'l', 'k', 'f', 'b', 'e', 'a', 'j'], with total distance: 181.
+for node=j, for iter=1000, for size=50 Best solution: ['j', 'f', 'k', 'l', 'i', 'a', 'e', 'b', 'd', 'h', 'g', 'c', 'j'], with total distance: 182.
+for node=j, for iter=1000, for size=55 Best solution: ['j', 'f', 'k', 'l', 'i', 'a', 'e', 'b', 'd', 'h', 'g', 'c', 'j'], with total distance: 182.
+ITERATION: 2000
+for node=j, for iter=2000, for size=0 Best solution: ['j', 'b', 'a', 'k', 'l', 'f', 'e', 'g', 'h', 'd', 'i', 'c', 'j'], with total distance: 202.
+for node=j, for iter=2000, for size=20 Best solution: ['j', 'f', 'l', 'k', 'a', 'e', 'g', 'b', 'd', 'i', 'h', 'c', 'j'], with total distance: 156.
+for node=j, for iter=2000, for size=30 Best solution: ['j', 'c', 'g', 'h', 'i', 'd', 'b', 'e', 'a', 'k', 'l', 'f', 'j'], with total distance: 158.
+for node=j, for iter=2000, for size=35 Best solution: ['j', 'f', 'l', 'k', 'a', 'e', 'g', 'b', 'd', 'h', 'i', 'c', 'j'], with total distance: 162.
+for node=j, for iter=2000, for size=40 Best solution: ['j', 'f', 'a', 'k', 'l', 'i', 'd', 'b', 'e', 'g', 'h', 'c', 'j'], with total distance: 172.
+for node=j, for iter=2000, for size=45 Best solution: ['j', 'c', 'g', 'h', 'd', 'i', 'l', 'k', 'f', 'b', 'e', 'a', 'j'], with total distance: 181.
+for node=j, for iter=2000, for size=50 Best solution: ['j', 'f', 'k', 'l', 'i', 'a', 'e', 'b', 'd', 'h', 'g', 'c', 'j'], with total distance: 182.
+for node=j, for iter=2000, for size=55 Best solution: ['j', 'f', 'k', 'l', 'i', 'a', 'e', 'b', 'd', 'h', 'g', 'c', 'j'], with total distance: 182.
+ITERATION: 2500
+for node=j, for iter=2500, for size=0 Best solution: ['j', 'b', 'a', 'k', 'l', 'f', 'e', 'g', 'h', 'd', 'i', 'c', 'j'], with total distance: 202.
+for node=j, for iter=2500, for size=20 Best solution: ['j', 'f', 'l', 'k', 'a', 'e', 'g', 'b', 'd', 'i', 'h', 'c', 'j'], with total distance: 156.
+for node=j, for iter=2500, for size=30 Best solution: ['j', 'c', 'g', 'h', 'i', 'd', 'b', 'e', 'a', 'k', 'l', 'f', 'j'], with total distance: 158.
+for node=j, for iter=2500, for size=35 Best solution: ['j', 'f', 'l', 'k', 'a', 'e', 'g', 'b', 'd', 'h', 'i', 'c', 'j'], with total distance: 162.
+for node=j, for iter=2500, for size=40 Best solution: ['j', 'f', 'a', 'k', 'l', 'i', 'd', 'b', 'e', 'g', 'h', 'c', 'j'], with total distance: 172.
+for node=j, for iter=2500, for size=45 Best solution: ['j', 'f', 'a', 'k', 'l', 'i', 'h', 'd', 'b', 'e', 'g', 'c', 'j'], with total distance: 175.
+for node=j, for iter=2500, for size=50 Best solution: ['j', 'f', 'k', 'l', 'i', 'a', 'e', 'b', 'd', 'h', 'g', 'c', 'j'], with total distance: 182.
+for node=j, for iter=2500, for size=55 Best solution: ['j', 'f', 'k', 'l', 'i', 'a', 'e', 'b', 'd', 'h', 'g', 'c', 'j'], with total distance: 182.
+ITERATION: 3000
+for node=j, for iter=3000, for size=0 Best solution: ['j', 'b', 'a', 'k', 'l', 'f', 'e', 'g', 'h', 'd', 'i', 'c', 'j'], with total distance: 202.
+for node=j, for iter=3000, for size=20 Best solution: ['j', 'f', 'l', 'k', 'a', 'e', 'g', 'b', 'd', 'i', 'h', 'c', 'j'], with total distance: 156.
+for node=j, for iter=3000, for size=30 Best solution: ['j', 'c', 'g', 'h', 'i', 'd', 'b', 'e', 'a', 'k', 'l', 'f', 'j'], with total distance: 158.
+for node=j, for iter=3000, for size=35 Best solution: ['j', 'f', 'l', 'k', 'a', 'e', 'g', 'b', 'd', 'h', 'i', 'c', 'j'], with total distance: 162.
+for node=j, for iter=3000, for size=40 Best solution: ['j', 'f', 'a', 'k', 'l', 'i', 'd', 'b', 'e', 'g', 'h', 'c', 'j'], with total distance: 172.
+for node=j, for iter=3000, for size=45 Best solution: ['j', 'f', 'a', 'k', 'l', 'i', 'h', 'd', 'b', 'e', 'g', 'c', 'j'], with total distance: 175.
+for node=j, for iter=3000, for size=50 Best solution: ['j', 'f', 'k', 'l', 'i', 'a', 'e', 'b', 'd', 'h', 'g', 'c', 'j'], with total distance: 182.
+for node=j, for iter=3000, for size=55 Best solution: ['j', 'f', 'k', 'l', 'i', 'a', 'e', 'b', 'd', 'h', 'g', 'c', 'j'], with total distance: 182.
+NODE: k
+ITERATION: 0
+for node=k, for iter=0, for size=0 Best solution: ['k', 'l', 'f', 'a', 'e', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'k'], with total distance: 239.
+for node=k, for iter=0, for size=20 Best solution: ['k', 'l', 'f', 'a', 'e', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'k'], with total distance: 239.
+for node=k, for iter=0, for size=30 Best solution: ['k', 'l', 'f', 'a', 'e', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'k'], with total distance: 239.
+for node=k, for iter=0, for size=35 Best solution: ['k', 'l', 'f', 'a', 'e', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'k'], with total distance: 239.
+for node=k, for iter=0, for size=40 Best solution: ['k', 'l', 'f', 'a', 'e', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'k'], with total distance: 239.
+for node=k, for iter=0, for size=45 Best solution: ['k', 'l', 'f', 'a', 'e', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'k'], with total distance: 239.
+for node=k, for iter=0, for size=50 Best solution: ['k', 'l', 'f', 'a', 'e', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'k'], with total distance: 239.
+for node=k, for iter=0, for size=55 Best solution: ['k', 'l', 'f', 'a', 'e', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'k'], with total distance: 239.
+ITERATION: 1
+for node=k, for iter=1, for size=0 Best solution: ['k', 'l', 'f', 'a', 'e', 'b', 'g', 'h', 'd', 'j', 'c', 'i', 'k'], with total distance: 207.
+for node=k, for iter=1, for size=20 Best solution: ['k', 'l', 'f', 'a', 'e', 'b', 'g', 'h', 'd', 'j', 'c', 'i', 'k'], with total distance: 207.
+for node=k, for iter=1, for size=30 Best solution: ['k', 'l', 'f', 'a', 'e', 'b', 'g', 'h', 'd', 'j', 'c', 'i', 'k'], with total distance: 207.
+for node=k, for iter=1, for size=35 Best solution: ['k', 'l', 'f', 'a', 'e', 'b', 'g', 'h', 'd', 'j', 'c', 'i', 'k'], with total distance: 207.
+for node=k, for iter=1, for size=40 Best solution: ['k', 'l', 'f', 'a', 'e', 'b', 'g', 'h', 'd', 'j', 'c', 'i', 'k'], with total distance: 207.
+for node=k, for iter=1, for size=45 Best solution: ['k', 'l', 'f', 'a', 'e', 'b', 'g', 'h', 'd', 'j', 'c', 'i', 'k'], with total distance: 207.
+for node=k, for iter=1, for size=50 Best solution: ['k', 'l', 'f', 'a', 'e', 'b', 'g', 'h', 'd', 'j', 'c', 'i', 'k'], with total distance: 207.
+for node=k, for iter=1, for size=55 Best solution: ['k', 'l', 'f', 'a', 'e', 'b', 'g', 'h', 'd', 'j', 'c', 'i', 'k'], with total distance: 207.
+ITERATION: 5
+for node=k, for iter=5, for size=0 Best solution: ['k', 'l', 'f', 'a', 'e', 'g', 'b', 'j', 'c', 'h', 'd', 'i', 'k'], with total distance: 181.
+for node=k, for iter=5, for size=20 Best solution: ['k', 'l', 'f', 'a', 'e', 'g', 'b', 'j', 'c', 'h', 'd', 'i', 'k'], with total distance: 181.
+for node=k, for iter=5, for size=30 Best solution: ['k', 'l', 'f', 'a', 'e', 'g', 'b', 'j', 'c', 'h', 'd', 'i', 'k'], with total distance: 181.
+for node=k, for iter=5, for size=35 Best solution: ['k', 'l', 'f', 'a', 'e', 'g', 'b', 'j', 'c', 'h', 'd', 'i', 'k'], with total distance: 181.
+for node=k, for iter=5, for size=40 Best solution: ['k', 'l', 'f', 'a', 'e', 'g', 'b', 'j', 'c', 'h', 'd', 'i', 'k'], with total distance: 181.
+for node=k, for iter=5, for size=45 Best solution: ['k', 'l', 'f', 'a', 'e', 'g', 'b', 'j', 'c', 'h', 'd', 'i', 'k'], with total distance: 181.
+for node=k, for iter=5, for size=50 Best solution: ['k', 'l', 'f', 'a', 'e', 'g', 'b', 'j', 'c', 'h', 'd', 'i', 'k'], with total distance: 181.
+for node=k, for iter=5, for size=55 Best solution: ['k', 'l', 'f', 'a', 'e', 'g', 'b', 'j', 'c', 'h', 'd', 'i', 'k'], with total distance: 181.
+ITERATION: 10
+for node=k, for iter=10, for size=0 Best solution: ['k', 'l', 'f', 'a', 'e', 'g', 'b', 'j', 'c', 'h', 'd', 'i', 'k'], with total distance: 181.
+for node=k, for iter=10, for size=20 Best solution: ['k', 'l', 'f', 'a', 'e', 'g', 'b', 'j', 'c', 'h', 'd', 'i', 'k'], with total distance: 181.
+for node=k, for iter=10, for size=30 Best solution: ['k', 'l', 'f', 'a', 'e', 'g', 'b', 'j', 'c', 'h', 'd', 'i', 'k'], with total distance: 181.
+for node=k, for iter=10, for size=35 Best solution: ['k', 'l', 'f', 'a', 'e', 'g', 'b', 'j', 'c', 'h', 'd', 'i', 'k'], with total distance: 181.
+for node=k, for iter=10, for size=40 Best solution: ['k', 'l', 'f', 'a', 'e', 'g', 'b', 'j', 'c', 'h', 'd', 'i', 'k'], with total distance: 181.
+for node=k, for iter=10, for size=45 Best solution: ['k', 'l', 'f', 'a', 'e', 'g', 'b', 'j', 'c', 'h', 'd', 'i', 'k'], with total distance: 181.
+for node=k, for iter=10, for size=50 Best solution: ['k', 'l', 'f', 'a', 'e', 'g', 'b', 'j', 'c', 'h', 'd', 'i', 'k'], with total distance: 181.
+for node=k, for iter=10, for size=55 Best solution: ['k', 'l', 'f', 'a', 'e', 'g', 'b', 'j', 'c', 'h', 'd', 'i', 'k'], with total distance: 181.
+ITERATION: 100
+for node=k, for iter=100, for size=0 Best solution: ['k', 'l', 'f', 'a', 'e', 'g', 'b', 'j', 'c', 'h', 'd', 'i', 'k'], with total distance: 181.
+for node=k, for iter=100, for size=20 Best solution: ['k', 'l', 'f', 'a', 'e', 'g', 'b', 'j', 'c', 'h', 'd', 'i', 'k'], with total distance: 181.
+for node=k, for iter=100, for size=30 Best solution: ['k', 'a', 'e', 'g', 'b', 'd', 'i', 'h', 'c', 'j', 'f', 'l', 'k'], with total distance: 156.
+for node=k, for iter=100, for size=35 Best solution: ['k', 'l', 'f', 'a', 'e', 'g', 'b', 'j', 'c', 'h', 'd', 'i', 'k'], with total distance: 181.
+for node=k, for iter=100, for size=40 Best solution: ['k', 'l', 'f', 'a', 'e', 'g', 'b', 'j', 'c', 'h', 'd', 'i', 'k'], with total distance: 181.
+for node=k, for iter=100, for size=45 Best solution: ['k', 'l', 'f', 'a', 'e', 'g', 'b', 'j', 'c', 'h', 'd', 'i', 'k'], with total distance: 181.
+for node=k, for iter=100, for size=50 Best solution: ['k', 'l', 'f', 'a', 'e', 'g', 'b', 'j', 'c', 'h', 'd', 'i', 'k'], with total distance: 181.
+for node=k, for iter=100, for size=55 Best solution: ['k', 'l', 'f', 'a', 'e', 'g', 'b', 'j', 'c', 'h', 'd', 'i', 'k'], with total distance: 181.
+ITERATION: 500
+for node=k, for iter=500, for size=0 Best solution: ['k', 'l', 'f', 'a', 'e', 'g', 'b', 'j', 'c', 'h', 'd', 'i', 'k'], with total distance: 181.
+for node=k, for iter=500, for size=20 Best solution: ['k', 'l', 'f', 'j', 'c', 'h', 'i', 'd', 'b', 'g', 'e', 'a', 'k'], with total distance: 156.
+for node=k, for iter=500, for size=30 Best solution: ['k', 'a', 'e', 'g', 'b', 'd', 'i', 'h', 'c', 'j', 'f', 'l', 'k'], with total distance: 156.
+for node=k, for iter=500, for size=35 Best solution: ['k', 'f', 'j', 'c', 'a', 'e', 'b', 'g', 'h', 'd', 'i', 'l', 'k'], with total distance: 165.
+for node=k, for iter=500, for size=40 Best solution: ['k', 'l', 'f', 'a', 'e', 'g', 'b', 'j', 'c', 'h', 'd', 'i', 'k'], with total distance: 181.
+for node=k, for iter=500, for size=45 Best solution: ['k', 'l', 'f', 'a', 'e', 'g', 'b', 'j', 'c', 'h', 'd', 'i', 'k'], with total distance: 181.
+for node=k, for iter=500, for size=50 Best solution: ['k', 'i', 'l', 'f', 'j', 'c', 'g', 'h', 'd', 'b', 'e', 'a', 'k'], with total distance: 169.
+for node=k, for iter=500, for size=55 Best solution: ['k', 'l', 'f', 'a', 'e', 'g', 'b', 'j', 'c', 'h', 'd', 'i', 'k'], with total distance: 181.
+ITERATION: 1000
+for node=k, for iter=1000, for size=0 Best solution: ['k', 'l', 'f', 'a', 'e', 'g', 'b', 'j', 'c', 'h', 'd', 'i', 'k'], with total distance: 181.
+for node=k, for iter=1000, for size=20 Best solution: ['k', 'l', 'f', 'j', 'c', 'h', 'i', 'd', 'b', 'g', 'e', 'a', 'k'], with total distance: 156.
+for node=k, for iter=1000, for size=30 Best solution: ['k', 'a', 'e', 'g', 'b', 'd', 'i', 'h', 'c', 'j', 'f', 'l', 'k'], with total distance: 156.
+for node=k, for iter=1000, for size=35 Best solution: ['k', 'f', 'j', 'c', 'a', 'e', 'b', 'g', 'h', 'd', 'i', 'l', 'k'], with total distance: 165.
+for node=k, for iter=1000, for size=40 Best solution: ['k', 'a', 'e', 'g', 'b', 'd', 'i', 'h', 'c', 'j', 'f', 'l', 'k'], with total distance: 156.
+for node=k, for iter=1000, for size=45 Best solution: ['k', 'l', 'f', 'j', 'c', 'a', 'e', 'b', 'g', 'h', 'd', 'i', 'k'], with total distance: 168.
+for node=k, for iter=1000, for size=50 Best solution: ['k', 'i', 'l', 'f', 'j', 'c', 'g', 'h', 'd', 'b', 'e', 'a', 'k'], with total distance: 169.
+for node=k, for iter=1000, for size=55 Best solution: ['k', 'l', 'f', 'a', 'e', 'g', 'b', 'j', 'c', 'h', 'd', 'i', 'k'], with total distance: 181.
+ITERATION: 2000
+for node=k, for iter=2000, for size=0 Best solution: ['k', 'l', 'f', 'a', 'e', 'g', 'b', 'j', 'c', 'h', 'd', 'i', 'k'], with total distance: 181.
+for node=k, for iter=2000, for size=20 Best solution: ['k', 'l', 'f', 'j', 'c', 'h', 'i', 'd', 'b', 'g', 'e', 'a', 'k'], with total distance: 156.
+for node=k, for iter=2000, for size=30 Best solution: ['k', 'a', 'e', 'g', 'b', 'd', 'i', 'h', 'c', 'j', 'f', 'l', 'k'], with total distance: 156.
+for node=k, for iter=2000, for size=35 Best solution: ['k', 'f', 'j', 'c', 'a', 'e', 'b', 'g', 'h', 'd', 'i', 'l', 'k'], with total distance: 165.
+for node=k, for iter=2000, for size=40 Best solution: ['k', 'a', 'e', 'g', 'b', 'd', 'i', 'h', 'c', 'j', 'f', 'l', 'k'], with total distance: 156.
+for node=k, for iter=2000, for size=45 Best solution: ['k', 'l', 'f', 'j', 'c', 'a', 'e', 'b', 'g', 'h', 'd', 'i', 'k'], with total distance: 168.
+for node=k, for iter=2000, for size=50 Best solution: ['k', 'i', 'l', 'f', 'j', 'c', 'g', 'h', 'd', 'b', 'e', 'a', 'k'], with total distance: 169.
+for node=k, for iter=2000, for size=55 Best solution: ['k', 'l', 'f', 'a', 'e', 'g', 'b', 'j', 'c', 'h', 'd', 'i', 'k'], with total distance: 181.
+ITERATION: 2500
+for node=k, for iter=2500, for size=0 Best solution: ['k', 'l', 'f', 'a', 'e', 'g', 'b', 'j', 'c', 'h', 'd', 'i', 'k'], with total distance: 181.
+for node=k, for iter=2500, for size=20 Best solution: ['k', 'l', 'f', 'j', 'c', 'h', 'i', 'd', 'b', 'g', 'e', 'a', 'k'], with total distance: 156.
+for node=k, for iter=2500, for size=30 Best solution: ['k', 'a', 'e', 'g', 'b', 'd', 'i', 'h', 'c', 'j', 'f', 'l', 'k'], with total distance: 156.
+for node=k, for iter=2500, for size=35 Best solution: ['k', 'f', 'j', 'c', 'a', 'e', 'b', 'g', 'h', 'd', 'i', 'l', 'k'], with total distance: 165.
+for node=k, for iter=2500, for size=40 Best solution: ['k', 'a', 'e', 'g', 'b', 'd', 'i', 'h', 'c', 'j', 'f', 'l', 'k'], with total distance: 156.
+for node=k, for iter=2500, for size=45 Best solution: ['k', 'l', 'f', 'j', 'c', 'a', 'e', 'b', 'g', 'h', 'd', 'i', 'k'], with total distance: 168.
+for node=k, for iter=2500, for size=50 Best solution: ['k', 'i', 'l', 'f', 'j', 'c', 'g', 'h', 'd', 'b', 'e', 'a', 'k'], with total distance: 169.
+for node=k, for iter=2500, for size=55 Best solution: ['k', 'l', 'f', 'a', 'e', 'g', 'b', 'j', 'c', 'h', 'd', 'i', 'k'], with total distance: 181.
+ITERATION: 3000
+for node=k, for iter=3000, for size=0 Best solution: ['k', 'l', 'f', 'a', 'e', 'g', 'b', 'j', 'c', 'h', 'd', 'i', 'k'], with total distance: 181.
+for node=k, for iter=3000, for size=20 Best solution: ['k', 'l', 'f', 'j', 'c', 'h', 'i', 'd', 'b', 'g', 'e', 'a', 'k'], with total distance: 156.
+for node=k, for iter=3000, for size=30 Best solution: ['k', 'a', 'e', 'g', 'b', 'd', 'i', 'h', 'c', 'j', 'f', 'l', 'k'], with total distance: 156.
+for node=k, for iter=3000, for size=35 Best solution: ['k', 'f', 'j', 'c', 'a', 'e', 'b', 'g', 'h', 'd', 'i', 'l', 'k'], with total distance: 165.
+for node=k, for iter=3000, for size=40 Best solution: ['k', 'a', 'e', 'g', 'b', 'd', 'i', 'h', 'c', 'j', 'f', 'l', 'k'], with total distance: 156.
+for node=k, for iter=3000, for size=45 Best solution: ['k', 'l', 'f', 'j', 'c', 'a', 'e', 'b', 'g', 'h', 'd', 'i', 'k'], with total distance: 168.
+for node=k, for iter=3000, for size=50 Best solution: ['k', 'i', 'l', 'f', 'j', 'c', 'g', 'h', 'd', 'b', 'e', 'a', 'k'], with total distance: 169.
+for node=k, for iter=3000, for size=55 Best solution: ['k', 'l', 'f', 'a', 'e', 'g', 'b', 'j', 'c', 'h', 'd', 'i', 'k'], with total distance: 181.
+NODE: l
+ITERATION: 0
+for node=l, for iter=0, for size=0 Best solution: ['l', 'k', 'a', 'e', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'f', 'l'], with total distance: 159.
+for node=l, for iter=0, for size=20 Best solution: ['l', 'k', 'a', 'e', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'f', 'l'], with total distance: 159.
+for node=l, for iter=0, for size=30 Best solution: ['l', 'k', 'a', 'e', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'f', 'l'], with total distance: 159.
+for node=l, for iter=0, for size=35 Best solution: ['l', 'k', 'a', 'e', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'f', 'l'], with total distance: 159.
+for node=l, for iter=0, for size=40 Best solution: ['l', 'k', 'a', 'e', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'f', 'l'], with total distance: 159.
+for node=l, for iter=0, for size=45 Best solution: ['l', 'k', 'a', 'e', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'f', 'l'], with total distance: 159.
+for node=l, for iter=0, for size=50 Best solution: ['l', 'k', 'a', 'e', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'f', 'l'], with total distance: 159.
+for node=l, for iter=0, for size=55 Best solution: ['l', 'k', 'a', 'e', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'f', 'l'], with total distance: 159.
+ITERATION: 1
+for node=l, for iter=1, for size=0 Best solution: ['l', 'k', 'a', 'e', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'f', 'l'], with total distance: 159.
+for node=l, for iter=1, for size=20 Best solution: ['l', 'k', 'a', 'e', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'f', 'l'], with total distance: 159.
+for node=l, for iter=1, for size=30 Best solution: ['l', 'k', 'a', 'e', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'f', 'l'], with total distance: 159.
+for node=l, for iter=1, for size=35 Best solution: ['l', 'k', 'a', 'e', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'f', 'l'], with total distance: 159.
+for node=l, for iter=1, for size=40 Best solution: ['l', 'k', 'a', 'e', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'f', 'l'], with total distance: 159.
+for node=l, for iter=1, for size=45 Best solution: ['l', 'k', 'a', 'e', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'f', 'l'], with total distance: 159.
+for node=l, for iter=1, for size=50 Best solution: ['l', 'k', 'a', 'e', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'f', 'l'], with total distance: 159.
+for node=l, for iter=1, for size=55 Best solution: ['l', 'k', 'a', 'e', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'f', 'l'], with total distance: 159.
+ITERATION: 5
+for node=l, for iter=5, for size=0 Best solution: ['l', 'k', 'a', 'e', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'f', 'l'], with total distance: 159.
+for node=l, for iter=5, for size=20 Best solution: ['l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f', 'l'], with total distance: 158.
+for node=l, for iter=5, for size=30 Best solution: ['l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f', 'l'], with total distance: 158.
+for node=l, for iter=5, for size=35 Best solution: ['l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f', 'l'], with total distance: 158.
+for node=l, for iter=5, for size=40 Best solution: ['l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f', 'l'], with total distance: 158.
+for node=l, for iter=5, for size=45 Best solution: ['l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f', 'l'], with total distance: 158.
+for node=l, for iter=5, for size=50 Best solution: ['l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f', 'l'], with total distance: 158.
+for node=l, for iter=5, for size=55 Best solution: ['l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f', 'l'], with total distance: 158.
+ITERATION: 10
+for node=l, for iter=10, for size=0 Best solution: ['l', 'k', 'a', 'e', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'f', 'l'], with total distance: 159.
+for node=l, for iter=10, for size=20 Best solution: ['l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f', 'l'], with total distance: 158.
+for node=l, for iter=10, for size=30 Best solution: ['l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f', 'l'], with total distance: 158.
+for node=l, for iter=10, for size=35 Best solution: ['l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f', 'l'], with total distance: 158.
+for node=l, for iter=10, for size=40 Best solution: ['l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f', 'l'], with total distance: 158.
+for node=l, for iter=10, for size=45 Best solution: ['l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f', 'l'], with total distance: 158.
+for node=l, for iter=10, for size=50 Best solution: ['l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f', 'l'], with total distance: 158.
+for node=l, for iter=10, for size=55 Best solution: ['l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f', 'l'], with total distance: 158.
+ITERATION: 100
+for node=l, for iter=100, for size=0 Best solution: ['l', 'k', 'a', 'e', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'f', 'l'], with total distance: 159.
+for node=l, for iter=100, for size=20 Best solution: ['l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f', 'l'], with total distance: 158.
+for node=l, for iter=100, for size=30 Best solution: ['l', 'f', 'j', 'c', 'h', 'i', 'd', 'b', 'g', 'e', 'a', 'k', 'l'], with total distance: 156.
+for node=l, for iter=100, for size=35 Best solution: ['l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f', 'l'], with total distance: 158.
+for node=l, for iter=100, for size=40 Best solution: ['l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f', 'l'], with total distance: 158.
+for node=l, for iter=100, for size=45 Best solution: ['l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f', 'l'], with total distance: 158.
+for node=l, for iter=100, for size=50 Best solution: ['l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f', 'l'], with total distance: 158.
+for node=l, for iter=100, for size=55 Best solution: ['l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f', 'l'], with total distance: 158.
+ITERATION: 500
+for node=l, for iter=500, for size=0 Best solution: ['l', 'k', 'a', 'e', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'f', 'l'], with total distance: 159.
+for node=l, for iter=500, for size=20 Best solution: ['l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f', 'l'], with total distance: 158.
+for node=l, for iter=500, for size=30 Best solution: ['l', 'f', 'j', 'c', 'h', 'i', 'd', 'b', 'g', 'e', 'a', 'k', 'l'], with total distance: 156.
+for node=l, for iter=500, for size=35 Best solution: ['l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f', 'l'], with total distance: 158.
+for node=l, for iter=500, for size=40 Best solution: ['l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f', 'l'], with total distance: 158.
+for node=l, for iter=500, for size=45 Best solution: ['l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f', 'l'], with total distance: 158.
+for node=l, for iter=500, for size=50 Best solution: ['l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f', 'l'], with total distance: 158.
+for node=l, for iter=500, for size=55 Best solution: ['l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f', 'l'], with total distance: 158.
+ITERATION: 1000
+for node=l, for iter=1000, for size=0 Best solution: ['l', 'k', 'a', 'e', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'f', 'l'], with total distance: 159.
+for node=l, for iter=1000, for size=20 Best solution: ['l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f', 'l'], with total distance: 158.
+for node=l, for iter=1000, for size=30 Best solution: ['l', 'f', 'j', 'c', 'h', 'i', 'd', 'b', 'g', 'e', 'a', 'k', 'l'], with total distance: 156.
+for node=l, for iter=1000, for size=35 Best solution: ['l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f', 'l'], with total distance: 158.
+for node=l, for iter=1000, for size=40 Best solution: ['l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f', 'l'], with total distance: 158.
+for node=l, for iter=1000, for size=45 Best solution: ['l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f', 'l'], with total distance: 158.
+for node=l, for iter=1000, for size=50 Best solution: ['l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f', 'l'], with total distance: 158.
+for node=l, for iter=1000, for size=55 Best solution: ['l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f', 'l'], with total distance: 158.
+ITERATION: 2000
+for node=l, for iter=2000, for size=0 Best solution: ['l', 'k', 'a', 'e', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'f', 'l'], with total distance: 159.
+for node=l, for iter=2000, for size=20 Best solution: ['l', 'k', 'a', 'e', 'g', 'b', 'd', 'i', 'h', 'c', 'j', 'f', 'l'], with total distance: 156.
+for node=l, for iter=2000, for size=30 Best solution: ['l', 'f', 'j', 'c', 'h', 'i', 'd', 'b', 'g', 'e', 'a', 'k', 'l'], with total distance: 156.
+for node=l, for iter=2000, for size=35 Best solution: ['l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f', 'l'], with total distance: 158.
+for node=l, for iter=2000, for size=40 Best solution: ['l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f', 'l'], with total distance: 158.
+for node=l, for iter=2000, for size=45 Best solution: ['l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f', 'l'], with total distance: 158.
+for node=l, for iter=2000, for size=50 Best solution: ['l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f', 'l'], with total distance: 158.
+for node=l, for iter=2000, for size=55 Best solution: ['l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f', 'l'], with total distance: 158.
+ITERATION: 2500
+for node=l, for iter=2500, for size=0 Best solution: ['l', 'k', 'a', 'e', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'f', 'l'], with total distance: 159.
+for node=l, for iter=2500, for size=20 Best solution: ['l', 'k', 'a', 'e', 'g', 'b', 'd', 'i', 'h', 'c', 'j', 'f', 'l'], with total distance: 156.
+for node=l, for iter=2500, for size=30 Best solution: ['l', 'f', 'j', 'c', 'h', 'i', 'd', 'b', 'g', 'e', 'a', 'k', 'l'], with total distance: 156.
+for node=l, for iter=2500, for size=35 Best solution: ['l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f', 'l'], with total distance: 158.
+for node=l, for iter=2500, for size=40 Best solution: ['l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f', 'l'], with total distance: 158.
+for node=l, for iter=2500, for size=45 Best solution: ['l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f', 'l'], with total distance: 158.
+for node=l, for iter=2500, for size=50 Best solution: ['l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f', 'l'], with total distance: 158.
+for node=l, for iter=2500, for size=55 Best solution: ['l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f', 'l'], with total distance: 158.
+ITERATION: 3000
+for node=l, for iter=3000, for size=0 Best solution: ['l', 'k', 'a', 'e', 'b', 'g', 'h', 'd', 'i', 'c', 'j', 'f', 'l'], with total distance: 159.
+for node=l, for iter=3000, for size=20 Best solution: ['l', 'k', 'a', 'e', 'g', 'b', 'd', 'i', 'h', 'c', 'j', 'f', 'l'], with total distance: 156.
+for node=l, for iter=3000, for size=30 Best solution: ['l', 'f', 'j', 'c', 'h', 'i', 'd', 'b', 'g', 'e', 'a', 'k', 'l'], with total distance: 156.
+for node=l, for iter=3000, for size=35 Best solution: ['l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f', 'l'], with total distance: 158.
+for node=l, for iter=3000, for size=40 Best solution: ['l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f', 'l'], with total distance: 158.
+for node=l, for iter=3000, for size=45 Best solution: ['l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f', 'l'], with total distance: 158.
+for node=l, for iter=3000, for size=50 Best solution: ['l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f', 'l'], with total distance: 158.
+for node=l, for iter=3000, for size=55 Best solution: ['l', 'k', 'a', 'e', 'b', 'd', 'i', 'h', 'g', 'c', 'j', 'f', 'l'], with total distance: 158.
