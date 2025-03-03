@@ -4,11 +4,12 @@ import os
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 import random
 import string
+import time
 
-from run_nn import predict_single_image
+from predictor import predict_image
 
 # Load configuration
-with open(r'C:\Users\denys\Desktop\My-Pogramming-\Breedify\Breedify bot in telegram\config.json', 'r') as config_file:
+with open(r'C:\Users\denys\Desktop\My-Projects\Breedify\telegram bot\config.json', 'r') as config_file:
     config = json.load(config_file)
 
 BOT_TOKEN = config['BOT_TOKEN']
@@ -24,8 +25,34 @@ bot = telebot.TeleBot(BOT_TOKEN)
 def generate_code_for_image():
     return ''.join(random.choices(string.digits, k=10))
 
+# Define the file path
+file_path = "users.txt"
+
+# Check if the file exists; if not, create it and write a header
+if not os.path.exists(file_path):
+    with open(file_path, "w", encoding="utf-8") as file:
+        file.write("UserID, Username, FirstName\n")
+
+def is_user_in_file(user_id):
+    """Check if a user is already in the file."""
+    with open(file_path, "r", encoding="utf-8") as file:
+        for line in file:
+            if str(user_id) in line.split(",")[0]:
+                return True
+    return False
+
 @bot.message_handler(commands=['start', 'restart'])
 def start_command(message):
+    # Extract user details
+    user_id = message.from_user.id
+    username = message.from_user.username if message.from_user.username else "NoUsername"
+    first_name = message.from_user.first_name
+    
+    # Check if user is already in the file
+    if not is_user_in_file(user_id):
+        with open(file_path, "a", encoding="utf-8") as file:
+            file.write(f"{user_id}, {username}, {first_name}\n")
+    
     markup = InlineKeyboardMarkup()
     markup.row_width = 1
     markup.add(
@@ -38,6 +65,7 @@ def start_command(message):
         "Simply press the button to start.",
         reply_markup=markup
     )
+
 
 @bot.message_handler(commands=['predict'])
 def handle_predict_command(message):
@@ -80,8 +108,8 @@ def handle_image(message):
 
         # Process the image
         try:
-            RESULT_BREED = predict_single_image(image_path, MODEL_PATH, LABEL_PATH)
-
+            RESULT_BREED = predict_image(image_path)
+            
             if "Error" in RESULT_BREED:
                 try:
                     bot.delete_message(chat_id=message.chat.id, message_id=sent_message.message_id)
@@ -92,32 +120,82 @@ def handle_image(message):
                 predicted_breed = RESULT_BREED["Predicted Breed"]
                 confidence = RESULT_BREED["Confidence"]
                 USER_DATA[message.chat.id]["predicted_breed"] = predicted_breed
+                
+                if confidence>0.7:
+                    try:
+                        bot.delete_message(chat_id=message.chat.id, message_id=sent_message.message_id)
+                    except telebot.apihelper.ApiTelegramException:
+                        pass
+                    bot.reply_to(
+                        message,
+                        f"I am pretty sure that is: {predicted_breed.replace('_', ' ')}"
+                    )
 
-                try:
-                    bot.delete_message(chat_id=message.chat.id, message_id=sent_message.message_id)
-                except telebot.apihelper.ApiTelegramException:
-                    pass
-                bot.reply_to(
-                    message,
-                    f"The predicted breed is: {predicted_breed.replace('_', ' ')}\n"
-                    f"Confidence: {confidence:.2f}"
-                )
+                    # Show feedback options
+                    markup = InlineKeyboardMarkup()
+                    markup.row_width = 1
+                    markup.add(
+                        InlineKeyboardButton("Yes, this is correct ✅", callback_data="confirm_breed"),
+                        InlineKeyboardButton("No, this is incorrect ❌", callback_data="reject_breed"),
+                        InlineKeyboardButton("I want to say what kind of breed it is 🐶", callback_data="want_to_say_breed"),
+                        InlineKeyboardButton("I don't know what kind of breed it is 🪡", callback_data="dont_know"),
+                        InlineKeyboardButton("Use the bot again 🐩", callback_data="start_over")
+                    )
+                    bot.send_message(
+                        message.chat.id,
+                        "Was this prediction correct?",
+                        reply_markup=markup,
+                    )
+                elif 0.5<confidence<0.7:
+                    try:
+                        bot.delete_message(chat_id=message.chat.id, message_id=sent_message.message_id)
+                    except telebot.apihelper.ApiTelegramException:
+                        pass
+                    bot.reply_to(
+                        message,
+                        f"It could be: {predicted_breed.replace('_', ' ')}, but I am not sure"
+                    )
 
-                # Show feedback options
-                markup = InlineKeyboardMarkup()
-                markup.row_width = 1
-                markup.add(
-                    InlineKeyboardButton("Yes, this is correct ✅", callback_data="confirm_breed"),
-                    InlineKeyboardButton("No, this is incorrect ❌", callback_data="reject_breed"),
-                    InlineKeyboardButton("I want to say what kind of breed it is 🐶", callback_data="want_to_say_breed"),
-                    InlineKeyboardButton("I don't know what kind of breed it is 🪡", callback_data="dont_know"),
-                    InlineKeyboardButton("Use the bot again 🐩", callback_data="start_over")
-                )
-                bot.send_message(
-                    message.chat.id,
-                    "Was this prediction correct?",
-                    reply_markup=markup,
-                )
+                    # Show feedback options
+                    markup = InlineKeyboardMarkup()
+                    markup.row_width = 1
+                    markup.add(
+                        InlineKeyboardButton("Yes, this is correct ✅", callback_data="confirm_breed"),
+                        InlineKeyboardButton("No, this is incorrect ❌", callback_data="reject_breed"),
+                        InlineKeyboardButton("I want to say what kind of breed it is 🐶", callback_data="want_to_say_breed"),
+                        InlineKeyboardButton("I don't know what kind of breed it is 🪡", callback_data="dont_know"),
+                        InlineKeyboardButton("Use the bot again 🐩", callback_data="start_over")
+                    )
+                    bot.send_message(
+                        message.chat.id,
+                        "Was this prediction correct?",
+                        reply_markup=markup,
+                    )
+                else:
+                    try:
+                        bot.delete_message(chat_id=message.chat.id, message_id=sent_message.message_id)
+                    except telebot.apihelper.ApiTelegramException:
+                        pass
+                    # bot.reply_to(
+                    #     message,
+                    #     f"I'm afraid to say the wrong breed because I'm not quite sure. Try to send me a better photo so I can tell for sure"
+                    # )
+
+                    # Show feedback options
+                    markup = InlineKeyboardMarkup()
+                    markup.row_width = 1
+                    markup.add(
+                        # InlineKeyboardButton("Yes, this is correct ✅", callback_data="confirm_breed"),
+                        # InlineKeyboardButton("No, this is incorrect ❌", callback_data="reject_breed"),
+                        # InlineKeyboardButton("I want to say what kind of breed it is 🐶", callback_data="want_to_say_breed"),
+                        # InlineKeyboardButton("I don't know what kind of breed it is 🪡", callback_data="dont_know"),
+                        InlineKeyboardButton("Use the bot again 🐩", callback_data="start_over")
+                    )
+                    bot.send_message(
+                        message.chat.id,
+                        f"I'm afraid to say the wrong breed because I'm not quite sure. Try to send me a better photo so I can tell for sure",
+                        reply_markup=markup,
+                    )
         except Exception as e:
             try:
                 bot.delete_message(chat_id=message.chat.id, message_id=sent_message.message_id)
@@ -141,21 +219,19 @@ def handle_feedback(call):
     markup = InlineKeyboardMarkup()
     markup.row_width = 1
     markup.add(InlineKeyboardButton("Use the bot again 🐩", callback_data="start_over"))
-
+            
     if call.data == "confirm_breed":
         bot.answer_callback_query(call.id, "Thank you for confirming!")
         bot.send_message(chat_id, "Great! I'm glad I got it right. 🐶", reply_markup=markup)
         image_path = USER_DATA[chat_id].get("image_path")
-        save_directory = os.path.join(TRAINING_FOLDER, RESULT_BREED)
-        if image_path:
+        predicted_breed = USER_DATA[chat_id]["predicted_breed"]
+        if image_path and predicted_breed:
+            save_directory = os.path.join(TRAINING_FOLDER, predicted_breed)
+            if not os.path.exists(save_directory):
+                os.makedirs(save_directory)
             new_image_path = os.path.join(save_directory, os.path.basename(image_path))
             os.rename(image_path, new_image_path)
-            
-        # if image_path and os.path.exists(image_path):
-        #     os.remove(image_path)
-        # del USER_DATA[chat_id]
-        
-        
+        del USER_DATA[chat_id]   
 
     elif call.data == "reject_breed":
         bot.answer_callback_query(call.id, "Thanks for your feedback!")
@@ -201,4 +277,10 @@ def handle_correct_breed(message):
 
 if __name__ == '__main__':
     print("Bot started")
-    bot.polling(interval=1, timeout=20)
+    
+    while True:
+        try:
+            bot.polling(interval=1, timeout=40)
+        except Exception as e:
+            print(f"An error occurred: {e}")
+            time.sleep(5)  # Wait before retrying
