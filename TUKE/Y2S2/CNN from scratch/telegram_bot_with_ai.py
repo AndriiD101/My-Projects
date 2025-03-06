@@ -20,7 +20,7 @@ LABEL_PATH = config['LABEL_PATH']
 TRAINING_FOLDER = config['SAVE_FOLDER_PATH']
 USER_DATA = {}
 RESULT_BREED = ''
-# Define the file path
+
 file_path = "users.txt"
 
 bot = telebot.TeleBot(BOT_TOKEN)
@@ -28,8 +28,6 @@ bot = telebot.TeleBot(BOT_TOKEN)
 def generate_code_for_image():
     return ''.join(random.choices(string.digits, k=10))
 
-
-# Check if the file exists; if not, create it and write a header
 if not os.path.exists(file_path):
     with open(file_path, "w", encoding="utf-8") as file:
         file.write("UserID, Username, FirstName\n")
@@ -44,12 +42,10 @@ def is_user_in_file(user_id):
 
 @bot.message_handler(commands=['start', 'restart'])
 def start_command(message):
-    # Extract user details
     user_id = message.from_user.id
     username = message.from_user.username if message.from_user.username else "NoUsername"
     first_name = message.from_user.first_name
     
-    # Check if user is already in the file
     if not is_user_in_file(user_id):
         with open(file_path, "a", encoding="utf-8") as file:
             file.write(f"{user_id}, {username}, {first_name}\n")
@@ -132,7 +128,6 @@ def handle_image(message):
                         f"I am pretty sure that is: {predicted_breed.replace('_', ' ')}"
                     )
 
-                    # Show feedback options
                     markup = InlineKeyboardMarkup()
                     markup.row_width = 1
                     markup.add(
@@ -157,7 +152,6 @@ def handle_image(message):
                         f"It could be: {predicted_breed.replace('_', ' ')}, but I am not sure"
                     )
 
-                    # Show feedback options
                     markup = InlineKeyboardMarkup()
                     markup.row_width = 1
                     markup.add(
@@ -177,19 +171,9 @@ def handle_image(message):
                         bot.delete_message(chat_id=message.chat.id, message_id=sent_message.message_id)
                     except telebot.apihelper.ApiTelegramException:
                         pass
-                    # bot.reply_to(
-                    #     message,
-                    #     f"I'm afraid to say the wrong breed because I'm not quite sure. Try to send me a better photo so I can tell for sure"
-                    # )
-
-                    # Show feedback options
                     markup = InlineKeyboardMarkup()
                     markup.row_width = 1
                     markup.add(
-                        # InlineKeyboardButton("Yes, this is correct ✅", callback_data="confirm_breed"),
-                        # InlineKeyboardButton("No, this is incorrect ❌", callback_data="reject_breed"),
-                        # InlineKeyboardButton("I want to say what kind of breed it is 🐶", callback_data="want_to_say_breed"),
-                        # InlineKeyboardButton("I don't know what kind of breed it is 🪡", callback_data="dont_know"),
                         InlineKeyboardButton("Use the bot again 🐩", callback_data="start_over")
                     )
                     bot.send_message(

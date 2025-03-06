@@ -15,10 +15,10 @@ class AdjustedCNN(nn.Module):
         super(AdjustedCNN, self).__init__()
         self.features = nn.Sequential(
             # Block 1: 224x224 -> 112x112
-            nn.Conv2d(3, 32, kernel_size=3, padding=1),     # Conv layer 1
+            nn.Conv2d(3, 32, kernel_size=3, padding=1),    
             nn.BatchNorm2d(32),
             nn.ReLU(inplace=True),
-            nn.Conv2d(32, 32, kernel_size=3, padding=1),     # Conv layer 2
+            nn.Conv2d(32, 32, kernel_size=3, padding=1),
             nn.BatchNorm2d(32),
             nn.ReLU(inplace=True),
             nn.MaxPool2d(kernel_size=2, stride=2),
@@ -32,7 +32,7 @@ class AdjustedCNN(nn.Module):
             nn.BatchNorm2d(64),
             nn.ReLU(inplace=True),
             nn.MaxPool2d(kernel_size=2, stride=2),
-            nn.Dropout(0.05),  # Reduced dropout
+            nn.Dropout(0.05),
 
             # Block 3: 56x56 -> 28x28
             nn.Conv2d(64, 128, kernel_size=3, padding=1),
@@ -42,7 +42,7 @@ class AdjustedCNN(nn.Module):
             nn.BatchNorm2d(128),
             nn.ReLU(inplace=True),
             nn.MaxPool2d(kernel_size=2, stride=2),
-            nn.Dropout(0.1),  # Reduced dropout
+            nn.Dropout(0.1),
 
             # Block 4: 28x28 -> 14x14
             nn.Conv2d(128, 256, kernel_size=3, padding=1),
@@ -52,27 +52,25 @@ class AdjustedCNN(nn.Module):
             nn.BatchNorm2d(256),
             nn.ReLU(inplace=True),
             nn.MaxPool2d(kernel_size=2, stride=2),
-            nn.Dropout(0.1)   # Reduced dropout
+            nn.Dropout(0.1) 
         )
-        # Adaptive pooling to reduce spatial dimensions to 1x1
         self.avgpool = nn.AdaptiveAvgPool2d((1, 1))
         self.classifier = nn.Sequential(
             nn.Linear(256, 512),
             nn.ReLU(inplace=True),
-            nn.Dropout(0.3),  # Slightly reduced dropout for classifier
+            nn.Dropout(0.3),    
             nn.Linear(512, num_classes)
         )
         self._initialize_weights()
 
     def forward(self, x):
         x = self.features(x)
-        x = self.avgpool(x)         # (batch_size, 256, 1, 1)
-        x = torch.flatten(x, 1)     # (batch_size, 256)
+        x = self.avgpool(x)
+        x = torch.flatten(x, 1)
         x = self.classifier(x)
         return x
 
     def _initialize_weights(self):
-        # Kaiming (He) initialization for convolution and linear layers.
         for m in self.modules():
             if isinstance(m, nn.Conv2d):
                 nn.init.kaiming_normal_(m.weight, mode="fan_out", nonlinearity="relu")
@@ -91,7 +89,6 @@ def train_model(model, dataloaders, criterion, optimizer, device, num_epochs=200
     best_acc = 0.0
     epochs_no_improve = 0
 
-    # Set up the OneCycleLR scheduler to adjust the learning rate every iteration.
     scheduler = torch.optim.lr_scheduler.OneCycleLR(
         optimizer,
         max_lr=optimizer.param_groups[0]['lr'],
@@ -104,23 +101,21 @@ def train_model(model, dataloaders, criterion, optimizer, device, num_epochs=200
         print("-" * 10)
         val_epoch_acc = None
 
-        # Training and Validation phases
         for phase in ['train', 'val']:
             if phase == 'train':
-                model.train()  # Set model to training mode
+                model.train() 
             else:
-                model.eval()   # Set model to evaluation mode
+                model.eval() 
 
             running_loss = 0.0
             running_corrects = 0
 
-            # Iterate over data.
+
             for inputs, labels in dataloaders[phase]:
                 inputs = inputs.to(device)
                 labels = labels.to(device)
                 optimizer.zero_grad()
 
-                # Forward pass; track gradients only in train phase.
                 with torch.set_grad_enabled(phase == 'train'):
                     outputs = model(inputs)
                     loss = criterion(outputs, labels)
@@ -129,7 +124,7 @@ def train_model(model, dataloaders, criterion, optimizer, device, num_epochs=200
                     if phase == 'train':
                         loss.backward()
                         optimizer.step()
-                        scheduler.step()  # Update the learning rate every iteration
+                        scheduler.step()  
 
                 running_loss += loss.item() * inputs.size(0)
                 running_corrects += torch.sum(preds == labels.data)
@@ -138,13 +133,12 @@ def train_model(model, dataloaders, criterion, optimizer, device, num_epochs=200
             epoch_acc = running_corrects.double() / len(dataloaders[phase].dataset)
             print(f"{phase.capitalize()} Loss: {epoch_loss:.4f} Acc: {epoch_acc:.4f}")
 
-            # Monitor validation accuracy for early stopping.
             if phase == 'val':
                 val_epoch_acc = epoch_acc
                 if epoch_acc > best_acc:
                     best_acc = epoch_acc
                     best_model_wts = copy.deepcopy(model.state_dict())
-                    epochs_no_improve = 0  # Reset if improvement
+                    epochs_no_improve = 0 
                 else:
                     epochs_no_improve += 1
 
@@ -158,7 +152,6 @@ def train_model(model, dataloaders, criterion, optimizer, device, num_epochs=200
     print(f"Training complete in {time_elapsed // 60:.0f}m {time_elapsed % 60:.0f}s")
     print(f"Best Val Acc: {best_acc:.4f}")
 
-    # Load best model weights.
     model.load_state_dict(best_model_wts)
     return model
 
@@ -172,13 +165,13 @@ def predict_dog_breed(model, image_path, transform, class_names, device):
     model.eval()
     image = Image.open(image_path).convert("RGB")
     image = transform(image)
-    image = image.unsqueeze(0)  # Add batch dimension
+    image = image.unsqueeze(0)
     image = image.to(device)
     
     with torch.no_grad():
         outputs = model(image)
-        probabilities = torch.softmax(outputs, dim=1)  # Convert logits to probabilities
-        percentages = probabilities * 100              # Convert to percentages
+        probabilities = torch.softmax(outputs, dim=1)
+        percentages = probabilities * 100 
 
     percentages = percentages.cpu().numpy().squeeze()
     sorted_indices = percentages.argsort()[::-1]
@@ -190,19 +183,16 @@ def predict_dog_breed(model, image_path, transform, class_names, device):
 # 4. Main Function: Data Loading, Training, and Inference
 # -------------------------------
 def main():
-    # Configuration & Hyperparameters
-    data_dir = r"C:\Users\denys\Desktop\My-Projects\combined_datasets\combined_datasets"  # Should contain 'train' and 'val' subdirectories.
+    data_dir = r"C:\Users\denys\Desktop\My-Projects\combined_datasets\combined_datasets"
     num_classes = 120
     batch_size = 32
     num_epochs = 200
     learning_rate = 0.001
     early_stopping_patience = 15
 
-    # Device configuration: use GPU if available.
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     print(f"Using device: {device}")
 
-    # Data transformations for training (with augmentation) and validation.
     data_transforms = {
         "train": transforms.Compose([
             transforms.RandomResizedCrop(224),
@@ -219,38 +209,30 @@ def main():
                                  [0.229, 0.224, 0.225])
         ])
     }
-
-    # Create datasets for training and validation.
     image_datasets = {
         x: datasets.ImageFolder(os.path.join(data_dir, x), data_transforms[x])
         for x in ["train", "val"]
     }
 
-    # Create dataloaders.
     dataloaders = {
         x: torch.utils.data.DataLoader(image_datasets[x], batch_size=batch_size,
                                         shuffle=True, num_workers=4)
         for x in ["train", "val"]
     }
 
-    # Get the list of class names.
     class_names = image_datasets["train"].classes
     print(f"Detected {len(class_names)} classes.")
     if len(class_names) != num_classes:
         print(f"Warning: Expected {num_classes} classes, but found {len(class_names)} classes.")
 
-    # Initialize the AdjustedCNN model.
     model = AdjustedCNN(num_classes=num_classes).to(device)
 
-    # Define loss function and optimizer.
     criterion = nn.CrossEntropyLoss()
     optimizer = optim.Adam(model.parameters(), lr=learning_rate)
 
-    # Train the model with dynamic learning rate and early stopping.
     model = train_model(model, dataloaders, criterion, optimizer, device,
                         num_epochs=num_epochs, early_stopping_patience=early_stopping_patience)
 
-    # Save the trained model.
     torch.save(model.state_dict(), "cnn_dogbreeed_model.pt") 
     print("Model saved as 'cnn_dogbreeed_model.pt'.")
 
@@ -260,7 +242,6 @@ def main():
     test_image_path = r"C:\Users\denys\Desktop\My-Projects\TUKE\Y2S2\CNN from scratch\images.jpg"  
     print("\nPerforming inference on test image:")
 
-    # Use the same transform as validation for inference.
     inference_transform = transforms.Compose([
         transforms.Resize(256),
         transforms.CenterCrop(224),
