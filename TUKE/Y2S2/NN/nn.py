@@ -1,4 +1,5 @@
 import numpy as np
+import matplotlib.pyplot as plt
 from sklearn.datasets import fetch_california_housing
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
@@ -75,7 +76,7 @@ class MLP:
                 self.layers.append(ReLU())
             elif activation == 'Sigmoid':
                 self.layers.append(Sigmoid())
-            # For regression, you can pass activation=None to have a linear output
+            # For regression, passing activation=None produces a linear output
 
     def forward(self, X):
         for layer in self.layers:
@@ -85,20 +86,30 @@ class MLP:
     def predict(self, X):
         return self.forward(X)
 
-    def fit(self, X, y, epochs=100):
+    # Modified fit method to record training and validation losses
+    def fit(self, X, y, X_val=None, y_val=None, epochs=100):
+        train_losses = []
+        val_losses = []
         for epoch in range(epochs):
-            # Forward pass
+            # Forward pass on training data
             outp = self.forward(X)
-            # Mean Squared Error loss
             loss = np.mean((outp - y) ** 2)
+            train_losses.append(loss)
             grad = 2 * (outp - y) / y.size
 
             # Backward pass through layers in reverse order
             for layer in reversed(self.layers):
                 grad = layer.backward(layer.inp, grad)
 
+            # Compute validation loss if validation data is provided
+            if X_val is not None and y_val is not None:
+                val_outp = self.forward(X_val)
+                val_loss = np.mean((val_outp - y_val) ** 2)
+                val_losses.append(val_loss)
+
             if epoch % 10 == 0:
                 print(f"Epoch {epoch}, Loss: {loss}")
+        return train_losses, val_losses
 
 if __name__ == "__main__":
     # Load the California Housing dataset
@@ -111,7 +122,7 @@ if __name__ == "__main__":
     scaler_y = StandardScaler()
     y_scaled = scaler_y.fit_transform(y)
 
-    # Split the data into training and test sets
+    # Split the data into training and validation sets
     X_train, X_test, y_train, y_test = train_test_split(
         X_scaled, y_scaled, test_size=0.2, random_state=42
     )
@@ -120,13 +131,36 @@ if __name__ == "__main__":
     network = MLP()
     network.add_layer(64, inp_shape=X_train.shape[1], activation='ReLU', learning_rate=0.01)
     network.add_layer(32, activation='ReLU', learning_rate=0.01)
-    # For regression, use a linear output layer (no activation)
+    # For regression, use a linear output layer (activation=None)
     network.add_layer(1, activation=None, learning_rate=0.01)
 
-    # Train the network
-    network.fit(X_train, y_train, epochs=200)
+    # Train the network and record losses
+    epochs = 200
+    train_losses, val_losses = network.fit(X_train, y_train, X_val=X_test, y_val=y_test, epochs=epochs)
 
-    # Evaluate on the test set
+    # Evaluate on the validation set
     predictions = network.predict(X_test)
     test_loss = np.mean((predictions - y_test) ** 2)
     print("Test Loss:", test_loss)
+
+    # -----------------------------------------
+    # Graph 1: Visualizing the Dataset
+    # Scatter plot of the first feature vs. target
+    plt.figure(figsize=(8, 6))
+    plt.scatter(X_train[:, 0], y_train.ravel(), alpha=0.5)
+    plt.xlabel("Feature 0 (scaled)")
+    plt.ylabel("Target (scaled)")
+    plt.title("Scatter Plot of Feature 0 vs Target")
+    plt.show()
+
+    # -----------------------------------------
+    # Graph 2: Training and Validation Loss over Epochs
+    plt.figure(figsize=(8, 6))
+    epochs_range = range(1, epochs + 1)
+    plt.plot(epochs_range, train_losses, label="Training Loss")
+    plt.plot(epochs_range, val_losses, label="Validation Loss")
+    plt.xlabel("Epoch")
+    plt.ylabel("Loss (MSE)")
+    plt.title("Training and Validation Loss Over Epochs")
+    plt.legend()
+    plt.show()
