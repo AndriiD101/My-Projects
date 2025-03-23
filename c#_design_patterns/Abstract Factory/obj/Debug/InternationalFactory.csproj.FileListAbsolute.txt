@@ -1,0 +1,7 @@
+C:\Users\denys\Desktop\С#\InternationalFactory\bin\Debug\InternationalFactory.exe.config
+C:\Users\denys\Desktop\С#\InternationalFactory\bin\Debug\InternationalFactory.exe
+C:\Users\denys\Desktop\С#\InternationalFactory\bin\Debug\InternationalFactory.pdb
+C:\Users\denys\Desktop\С#\InternationalFactory\obj\Debug\InternationalFactory.csproj.AssemblyReference.cache
+C:\Users\denys\Desktop\С#\InternationalFactory\obj\Debug\InternationalFactory.csproj.CoreCompileInputs.cache
+C:\Users\denys\Desktop\С#\InternationalFactory\obj\Debug\InternationalFactory.exe
+C:\Users\denys\Desktop\С#\InternationalFactory\obj\Debug\InternationalFactory.pdb

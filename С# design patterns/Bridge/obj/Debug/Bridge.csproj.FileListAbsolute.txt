@@ -1,7 +1,0 @@
-C:\Users\denys\Desktop\С#\Bridge\bin\Debug\Bridge.exe.config
-C:\Users\denys\Desktop\С#\Bridge\bin\Debug\Bridge.exe
-C:\Users\denys\Desktop\С#\Bridge\bin\Debug\Bridge.pdb
-C:\Users\denys\Desktop\С#\Bridge\obj\Debug\Bridge.csproj.AssemblyReference.cache
-C:\Users\denys\Desktop\С#\Bridge\obj\Debug\Bridge.csproj.CoreCompileInputs.cache
-C:\Users\denys\Desktop\С#\Bridge\obj\Debug\Bridge.exe
-C:\Users\denys\Desktop\С#\Bridge\obj\Debug\Bridge.pdb

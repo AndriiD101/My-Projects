@@ -1,0 +1,7 @@
+C:\Users\denys\Desktop\С#\SKUSKA\bin\Debug\SKUSKA.exe.config
+C:\Users\denys\Desktop\С#\SKUSKA\bin\Debug\SKUSKA.exe
+C:\Users\denys\Desktop\С#\SKUSKA\bin\Debug\SKUSKA.pdb
+C:\Users\denys\Desktop\С#\SKUSKA\obj\Debug\SKUSKA.csproj.AssemblyReference.cache
+C:\Users\denys\Desktop\С#\SKUSKA\obj\Debug\SKUSKA.csproj.CoreCompileInputs.cache
+C:\Users\denys\Desktop\С#\SKUSKA\obj\Debug\SKUSKA.exe
+C:\Users\denys\Desktop\С#\SKUSKA\obj\Debug\SKUSKA.pdb

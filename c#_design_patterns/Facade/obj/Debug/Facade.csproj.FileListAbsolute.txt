@@ -1,0 +1,7 @@
+C:\Users\denys\Desktop\С#\Facade\bin\Debug\Facade.exe.config
+C:\Users\denys\Desktop\С#\Facade\bin\Debug\Facade.exe
+C:\Users\denys\Desktop\С#\Facade\bin\Debug\Facade.pdb
+C:\Users\denys\Desktop\С#\Facade\obj\Debug\Facade.csproj.AssemblyReference.cache
+C:\Users\denys\Desktop\С#\Facade\obj\Debug\Facade.csproj.CoreCompileInputs.cache
+C:\Users\denys\Desktop\С#\Facade\obj\Debug\Facade.exe
+C:\Users\denys\Desktop\С#\Facade\obj\Debug\Facade.pdb

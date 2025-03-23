@@ -1,7 +1,0 @@
-C:\Users\denys\Desktop\С#\Factory Method\bin\Debug\Factory Method.exe.config
-C:\Users\denys\Desktop\С#\Factory Method\bin\Debug\Factory Method.exe
-C:\Users\denys\Desktop\С#\Factory Method\bin\Debug\Factory Method.pdb
-C:\Users\denys\Desktop\С#\Factory Method\obj\Debug\Factory Method.csproj.AssemblyReference.cache
-C:\Users\denys\Desktop\С#\Factory Method\obj\Debug\Factory Method.csproj.CoreCompileInputs.cache
-C:\Users\denys\Desktop\С#\Factory Method\obj\Debug\Factory Method.exe
-C:\Users\denys\Desktop\С#\Factory Method\obj\Debug\Factory Method.pdb

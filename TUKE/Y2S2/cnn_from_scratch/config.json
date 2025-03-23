@@ -1,0 +1,8 @@
+{
+    "BOT_TOKEN": "7362412830:AAEmc5Y_Ie0dcfMjSJRMrP9C8_MP4EX6tTk",
+    "MODEL_PATH": "C:/Users/denys/Desktop/My-Projects/TUKE/Y2S2/cnn_from_scratch/cnn_dogbreeed_model.pt",
+    "FOLDER_PATH": "C:/Users/denys/Desktop/My-Projects/Breedify/telegram_bot/images",
+    "LABEL_PATH": "C:/Users/denys/Desktop/My-Projects/TUKE/Y2S2/cnn_from_scratch/labels.csv",
+    "SAVE_FOLDER_PATH": "C:/Users/denys/Desktop/My-Projects/combined_datasets/combined_datasets/train",
+    "USER_DATA_PATH": "C:/Users/denys/Desktop/My-Projects/TUKE/Y2S2/cnn_from_scratch"
+}

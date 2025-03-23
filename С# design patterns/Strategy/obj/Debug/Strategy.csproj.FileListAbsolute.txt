@@ -1,7 +1,0 @@
-C:\Users\denys\Desktop\С#\Strategy\bin\Debug\Strategy.exe.config
-C:\Users\denys\Desktop\С#\Strategy\bin\Debug\Strategy.exe
-C:\Users\denys\Desktop\С#\Strategy\bin\Debug\Strategy.pdb
-C:\Users\denys\Desktop\С#\Strategy\obj\Debug\Strategy.csproj.AssemblyReference.cache
-C:\Users\denys\Desktop\С#\Strategy\obj\Debug\Strategy.csproj.CoreCompileInputs.cache
-C:\Users\denys\Desktop\С#\Strategy\obj\Debug\Strategy.exe
-C:\Users\denys\Desktop\С#\Strategy\obj\Debug\Strategy.pdb

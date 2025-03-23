@@ -1,7 +1,0 @@
-C:\Users\denys\Desktop\С#\Decorator\obj\Debug\Decorator.csproj.AssemblyReference.cache
-C:\Users\denys\Desktop\С#\Decorator\obj\Debug\Decorator.csproj.CoreCompileInputs.cache
-C:\Users\denys\Desktop\С#\Decorator\bin\Debug\Decorator.exe.config
-C:\Users\denys\Desktop\С#\Decorator\bin\Debug\Decorator.exe
-C:\Users\denys\Desktop\С#\Decorator\bin\Debug\Decorator.pdb
-C:\Users\denys\Desktop\С#\Decorator\obj\Debug\Decorator.exe
-C:\Users\denys\Desktop\С#\Decorator\obj\Debug\Decorator.pdb

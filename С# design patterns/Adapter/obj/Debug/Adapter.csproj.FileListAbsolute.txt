@@ -1,7 +1,0 @@
-C:\Users\denys\Desktop\С#\Adapter\bin\Debug\Adapter.exe.config
-C:\Users\denys\Desktop\С#\Adapter\bin\Debug\Adapter.exe
-C:\Users\denys\Desktop\С#\Adapter\bin\Debug\Adapter.pdb
-C:\Users\denys\Desktop\С#\Adapter\obj\Debug\Adapter.csproj.AssemblyReference.cache
-C:\Users\denys\Desktop\С#\Adapter\obj\Debug\Adapter.csproj.CoreCompileInputs.cache
-C:\Users\denys\Desktop\С#\Adapter\obj\Debug\Adapter.exe
-C:\Users\denys\Desktop\С#\Adapter\obj\Debug\Adapter.pdb

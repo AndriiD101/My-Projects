@@ -1,0 +1,3 @@
+Player1: 20
+Player2: 15
+Player3: 10

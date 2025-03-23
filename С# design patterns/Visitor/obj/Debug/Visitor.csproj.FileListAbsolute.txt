@@ -1,7 +1,0 @@
-C:\Users\denys\Desktop\С#\Visitor\bin\Debug\Visitor.exe.config
-C:\Users\denys\Desktop\С#\Visitor\bin\Debug\Visitor.exe
-C:\Users\denys\Desktop\С#\Visitor\bin\Debug\Visitor.pdb
-C:\Users\denys\Desktop\С#\Visitor\obj\Debug\Visitor.csproj.AssemblyReference.cache
-C:\Users\denys\Desktop\С#\Visitor\obj\Debug\Visitor.csproj.CoreCompileInputs.cache
-C:\Users\denys\Desktop\С#\Visitor\obj\Debug\Visitor.exe
-C:\Users\denys\Desktop\С#\Visitor\obj\Debug\Visitor.pdb
