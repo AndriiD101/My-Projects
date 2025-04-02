@@ -1,396 +1,398 @@
 import pandas as pd
-import numpy as np
 import torch
 import torch.nn as nn
-import torch.optim as optim
-import matplotlib.pyplot as plt
-
+from torch.utils.data import DataLoader, TensorDataset
+from sklearn.preprocessing import OneHotEncoder, StandardScaler
 from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import StandardScaler
-from torch.utils.data import TensorDataset, DataLoader
+import numpy as np
+import matplotlib.pyplot as plt
+import json
+import torch
 
-# -------------------------------
-# Global settings and reproducibility
-# -------------------------------
-seed = 42
-np.random.seed(seed)
-torch.manual_seed(seed)
+# Load models
+from models.model1 import Model1
+from models.model2 import Model2
+from models.model3 import Model3
+from models.model4 import Model4
+from models.model5 import Model5
 
-# -------------------------------
-# STEP 0: DATA LOADING & PREPROCESSING
-# -------------------------------
-def load_data(batch_size=64):
-    # Make sure "bank-full.csv" is in your working directory.
-    df = pd.read_csv("bank-full.csv", sep=';')
-    df['y'] = df['y'].map({'yes': 1, 'no': 0})
-    X = df.drop('y', axis=1)
-    y = df['y']
-    # One-hot encode categorical variables (drop_first to avoid dummy variable trap)
-    X = pd.get_dummies(X, drop_first=True)
-    scaler = StandardScaler()
-    X_scaled = scaler.fit_transform(X)
-    X_train, X_test, y_train, y_test = train_test_split(
-        X_scaled, y.values, test_size=0.2, random_state=seed, stratify=y
-    )
-    X_train_tensor = torch.tensor(X_train, dtype=torch.float32)
-    y_train_tensor = torch.tensor(y_train, dtype=torch.long)
-    X_test_tensor = torch.tensor(X_test, dtype=torch.float32)
-    y_test_tensor = torch.tensor(y_test, dtype=torch.long)
-    
-    train_dataset = TensorDataset(X_train_tensor, y_train_tensor)
-    test_dataset = TensorDataset(X_test_tensor, y_test_tensor)
-    train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
-    test_loader = DataLoader(test_dataset, batch_size=batch_size)
-    
-    input_dim = X_train_tensor.shape[1]
-    num_classes = 2  # Binary classification
-    return train_loader, test_loader, input_dim, num_classes
+from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, roc_auc_score
 
-train_loader, test_loader, input_dim, num_classes = load_data()
+EPOCHS = 100  # Centralized control of training length
 
-# -------------------------------
-# Define Model Architectures
-# -------------------------------
-# Model1: One hidden layer with 32 neurons
-class Model1(nn.Module):
-    def __init__(self, input_dim, num_classes):
-        super(Model1, self).__init__()
-        self.fc1 = nn.Linear(input_dim, 32)
-        self.relu = nn.ReLU()
-        self.fc2 = nn.Linear(32, num_classes)
-        
-    def forward(self, x):
-        x = self.fc1(x)
-        x = self.relu(x)
-        x = self.fc2(x)
-        return x
-
-# Model2: One hidden layer with 64 neurons
-class Model2(nn.Module):
-    def __init__(self, input_dim, num_classes):
-        super(Model2, self).__init__()
-        self.fc1 = nn.Linear(input_dim, 64)
-        self.relu = nn.ReLU()
-        self.fc2 = nn.Linear(64, num_classes)
-        
-    def forward(self, x):
-        x = self.fc1(x)
-        x = self.relu(x)
-        x = self.fc2(x)
-        return x
-
-# Model3: Two hidden layers (32 and 16 neurons)
-class Model3(nn.Module):
-    def __init__(self, input_dim, num_classes):
-        super(Model3, self).__init__()
-        self.fc1 = nn.Linear(input_dim, 32)
-        self.relu1 = nn.ReLU()
-        self.fc2 = nn.Linear(32, 16)
-        self.relu2 = nn.ReLU()
-        self.fc3 = nn.Linear(16, num_classes)
-        
-    def forward(self, x):
-        x = self.fc1(x)
-        x = self.relu1(x)
-        x = self.fc2(x)
-        x = self.relu2(x)
-        x = self.fc3(x)
-        return x
-
-# Model4: Two hidden layers (64 and 32 neurons)
-class Model4(nn.Module):
-    def __init__(self, input_dim, num_classes):
-        super(Model4, self).__init__()
-        self.fc1 = nn.Linear(input_dim, 64)
-        self.relu1 = nn.ReLU()
-        self.fc2 = nn.Linear(64, 32)
-        self.relu2 = nn.ReLU()
-        self.fc3 = nn.Linear(32, num_classes)
-        
-    def forward(self, x):
-        x = self.fc1(x)
-        x = self.relu1(x)
-        x = self.fc2(x)
-        x = self.relu2(x)
-        x = self.fc3(x)
-        return x
-
-# Model5: Three hidden layers (64, 32, 16 neurons)
-class Model5(nn.Module):
-    def __init__(self, input_dim, num_classes):
-        super(Model5, self).__init__()
-        self.fc1 = nn.Linear(input_dim, 64)
-        self.relu1 = nn.ReLU()
-        self.fc2 = nn.Linear(64, 32)
-        self.relu2 = nn.ReLU()
-        self.fc3 = nn.Linear(32, 16)
-        self.relu3 = nn.ReLU()
-        self.fc4 = nn.Linear(16, num_classes)
-        
-    def forward(self, x):
-        x = self.fc1(x)
-        x = self.relu1(x)
-        x = self.fc2(x)
-        x = self.relu2(x)
-        x = self.fc3(x)
-        x = self.relu3(x)
-        x = self.fc4(x)
-        return x
-
-# -------------------------------
-# Common training & evaluation functions
-# -------------------------------
-def train_model(model, train_loader, criterion, optimizer, num_epochs):
-    model.train()
-    for epoch in range(num_epochs):
-        running_loss = 0.0
-        for inputs, labels in train_loader:
-            optimizer.zero_grad()
-            outputs = model(inputs)
-            loss = criterion(outputs, labels)
-            loss.backward()
-            optimizer.step()
-            running_loss += loss.item() * inputs.size(0)
-        # Uncomment the next line to see the loss per epoch:
-        # print(f"Epoch {epoch+1}/{num_epochs}, Loss: {running_loss / len(train_loader.dataset):.4f}")
-    return model
-
-def evaluate_model(model, test_loader, criterion=None):
+def evaluate_model(model, loader, is_onehot=False):
     model.eval()
-    correct = 0
-    total = 0
-    total_loss = 0.0
+    y_true, y_pred, y_probs = [], [], []
+
     with torch.no_grad():
-        for inputs, labels in test_loader:
-            outputs = model(inputs)
-            if criterion is not None:
-                loss = criterion(outputs, labels)
-                total_loss += loss.item() * inputs.size(0)
-            _, predicted = torch.max(outputs.data, 1)
-            total += labels.size(0)
-            correct += (predicted == labels).sum().item()
-    accuracy = correct / total
-    avg_loss = (total_loss / total) if criterion is not None else None
-    return accuracy, avg_loss
+        for xb, yb in loader:
+            outputs = model(xb)
+            probs = torch.softmax(outputs, dim=1)
+            preds = torch.argmax(probs, dim=1)
 
-# -------------------------------
-# STEP 3: Test 5 Different Network Topologies
-# -------------------------------
-topology_models = {
-    "Model1": Model1(input_dim, num_classes),
-    "Model2": Model2(input_dim, num_classes),
-    "Model3": Model3(input_dim, num_classes),
-    "Model4": Model4(input_dim, num_classes),
-    "Model5": Model5(input_dim, num_classes)
-}
+            y_pred.extend(preds.cpu().numpy())
+            y_probs.extend(probs[:, 1].cpu().numpy())
 
-num_epochs = 20
-learning_rate = 0.001
+            if is_onehot:
+                y_true.extend(torch.argmax(yb, dim=1).cpu().numpy())
+            else:
+                y_true.extend(yb.cpu().numpy())
+
+    acc = accuracy_score(y_true, y_pred)
+    prec = precision_score(y_true, y_pred)
+    rec = recall_score(y_true, y_pred)
+    f1 = f1_score(y_true, y_pred)
+    auc = roc_auc_score(y_true, y_probs)
+
+    return acc, prec, rec, f1, auc
+
+def print_metrics(metrics, title="Evaluation"):
+    print(f"\n {title}")
+    print(f"Accuracy:  {metrics[0]:.4f}")
+    print(f"Precision: {metrics[1]:.4f}")
+    print(f"Recall:    {metrics[2]:.4f}")
+    print(f"F1-score:  {metrics[3]:.4f}")
+    print(f"AUC-ROC:   {metrics[4]:.4f}")
+
+# Load dataset
+df = pd.read_csv("bank-full.csv", sep=';')
+
+# Preprocessing
+X_raw = df.drop(columns=["y"])
+y_raw = df["y"].map({"no": 0, "yes": 1}).values
+
+categorical_cols = X_raw.select_dtypes(include="object").columns.tolist()
+numeric_cols = X_raw.select_dtypes(exclude="object").columns.tolist()
+
+encoder = OneHotEncoder(sparse_output=False)
+X_cat = encoder.fit_transform(X_raw[categorical_cols])
+
+scaler = StandardScaler()
+X_num = scaler.fit_transform(X_raw[numeric_cols])
+
+X_full = np.hstack([X_num, X_cat])
+
+X_train, X_test, y_train, y_test = train_test_split(X_full, y_raw, test_size=0.2, random_state=42)
+
+X_train = torch.tensor(X_train, dtype=torch.float32)
+y_train = torch.tensor(y_train, dtype=torch.long)
+X_test = torch.tensor(X_test, dtype=torch.float32)
+y_test = torch.tensor(y_test, dtype=torch.long)
+
+y_train_oh = torch.nn.functional.one_hot(y_train, num_classes=2).float()
+y_test_oh = torch.nn.functional.one_hot(y_test, num_classes=2).float()
+
+BATCH_SIZE = 64
+train_ds = TensorDataset(X_train, y_train_oh)
+train_loader = DataLoader(train_ds, batch_size=BATCH_SIZE, shuffle=True)
+
 criterion = nn.CrossEntropyLoss()
 
-topology_results = {}
-best_topo_accuracy = 0
-best_topology_name = None
-best_topology_class = None
+# 1. Nude training (manual gradient update)
+def train_model(model, model_name):
+    model.train()
+    best_acc = 0.0
+    for epoch in range(1, 101):
+        total_loss = 0.0
+        correct = 0
+        total = 0
 
-print("Step 3: Testing 5 Different Topologies")
-for name, model in topology_models.items():
-    optimizer = optim.Adam(model.parameters(), lr=learning_rate)
-    print(f"Training {name}...")
-    model = train_model(model, train_loader, criterion, optimizer, num_epochs)
-    accuracy, _ = evaluate_model(model, test_loader, criterion)
-    topology_results[name] = accuracy
-    print(f"{name} Accuracy: {accuracy*100:.2f}%")
-    if accuracy > best_topo_accuracy:
-        best_topo_accuracy = accuracy
-        best_topology_name = name
-        if name == "Model1":
-            best_topology_class = Model1
-        elif name == "Model2":
-            best_topology_class = Model2
-        elif name == "Model3":
-            best_topology_class = Model3
-        elif name == "Model4":
-            best_topology_class = Model4
-        elif name == "Model5":
-            best_topology_class = Model5
+        for xb, yb in train_loader:
+            out = model(xb)
+            loss = criterion(out, yb)
 
-print("\n--- Topology Comparison Results ---")
-for name, acc in topology_results.items():
-    print(f"{name}: {acc*100:.2f}%")
-print(f"\nBest Topology: {best_topology_name} with accuracy {best_topo_accuracy*100:.2f}%\n")
+            model.zero_grad()
+            loss.backward()
 
-# -------------------------------
-# STEP 4: Optimizer Comparison (using best topology)
-# -------------------------------
-optimizers_to_test = {
-    "SGD": optim.SGD,
-    "Adam": optim.Adam,
-    "RMSprop": optim.RMSprop
+            with torch.no_grad():
+                for param in model.parameters():
+                    if param.grad is not None:
+                        param -= param.grad
+
+            total_loss += loss.item() * xb.size(0)
+            preds = torch.argmax(out, dim=1)
+            true_labels = torch.argmax(yb, dim=1)
+            correct += (preds == true_labels).sum().item()
+            total += xb.size(0)
+
+        acc = correct / total
+        avg_loss = total_loss / total
+        print(f"{model_name} | Epoch {epoch}: accuracy: {acc:.4f}, loss: {avg_loss:.4f}")
+        if acc > best_acc:
+            best_acc = acc
+    return best_acc
+
+INPUT_SIZE = X_train.shape[1]
+OUTPUT_SIZE = 2
+
+models = [
+    (Model1(INPUT_SIZE, OUTPUT_SIZE), "Model1"),
+    (Model2(INPUT_SIZE, OUTPUT_SIZE), "Model2"),
+    (Model3(INPUT_SIZE, OUTPUT_SIZE), "Model3"),
+    (Model4(INPUT_SIZE, OUTPUT_SIZE), "Model4"),
+    (Model5(INPUT_SIZE, OUTPUT_SIZE), "Model5"),
+]
+
+best_model = None
+best_name = None
+best_accuracy = 0.0
+
+for model, name in models:
+    print(f"\nTraining {name}")
+    acc = train_model(model, name)
+    
+    if acc > best_accuracy:
+        best_accuracy = acc
+        best_model = model
+        best_name = name
+    
+    metrics = evaluate_model(best_model, train_loader, is_onehot=True)
+    print_metrics(metrics, f"Nude Training - {best_name}")
+
+
+print(f"\nBest model: {best_name} with training accuracy: {best_accuracy:.4f}")
+
+# 2. Optimizer training
+optimizers = {
+    "SGD": lambda m: torch.optim.SGD(m.parameters(), lr=0.001),
+    "Adam": lambda m: torch.optim.Adam(m.parameters(), lr=0.001),
+    "RMSprop": lambda m: torch.optim.RMSprop(m.parameters(), lr=0.001),
+    "AdamW": lambda m: torch.optim.AdamW(m.parameters(), lr=0.001)
 }
 
-optimizer_results = {}
-best_opt_accuracy = 0
+train_ds_ce = TensorDataset(X_train, y_train)
+train_loader_ce = DataLoader(train_ds_ce, batch_size=BATCH_SIZE, shuffle=True)
+
+print(f"\nTraining best model {best_name} with optimizers")
+
 best_optimizer_name = None
+best_optimizer_acc = 0.0
 
-print("Step 4: Optimizer Comparison on best topology")
-for opt_name, opt_class in optimizers_to_test.items():
-    model = best_topology_class(input_dim, num_classes)  # fresh instance
-    optimizer = opt_class(model.parameters(), lr=learning_rate)
-    print(f"Training best topology with {opt_name} optimizer...")
-    model = train_model(model, train_loader, criterion, optimizer, num_epochs)
-    accuracy, _ = evaluate_model(model, test_loader, criterion)
-    optimizer_results[opt_name] = accuracy
-    print(f"{opt_name} Accuracy: {accuracy*100:.2f}%")
-    if accuracy > best_opt_accuracy:
-        best_opt_accuracy = accuracy
+for opt_name, opt_fn in optimizers.items():
+    model = eval(best_name)(INPUT_SIZE, OUTPUT_SIZE)
+    optimizer = opt_fn(model)
+    print(f"\n{opt_name} optimizer")
+    for epoch in range(1, 101):
+        model.train()
+        total_loss = 0.0
+        correct = 0
+        total = 0
+        for xb, yb in train_loader_ce:
+            out = model(xb)
+            loss = criterion(out, yb)
+
+            optimizer.zero_grad()
+            loss.backward()
+            optimizer.step()
+
+            total_loss += loss.item() * xb.size(0)
+            preds = torch.argmax(out, dim=1)
+            correct += (preds == yb).sum().item()
+            total += xb.size(0)
+
+        acc = correct / total
+        avg_loss = total_loss / total
+        print(f"{opt_name} | Epoch {epoch}: accuracy: {acc:.4f}, loss: {avg_loss:.4f}")
+        
+    metrics = evaluate_model(model, train_loader_ce)
+    print_metrics(metrics, f"Optimizer {opt_name}")
+
+    if acc > best_optimizer_acc:
+        best_optimizer_acc = acc
         best_optimizer_name = opt_name
-        best_model_after_opt = model  # save the best model state
+    
 
-print("\n--- Optimizer Comparison Results ---")
-for name, acc in optimizer_results.items():
-    print(f"{name}: {acc*100:.2f}%")
-print(f"\nBest Optimizer: {best_optimizer_name} with accuracy {best_opt_accuracy*100:.2f}%\n")
+print(f"\nBest optimizer: {best_optimizer_name} with accuracy: {best_optimizer_acc:.4f}")
 
-# Save best model from optimizer comparison (for later use)
-torch.save(best_model_after_opt.state_dict(), f"best_model_with_{best_optimizer_name}.pth")
-
-# -------------------------------
-# STEP 5: Learning Rate Testing (using best topology and best optimizer)
-# -------------------------------
+# 3. Learning Rate Testing
 learning_rates = [0.0001, 0.001, 0.01, 0.05, 0.1]
-lr_results = {}
-best_lr_accuracy = 0
-best_lr = None
+lr_results = []
+lr_losses = []
 
-print("Step 5: Learning Rate Testing")
+print(f"\nLearning rate testing with {best_name} + {best_optimizer_name}")
+
 for lr in learning_rates:
-    model = best_topology_class(input_dim, num_classes)
-    # Using Adam here assuming best optimizer is Adam; adjust if needed.
-    optimizer = optim.Adam(model.parameters(), lr=lr)
-    print(f"Training with learning rate: {lr}")
-    model = train_model(model, train_loader, criterion, optimizer, num_epochs)
-    accuracy, avg_loss = evaluate_model(model, test_loader, criterion)
-    lr_results[lr] = {"accuracy": accuracy, "loss": avg_loss}
-    print(f"LR: {lr} | Accuracy: {accuracy*100:.2f}% | Loss: {avg_loss:.4f}")
-    if accuracy > best_lr_accuracy:
-        best_lr_accuracy = accuracy
-        best_lr = lr
-        best_model_after_lr = model
+    model = eval(best_name)(INPUT_SIZE, OUTPUT_SIZE)
+    optimizer_cls = getattr(torch.optim, best_optimizer_name)
+    optimizer = optimizer_cls(model.parameters(), lr=lr)
 
-# Plot Learning Rate vs Accuracy and Loss
-lr_list = list(lr_results.keys())
-accuracy_list = [lr_results[lr]["accuracy"]*100 for lr in lr_list]
-loss_list = [lr_results[lr]["loss"] for lr in lr_list]
+    for epoch in range(1, 101):
+        model.train()
+        total_loss = 0.0
+        correct = 0
+        total = 0
+        for xb, yb in train_loader_ce:
+            out = model(xb)
+            loss = criterion(out, yb)
 
-plt.figure(figsize=(8,6))
-plt.plot(lr_list, accuracy_list, marker='o')
+            optimizer.zero_grad()
+            loss.backward()
+            optimizer.step()
+
+            total_loss += loss.item() * xb.size(0)
+            preds = torch.argmax(out, dim=1)
+            correct += (preds == yb).sum().item()
+            total += xb.size(0)
+
+        acc = correct / total
+        avg_loss = total_loss / total
+        print(f"LR={lr} | Epoch {epoch}: accuracy: {acc:.4f}, loss: {avg_loss:.4f}")
+    
+    metrics = evaluate_model(model, train_loader_ce)
+    print_metrics(metrics, f"LR={lr}")
+
+    lr_results.append((lr, acc))
+    lr_losses.append((lr, avg_loss))
+
+# 4. Plot accuracy vs learning rate
+lrs, accs = zip(*lr_results)
+plt.figure(figsize=(8, 5))
+plt.plot(lrs, accs, marker='o')
 plt.xscale('log')
-plt.xlabel("Learning Rate (log scale)")
-plt.ylabel("Accuracy (%)")
-plt.title("Learning Rate vs Accuracy")
+plt.xlabel('Learning Rate (log scale)')
+plt.ylabel('Accuracy')
+plt.title(f'{best_name} + {best_optimizer_name}: Learning Rate vs Accuracy')
 plt.grid(True)
-plt.savefig("learning_rate_vs_accuracy.png")
-plt.show()
+plt.tight_layout()
+plt.savefig('lr_vs_accuracy.png')
+# plt.show()
 
-plt.figure(figsize=(8,6))
-plt.plot(lr_list, loss_list, marker='o', color='red')
+# 5. Plot loss vs learning rate
+lrs_l, losses = zip(*lr_losses)
+plt.figure(figsize=(8, 5))
+plt.plot(lrs_l, losses, marker='o', color='red')
 plt.xscale('log')
-plt.xlabel("Learning Rate (log scale)")
-plt.ylabel("Loss")
-plt.title("Learning Rate vs Loss")
+plt.xlabel('Learning Rate (log scale)')
+plt.ylabel('Loss')
+plt.title(f'{best_name} + {best_optimizer_name}: Learning Rate vs Loss')
 plt.grid(True)
-plt.savefig("learning_rate_vs_loss.png")
-plt.show()
+plt.tight_layout()
+plt.savefig('lr_vs_loss.png')
+# plt.show()
 
-print(f"\nBest Learning Rate: {best_lr} with Accuracy: {best_lr_accuracy*100:.2f}%\n")
-
-# -------------------------------
-# STEP 6: Activation Function Testing (using best topology, best optimizer, and best LR)
-# -------------------------------
-# Here, we create a subclass of Model1 that allows us to swap the activation function.
-# Instead of trying to modify an attribute that doesn't exist, we override the forward method.
-class Model1Activation(Model1):
-    def __init__(self, input_dim, num_classes, activation):
-        super(Model1Activation, self).__init__(input_dim, num_classes)
-        self.activation = activation  # store the new activation function
-
-    def forward(self, x):
-        x = self.fc1(x)
-        x = self.activation(x)  # use the provided activation function
-        x = self.fc2(x)
-        return x
-
-activations = {
-    "ReLU": nn.ReLU(),
-    "Sigmoid": nn.Sigmoid(),
-    "Tanh": nn.Tanh(),
-    "LeakyReLU": nn.LeakyReLU(),
-    "ELU": nn.ELU()
+# 6. Activation Functions Testing
+activation_functions = {
+    "ReLU": torch.nn.ReLU(),
+    "Sigmoid": torch.nn.Sigmoid(),
+    "Tanh": torch.nn.Tanh(),
+    "LeakyReLU": torch.nn.LeakyReLU(),
+    "ELU": torch.nn.ELU(),
 }
 
-activation_results = {}
-best_act_accuracy = 0
-best_activation_name = None
+activation_results = []
+print(f"\nTesting activation functions on {best_name} with {best_optimizer_name} and best LR")
 
-print("Step 6: Activation Function Testing")
-for act_name, act_func in activations.items():
-    model = Model1Activation(input_dim, num_classes, act_func)
-    optimizer = optim.Adam(model.parameters(), lr=best_lr)  # use best LR from previous step
-    print(f"Training with activation function: {act_name}")
-    model = train_model(model, train_loader, criterion, optimizer, num_epochs)
-    accuracy, avg_loss = evaluate_model(model, test_loader, criterion)
-    activation_results[act_name] = {"accuracy": accuracy, "loss": avg_loss}
-    print(f"{act_name}: Accuracy = {accuracy*100:.2f}%, Loss = {avg_loss:.4f}")
-    if accuracy > best_act_accuracy:
-        best_act_accuracy = accuracy
-        best_activation_name = act_name
-        best_model_after_act = model
+for act_name, act_fn in activation_functions.items():
+    class ModifiedModel(torch.nn.Module):
+        def __init__(self):
+            super().__init__()
+            if best_name == "Model1":
+                self.model = nn.Sequential(
+                    nn.Linear(INPUT_SIZE, 16),
+                    act_fn,
+                    nn.Linear(16, OUTPUT_SIZE)
+                )
+            elif best_name == "Model2":
+                self.model = nn.Sequential(
+                    nn.Linear(INPUT_SIZE, 32),
+                    act_fn,
+                    nn.Linear(32, 16),
+                    act_fn,
+                    nn.Linear(16, OUTPUT_SIZE)
+                )
+            elif best_name == "Model3":
+                self.model = nn.Sequential(
+                    nn.Linear(INPUT_SIZE, 64),
+                    act_fn,
+                    nn.Linear(64, 32),
+                    act_fn,
+                    nn.Linear(32, 16),
+                    act_fn,
+                    nn.Linear(16, OUTPUT_SIZE)
+                )
+            elif best_name == "Model4":
+                self.model = nn.Sequential(
+                    nn.Linear(INPUT_SIZE, 64),
+                    act_fn,
+                    nn.Dropout(0.3),
+                    nn.Linear(64, 32),
+                    act_fn,
+                    nn.Dropout(0.3),
+                    nn.Linear(32, OUTPUT_SIZE)
+                )
+            elif best_name == "Model5":
+                self.model = nn.Sequential(
+                    nn.Linear(INPUT_SIZE, 64),
+                    nn.BatchNorm1d(64),
+                    act_fn,
+                    nn.Linear(64, 32),
+                    nn.BatchNorm1d(32),
+                    act_fn,
+                    nn.Linear(32, OUTPUT_SIZE)
+                )
 
-# Plot Activation Function vs Accuracy and Loss
-act_names = list(activation_results.keys())
-accuracy_vals = [activation_results[act]["accuracy"]*100 for act in act_names]
-loss_vals = [activation_results[act]["loss"] for act in act_names]
+        def forward(self, x):
+            return self.model(x)
 
-plt.figure(figsize=(8,6))
-plt.bar(act_names, accuracy_vals, color='skyblue')
+    model = ModifiedModel()
+    optimizer_cls = getattr(torch.optim, best_optimizer_name)
+    optimizer = optimizer_cls(model.parameters(), lr=lr)  # best lr
+
+    for epoch in range(1, 101):
+        model.train()
+        total_loss = 0.0
+        correct = 0
+        total = 0
+        for xb, yb in train_loader_ce:
+            out = model(xb)
+            loss = criterion(out, yb)
+
+            optimizer.zero_grad()
+            loss.backward()
+            optimizer.step()
+
+            total_loss += loss.item() * xb.size(0)
+            preds = torch.argmax(out, dim=1)
+            correct += (preds == yb).sum().item()
+            total += xb.size(0)
+
+        acc = correct / total
+        avg_loss = total_loss / total
+        print(f"{act_name} | Epoch {epoch}: accuracy: {acc:.4f}, loss: {avg_loss:.4f}")
+        
+    metrics = evaluate_model(model, train_loader_ce)
+    print_metrics(metrics, f"Activation {act_name}")
+
+    activation_results.append((act_name, acc))
+
+acts, accs = zip(*activation_results)
+plt.figure(figsize=(8, 5))
+plt.bar(acts, accs)
 plt.xlabel("Activation Function")
-plt.ylabel("Accuracy (%)")
-plt.title("Activation Function vs Accuracy")
-plt.grid(axis='y', linestyle='--', alpha=0.7)
-plt.savefig("activation_vs_accuracy.png")
-plt.show()
+plt.ylabel("Accuracy")
+plt.title(f'{best_name} + {best_optimizer_name} @ LR={lr}: Activation Function vs Accuracy')
+plt.grid(True)
+plt.tight_layout()
+plt.savefig('activation_vs_accuracy.png')
+# plt.show()
 
-plt.figure(figsize=(8,6))
-plt.bar(act_names, loss_vals, color='salmon')
-plt.xlabel("Activation Function")
-plt.ylabel("Loss")
-plt.title("Activation Function vs Loss")
-plt.grid(axis='y', linestyle='--', alpha=0.7)
-plt.savefig("activation_vs_loss.png")
-plt.show()
 
-print("\n--- Activation Function Comparison Results ---")
-for act, res in activation_results.items():
-    print(f"{act}: Accuracy = {res['accuracy']*100:.2f}%, Loss = {res['loss']:.4f}")
-print(f"\nBest Activation Function: {best_activation_name} with Accuracy: {best_act_accuracy*100:.2f}%\n")
+torch.save(model.state_dict(), "final_model.pth")
+torch.save(model.state_dict(), "final_model.pt")
 
-# -------------------------------
-# STEP 7: FINAL MODEL
-# -------------------------------
-# Now, using the best configuration from steps 3-6, we retrain the model on the full training set and save it.
-print("Step 7: Training Final Model with Best Configuration")
-final_model = Model1Activation(input_dim, num_classes, activations[best_activation_name])
-final_optimizer = optim.Adam(final_model.parameters(), lr=best_lr)
-final_model = train_model(final_model, train_loader, criterion, final_optimizer, num_epochs)
-final_accuracy, final_loss = evaluate_model(final_model, test_loader, criterion)
-print(f"Final Model Accuracy: {final_accuracy*100:.2f}%, Loss: {final_loss:.4f}")
+final_config = {
+    "model": best_name,
+    "optimizer": best_optimizer_name,
+    "learning_rate": lr,
+    "activation_function": act_name, 
+    "input_size": INPUT_SIZE,
+    "output_size": OUTPUT_SIZE,
+    "epochs": EPOCHS,
+    "batch_size": BATCH_SIZE
+}
 
-# Save the final model in two formats
-final_model_path = "final_best_model.pth"
-torch.save(final_model.state_dict(), final_model_path)
-print(f"Final model saved as {final_model_path}")
+with open("final_model_config.json", "w") as f:
+    json.dump(final_config, f, indent=4)
 
-final_model_path = "final_best_model.pt"
-torch.save(final_model.state_dict(), final_model_path)
-print(f"Final model saved as {final_model_path}")
+print("\nFinal model saved as 'final_model.pth'")
+print("Final configuration saved as 'final_model_config.json'")
