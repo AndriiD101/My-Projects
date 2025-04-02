@@ -188,6 +188,7 @@ def main():
     batch_size = 32
     num_epochs = 200
     learning_rate = 0.001
+    momentum = 0.9
     early_stopping_patience = 15
 
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")

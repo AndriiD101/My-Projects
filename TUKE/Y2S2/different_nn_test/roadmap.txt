@@ -1,0 +1,48 @@
+1. Dataset Selection
+✅ Dataset: UCI Bank Marketing Dataset
+This is a complex, real-world dataset ideal for binary classification (yes/no) — perfect for testing different network configurations.
+
+2. EDA (Exploratory Data Analysis)
+Includes:
+- Basic statistics: distributions, missing values
+- Visualizations: bar plots, histograms, pair plots, correlation matrix
+
+3. Test 5 Different Network Topologies
+You will:
+- Define 5 feedforward neural networks (NNs) with different:
+  - Number of hidden layers
+  - Number of neurons per layer
+- Keep everything else (batch size, optimizer, learning rate, epochs) constant
+- Save training/validation accuracy and loss
+
+4. Optimizer Comparison
+On the best topology from step 3, you will:
+- Compare at least 3 optimizers:
+  - SGD
+  - Adam
+  - RMSprop (and optionally Adagrad or AdamW)
+- Evaluate impact on performance
+
+5. Learning Rate Testing
+- Using best model + best optimizer
+- Test at least 5 values: e.g. 0.0001, 0.001, 0.01, 0.05, 0.1
+- Plot learning rate vs. accuracy or loss
+
+6. Activation Functions
+- Try at least 5:
+  - ReLU
+  - Sigmoid
+  - Tanh
+  - LeakyReLU
+  - ELU or Swish
+- Explain any lesser-known ones in the report
+
+7. Final Model
+- Save the best model using torch.save()
+- Include random.seed() for reproducibility
+
+8. Report
+Use the IEEE one-column template.
+- Include all results, confusion matrix for the best model
+- Visualizations from matplotlib
+- Discussion about why some configurations work better
