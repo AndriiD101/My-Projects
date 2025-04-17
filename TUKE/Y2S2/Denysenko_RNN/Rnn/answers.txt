@@ -1,0 +1,11 @@
+1.Aký je rozdiel medzi rekurentnými sieťami (RNN) a tradičným doprednými sieťami?
+    RNN si dokážu zapamätať predchádzajúce stavy a spracúvajú dáta ako sekvenciu. Naopak, dopredné siete spracúvajú každý vstup samostatne, bez ohľadu na to, čo bolo predtým.
+
+2. Čo je problémom pri trénovaní RNN, pokiaľ ide o dlhodobé závislosti?    
+    RNN majú ťažkosti udržať si informácie cez veľa časových krokov, čo vedie k tomu, že dôležité údaje sa zabúdajú.
+
+3. Čo spôsobuje problémy s miznúcimi a explodujúcimi gradientmi v RNN a aký majú dopad na trénovanie?
+    Pri spätnej propagácii cez dlhé sekvencie môže dôjsť k tomu, že gradienty buď veľmi klesnú (miznú) alebo extrémne narastú (explodujú). Miznúce gradienty spomalia alebo zastavia učenie, zatiaľ čo explodujúce gradienty môžu spôsobiť, že model bude nestabilný.
+
+4. Kedy sú RNN užitočné a prečo?
+    RNN sú vhodné na spracovanie sekvenčných údajov, ako sú texty, hovorená reč alebo časové rady, pretože si dokážu pamätať predchádzajúce informácie a využiť ich pri spracovaní ďalších vstupov.

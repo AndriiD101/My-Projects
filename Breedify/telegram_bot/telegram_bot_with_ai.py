@@ -176,19 +176,9 @@ def handle_image(message):
                         bot.delete_message(chat_id=message.chat.id, message_id=sent_message.message_id)
                     except telebot.apihelper.ApiTelegramException:
                         pass
-                    # bot.reply_to(
-                    #     message,
-                    #     f"I'm afraid to say the wrong breed because I'm not quite sure. Try to send me a better photo so I can tell for sure"
-                    # )
-
-                    # Show feedback options
                     markup = InlineKeyboardMarkup()
                     markup.row_width = 1
                     markup.add(
-                        # InlineKeyboardButton("Yes, this is correct ✅", callback_data="confirm_breed"),
-                        # InlineKeyboardButton("No, this is incorrect ❌", callback_data="reject_breed"),
-                        # InlineKeyboardButton("I want to say what kind of breed it is 🐶", callback_data="want_to_say_breed"),
-                        # InlineKeyboardButton("I don't know what kind of breed it is 🪡", callback_data="dont_know"),
                         InlineKeyboardButton("Use the bot again 🐩", callback_data="start_over")
                     )
                     bot.send_message(
