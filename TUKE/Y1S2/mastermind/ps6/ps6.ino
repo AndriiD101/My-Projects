@@ -13,11 +13,11 @@ void setup() {
   for(int i=6;i<14;i++){
     pinMode(i,OUTPUT);
   }
-  pinMode(BTN_ENTER_PIN,INPUT);
-  pinMode(BTN_1_PIN,INPUT);
-  pinMode(BTN_2_PIN,INPUT);
-  pinMode(BTN_3_PIN,INPUT);
-  pinMode(BTN_4_PIN,INPUT);
+  pinMode(BTN_ENTER_PIN,INPUT_PULLUP);
+  pinMode(BTN_1_PIN,INPUT_PULLUP);
+  pinMode(BTN_2_PIN,INPUT_PULLUP);
+  pinMode(BTN_3_PIN,INPUT_PULLUP);
+  pinMode(BTN_4_PIN,INPUT_PULLUP);
   lcd_init();
 }
 

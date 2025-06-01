@@ -42,7 +42,7 @@ def is_user_in_file(user_id):
     return False
 
 @bot.message_handler(commands=['start', 'restart'])
-def start_command(message):
+def kommand(message):
     # Extract user details
     user_id = message.from_user.id
     username = message.from_user.username if message.from_user.username else "NoUsername"
