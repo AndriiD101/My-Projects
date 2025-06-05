@@ -1,8 +1,0 @@
-{
-    "BOT_TOKEN": "7362412830:AAEmc5Y_Ie0dcfMjSJRMrP9C8_MP4EX6tTk",
-    "MODEL_PATH": "C:/Users/denys/Desktop/My-Projects/Breedify/telegram_bot/breedify_model.h5",
-    "FOLDER_PATH": "C:/Users/denys/Desktop/My-Projects/Breedify/telegram_bot/images",
-    "LABEL_PATH": "C:/Users/denys/Desktop/My-Projects/Breedify/telegram_bot/labels.csv",
-    "SAVE_FOLDER_PATH": "C:/Users/denys/Desktop/My-Projects/combined_datasets/combined_datasets/train",
-    "USER_DATA_PATH": "C:/Users/denys/Desktop/My-Projects/Breedify/telegram_bot"
-}
